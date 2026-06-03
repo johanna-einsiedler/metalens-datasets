@@ -1,8 +1,7 @@
 # metalens-datasets
 
 A curated, citable archive of research-paper extractions produced with
-[MetaPaperLens](https://paper.metalens.tech) and its
-[MASEMiner](https://paper.metalens.tech/maseminer) workflow.
+[MetaPaperLens](https://paper.metalens.tech).
 
 Each folder under [`datasets/`](./datasets) is one community-donated dataset:
 the structured JSON the model emitted, the exact prompt that produced it,
@@ -70,18 +69,6 @@ created in parallel.
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for the deposit format and the
 review process.
 
-## What we accept / don't accept
-
-| ✓ Accept | ✗ Reject |
-|---|---|
-| Structured extractions (sample sizes, statistics, effect sizes, factor loadings, etc.) | The source PDFs themselves |
-| Per-paper metadata (title, DOI, year, authors) | Personally-identifying information about non-authors |
-| Short verbatim quotes for verification (the `evidence` array) | Long verbatim passages that effectively reproduce the paper |
-| Donations marked with a clear license (default CC-BY 4.0) | Content that the donor doesn't have lawful access to share |
-
-The bot's schema strip enforces "no PDFs" automatically — the donor's
-checkbox is for the lawful-access-to-source-papers aspect, where
-software can't tell the difference.
 
 ## License
 
