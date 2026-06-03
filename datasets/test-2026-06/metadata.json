@@ -1,0 +1,21 @@
+{
+  "schema_version": "metadata-v1",
+  "dataset_id": "test-2026-06",
+  "title": "test",
+  "description": "",
+  "donor": {
+    "mode": "attributed",
+    "name": "Johanna Einsiedler",
+    "affiliation": "Basel"
+  },
+  "visibility": "public",
+  "extraction": {
+    "schema_version": "mixed",
+    "paper_count": 1,
+    "model_used": [
+      "gemini-2.5-pro"
+    ],
+    "prompt_sha256": "65dfbf7a5641e890f2e9dcc5345c6939334c4603dae52f35fb2da5e5682f87b9"
+  },
+  "created_at": "2026-06-03T09:16:39Z"
+}
