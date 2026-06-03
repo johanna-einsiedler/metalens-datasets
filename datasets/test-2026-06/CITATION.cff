@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "test"
+date-released: 2026-06-03
+type: dataset
+authors:
+  - name: "Anonymous"
+identifiers:
+  - type: other
+    value: "metalens:test-2026-06"

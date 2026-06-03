@@ -1,0 +1,404 @@
+{
+  "schema_version": "mixed",
+  "dataset_id": "test-2026-06",
+  "papers": [
+    {
+      "filename": "bolat2017.pdf",
+      "model": "gemini-2.5-pro",
+      "resolved_model": "gemini-2.5-pro",
+      "pages_processed": 8,
+      "evidence_count": 20,
+      "result": {
+        "paper_metadata": {
+          "title": "Psychometric properties of the 20-Item Toronto Alexithymia Scale in a Turkish adolescent sample",
+          "doi": "10.5455/apd.239284",
+          "year": 2017,
+          "authors": [
+            "Nurullah BOLAT",
+            "Mesut YAVUZ",
+            "Kayı ELİAÇIK",
+            "Adil ZORLU",
+            "Cüneyt EVREN",
+            "Samet KÖSE"
+          ]
+        },
+        "samples": [
+          {
+            "sample_id": "Total sample (12-17 years)",
+            "factor_loadings": {
+              "F1.1": 0.67,
+              "F2.1": null,
+              "F3.1": null,
+              "F1.2": null,
+              "F2.2": 0.73,
+              "F3.2": null,
+              "F1.3": 0.48,
+              "F2.3": null,
+              "F3.3": null,
+              "F1.4": null,
+              "F2.4": 0.69,
+              "F3.4": null,
+              "F1.5": null,
+              "F2.5": null,
+              "F3.5": 0.59,
+              "F1.6": 0.57,
+              "F2.6": null,
+              "F3.6": null,
+              "F1.7": 0.6,
+              "F2.7": null,
+              "F3.7": null,
+              "F1.8": null,
+              "F2.8": null,
+              "F3.8": 0.39,
+              "F1.9": 0.73,
+              "F2.9": null,
+              "F3.9": null,
+              "F1.10": null,
+              "F2.10": null,
+              "F3.10": 0.29,
+              "F1.11": null,
+              "F2.11": 0.54,
+              "F3.11": null,
+              "F1.12": null,
+              "F2.12": 0.23,
+              "F3.12": null,
+              "F1.13": 0.75,
+              "F2.13": null,
+              "F3.13": null,
+              "F1.14": 0.57,
+              "F2.14": null,
+              "F3.14": null,
+              "F1.15": null,
+              "F2.15": null,
+              "F3.15": 0.06,
+              "F1.16": null,
+              "F2.16": null,
+              "F3.16": -0.07,
+              "F1.17": null,
+              "F2.17": 0.54,
+              "F3.17": null,
+              "F1.18": null,
+              "F2.18": null,
+              "F3.18": 0.25,
+              "F1.19": null,
+              "F2.19": null,
+              "F3.19": 0.32,
+              "F1.20": null,
+              "F2.20": null,
+              "F3.20": 0.12
+            },
+            "factor_correlations": {
+              "R1.2": 0.68,
+              "R1.3": 0.19,
+              "R2.3": 0.24
+            },
+            "country": "Turkey",
+            "lang": "Turkish",
+            "n": 948,
+            "female": 54.0,
+            "age": 14.5,
+            "nfac": 3,
+            "cfa": 1,
+            "met": 4,
+            "extraction_confidence": {
+              "factor_loadings": "high",
+              "factor_correlations": "high",
+              "metadata": "high"
+            },
+            "notes": "The analysis method was specified as LISREL 8.7, but the specific estimation method (e.g., ML, GLS) was not stated, so met is coded as 4 (other). The factor loadings table only reports loadings for the primary factor of each item; cross-loadings are not reported and are coded as null."
+          },
+          {
+            "sample_id": "Younger adolescents (12-14 years)",
+            "factor_loadings": {
+              "F1.1": 0.62,
+              "F2.1": null,
+              "F3.1": null,
+              "F1.2": null,
+              "F2.2": 0.68,
+              "F3.2": null,
+              "F1.3": 0.4,
+              "F2.3": null,
+              "F3.3": null,
+              "F1.4": null,
+              "F2.4": 0.62,
+              "F3.4": null,
+              "F1.5": null,
+              "F2.5": null,
+              "F3.5": 0.51,
+              "F1.6": 0.55,
+              "F2.6": null,
+              "F3.6": null,
+              "F1.7": 0.56,
+              "F2.7": null,
+              "F3.7": null,
+              "F1.8": null,
+              "F2.8": null,
+              "F3.8": 0.24,
+              "F1.9": 0.71,
+              "F2.9": null,
+              "F3.9": null,
+              "F1.10": null,
+              "F2.10": null,
+              "F3.10": 0.29,
+              "F1.11": null,
+              "F2.11": 0.51,
+              "F3.11": null,
+              "F1.12": null,
+              "F2.12": 0.13,
+              "F3.12": null,
+              "F1.13": 0.69,
+              "F2.13": null,
+              "F3.13": null,
+              "F1.14": 0.58,
+              "F2.14": null,
+              "F3.14": null,
+              "F1.15": null,
+              "F2.15": null,
+              "F3.15": -0.12,
+              "F1.16": null,
+              "F2.16": null,
+              "F3.16": -0.24,
+              "F1.17": null,
+              "F2.17": 0.44,
+              "F3.17": null,
+              "F1.18": null,
+              "F2.18": null,
+              "F3.18": 0.17,
+              "F1.19": null,
+              "F2.19": null,
+              "F3.19": 0.29,
+              "F1.20": null,
+              "F2.20": null,
+              "F3.20": 0.03
+            },
+            "factor_correlations": {
+              "R1.2": 0.8,
+              "R1.3": 0.11,
+              "R2.3": 0.12
+            },
+            "country": "Turkey",
+            "lang": "Turkish",
+            "n": null,
+            "female": null,
+            "age": null,
+            "nfac": 3,
+            "cfa": 1,
+            "met": 4,
+            "extraction_confidence": {
+              "factor_loadings": "high",
+              "factor_correlations": "high",
+              "metadata": "medium"
+            },
+            "notes": "The sample size (n), percentage female, and mean age were not reported for this subgroup. The analysis method was specified as LISREL 8.7, but the specific estimation method (e.g., ML, GLS) was not stated, so met is coded as 4 (other). The factor loadings table only reports loadings for the primary factor of each item; cross-loadings are not reported and are coded as null."
+          },
+          {
+            "sample_id": "Older adolescents (15-17 years)",
+            "factor_loadings": {
+              "F1.1": 0.72,
+              "F2.1": null,
+              "F3.1": null,
+              "F1.2": null,
+              "F2.2": 0.82,
+              "F3.2": null,
+              "F1.3": 0.55,
+              "F2.3": null,
+              "F3.3": null,
+              "F1.4": null,
+              "F2.4": 0.76,
+              "F3.4": null,
+              "F1.5": null,
+              "F2.5": null,
+              "F3.5": 0.66,
+              "F1.6": 0.58,
+              "F2.6": null,
+              "F3.6": null,
+              "F1.7": 0.64,
+              "F2.7": null,
+              "F3.7": null,
+              "F1.8": null,
+              "F2.8": null,
+              "F3.8": 0.48,
+              "F1.9": 0.77,
+              "F2.9": null,
+              "F3.9": null,
+              "F1.10": null,
+              "F2.10": null,
+              "F3.10": 0.32,
+              "F1.11": null,
+              "F2.11": 0.56,
+              "F3.11": null,
+              "F1.12": null,
+              "F2.12": 0.32,
+              "F3.12": null,
+              "F1.13": 0.8,
+              "F2.13": null,
+              "F3.13": null,
+              "F1.14": 0.58,
+              "F2.14": null,
+              "F3.14": null,
+              "F1.15": null,
+              "F2.15": null,
+              "F3.15": 0.21,
+              "F1.16": null,
+              "F2.16": null,
+              "F3.16": 0.06,
+              "F1.17": null,
+              "F2.17": 0.64,
+              "F3.17": null,
+              "F1.18": null,
+              "F2.18": null,
+              "F3.18": 0.36,
+              "F1.19": null,
+              "F2.19": null,
+              "F3.19": 0.4,
+              "F1.20": null,
+              "F2.20": null,
+              "F3.20": 0.2
+            },
+            "factor_correlations": {
+              "R1.2": 0.7,
+              "R1.3": 0.27,
+              "R2.3": 0.33
+            },
+            "country": "Turkey",
+            "lang": "Turkish",
+            "n": null,
+            "female": null,
+            "age": null,
+            "nfac": 3,
+            "cfa": 1,
+            "met": 4,
+            "extraction_confidence": {
+              "factor_loadings": "high",
+              "factor_correlations": "high",
+              "metadata": "medium"
+            },
+            "notes": "The sample size (n), percentage female, and mean age were not reported for this subgroup. The analysis method was specified as LISREL 8.7, but the specific estimation method (e.g., ML, GLS) was not stated, so met is coded as 4 (other). The factor loadings table only reports loadings for the primary factor of each item; cross-loadings are not reported and are coded as null."
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "Psychometric properties of the 20-Item Toronto Alexithymia Scale in a Turkish adolescent sample",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.title"
+          },
+          {
+            "snippet": "doi: 10.5455/apd.239284",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.doi"
+          },
+          {
+            "snippet": "Anatolian Journal of Psychiatry 2017; 18(4):362-368",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.year"
+          },
+          {
+            "snippet": "Nurullah BOLAT,1 Mesut YAVUZ,2 Kayı ELİAÇIK,3 Adil ZORLU,1 Cüneyt EVREN,4 Samet KÖSE5",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.authors"
+          },
+          {
+            "snippet": "Nine hundred forty-eight adolescents (ranging in age from 12 to 17 years) from one secondary, and one high school were included in this study.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].n"
+          },
+          {
+            "snippet": "Of these participitants, 46% were male, 54% were female.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].female"
+          },
+          {
+            "snippet": "The mean age of the sample was 14.54±1.54 years.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].age"
+          },
+          {
+            "snippet": "Confirmatory factor analysis was performed via LISREL 8.7.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].cfa"
+          },
+          {
+            "snippet": "Confirmatory factor analysis was performed via LISREL 8.7.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].met"
+          },
+          {
+            "snippet": "Table 3. Factor parameter estimates for the T-TAS-20 items",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[0].factor_loadings"
+          },
+          {
+            "snippet": "Table 3. Factor parameter estimates for the T-TAS-20 items",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[1].factor_loadings"
+          },
+          {
+            "snippet": "Table 3. Factor parameter estimates for the T-TAS-20 items",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[2].factor_loadings"
+          },
+          {
+            "snippet": "For the total sample, the DIF and DDF factors were significantly and strongly correlated with each other (r=0.68), and the EOT factor exhibited a lesser degree of correlation with DIF (r=0.19) and DDF (r=0.24).",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].factor_correlations"
+          },
+          {
+            "snippet": "Inter-correlation results of 12-14 year old group were 0.80 between DIF and DDF, 0.11 between DIF and EOT, and 0.12 between DDF and EOT.",
+            "page": 4,
+            "source": null,
+            "field": "samples[1].factor_correlations"
+          },
+          {
+            "snippet": "Considering 15-17 year old adolescents; inter-correlation results were 0.70 between DIF and DDF, 0.27 between DIF and EOT and 0.33 between DDF and EOT.",
+            "page": 4,
+            "source": null,
+            "field": "samples[2].factor_correlations"
+          },
+          {
+            "snippet": "The age groups\n12-17",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "The age groups\n12-14",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[1].sample_id"
+          },
+          {
+            "snippet": "The age groups\n15-17",
+            "page": 4,
+            "source": "Table 3",
+            "field": "samples[2].sample_id"
+          },
+          {
+            "snippet": "Psychometric properties of the 20-Item Toronto Alexithymia Scale in a Turkish adolescent sample",
+            "page": 1,
+            "source": null,
+            "field": "samples[0].country"
+          },
+          {
+            "snippet": "The validity and reliablity of TAS-20 has been established in Turkish adults.16 Although the Turkish version of TAS-20 (Turkish TAS-20) has been previously used among Turkish adolescents...",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].lang"
+          }
+        ]
+      }
+    }
+  ]
+}
