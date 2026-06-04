@@ -1,0 +1,19 @@
+{
+  "schema_version": "metadata-v1",
+  "dataset_id": "test-2026-06",
+  "title": "test",
+  "description": "",
+  "donor": {
+    "mode": "anonymous"
+  },
+  "visibility": "public",
+  "extraction": {
+    "schema_version": "mixed",
+    "paper_count": 2,
+    "model_used": [
+      "gemini-2.5-flash"
+    ],
+    "prompt_sha256": "8aa01d5d4066f8d80521748b4426a8dde6bebdc66c63c684d8acfa80fc105e83"
+  },
+  "created_at": "2026-06-04T09:54:13Z"
+}
