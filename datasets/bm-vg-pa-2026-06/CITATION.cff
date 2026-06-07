@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Pairwise effect sizes: body mass, video gaming, physical activity (10 studies)"
+date-released: "2026-06-07"
+type: dataset
+authors:
+  - given-names: "Caroline"
+    family-names: "Marker"
+    affiliation: "Human-Computer-Media Institute, University of Würzburg, Germany"
+  - given-names: "Timo"
+    family-names: "Gnambs"
+    affiliation: "Johannes Kepler University Linz, Austria; Leibniz Institute for Educational Trajectories, Bamberg, Germany"
+  - given-names: "Markus"
+    family-names: "Appel"
+    affiliation: "Human-Computer-Media Institute, University of Würzburg, Germany"
+identifiers:
+  - type: other
+    value: "metalens:bm-vg-pa-2026-06"
+references:
+  - type: article
+    title: "Exploring the myth of the chubby gamer: A meta-analysis on sedentary video gaming and body mass"
+    authors:
+      - family-names: "Marker"
+        given-names: "Caroline"
+      - family-names: "Gnambs"
+        given-names: "Timo"
+      - family-names: "Appel"
+        given-names: "Markus"
+    journal: "Social Science & Medicine"
+    year: 2022
+    volume: 301
+    notes: "Article 112325"
+    doi: "10.1016/j.socscimed.2019.05.030"

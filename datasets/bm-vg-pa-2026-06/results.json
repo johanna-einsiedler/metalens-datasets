@@ -1,0 +1,1169 @@
+{
+  "schema_version": "masem-effect-sizes-v2",
+  "dataset_id": "bm-vg-pa-2026-06",
+  "papers": [
+    {
+      "filename": "grydland2012.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 10,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "HEIA study Norwegian 11-year-olds",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "being overweight/obese based on BMI calculated from measured height and weight using age- and gender-specific IOTF cut-offs",
+                "desc2": "moderate-to-vigorous physical activity (MVPA), min/day",
+                "es": 0.99,
+                "type": "or",
+                "n": 1103,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "wall-mounted tape and Tanita TBF-300 scale",
+                "instr2": "ActiGraph GT1M/CSA model 7164 accelerometer"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "being overweight/obese based on BMI calculated from measured height and weight using age- and gender-specific IOTF cut-offs",
+                "desc2": "computer game use, hrs/day",
+                "es": 1.43,
+                "type": "or",
+                "n": 1103,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "wall-mounted tape and Tanita TBF-300 scale",
+                "instr2": null
+              }
+            ],
+            "pubyear": 2012,
+            "country": "Norway",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 50,
+            "age": 11.2,
+            "clinical": 0,
+            "notes": "Crude unadjusted odds ratios from Table 2 were extracted. Adjusted odds ratios and noneligible variables were not extracted."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "martinovic2015.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 7,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "Montenegrin elementary schoolchildren, grades II to VII",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "bm",
+                "desc1": "child overweight/obesity status by IOTF criteria",
+                "desc2": "child overweight/obesity status by CDC criteria",
+                "es": 0.93,
+                "type": "r",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "BMI calculated from measured weight and height; IOTF criteria",
+                "instr2": "BMI calculated from measured weight and height; CDC criteria"
+              },
+              {
+                "var1": "bm",
+                "var2": "bm",
+                "desc1": "child overweight/obesity status by IOTF criteria",
+                "desc2": "child overweight/obesity status by WHO criteria",
+                "es": 0.91,
+                "type": "r",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "BMI calculated from measured weight and height; IOTF criteria",
+                "instr2": "BMI calculated from measured weight and height; WHO criteria"
+              },
+              {
+                "var1": "bm",
+                "var2": "bm",
+                "desc1": "child overweight and obesity",
+                "desc2": "maternal nutritional status (underweight and normal=0; overweight and obese=1)",
+                "es": 1.6,
+                "type": "or",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "measured weight and height; BMI-based nutritional status assessment",
+                "instr2": "parental questionnaire including parent weight and height"
+              },
+              {
+                "var1": "bm",
+                "var2": "bm",
+                "desc1": "child overweight and obesity",
+                "desc2": "paternal nutritional status (underweight and normal=0; overweight and obese=1)",
+                "es": 1.86,
+                "type": "or",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "measured weight and height; BMI-based nutritional status assessment",
+                "instr2": "parental questionnaire including parent weight and height"
+              },
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "child overweight and obesity",
+                "desc2": "physical activity (days/week with at least 1 h of physical activity out of school)",
+                "es": 0.98,
+                "type": "or",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "measured weight and height; BMI-based nutritional status assessment",
+                "instr2": "standardized parental questionnaire physical activity questions"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "child overweight and obesity",
+                "desc2": "computer game playing (per hour daily)",
+                "es": 1.11,
+                "type": "or",
+                "n": 4097,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "measured weight and height; BMI-based nutritional status assessment",
+                "instr2": "standardized parental questionnaire item on playing on computer"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Montenegro",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 49.3,
+            "age": 10.2,
+            "clinical": 0,
+            "notes": "Univariate logistic regression odds ratios from Table 3 were extracted as unadjusted odds ratios. Multiple logistic regression results in Table 4 were not extracted because they are adjusted. No reliabilities were reported."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "mo-suwan2014.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 6,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "Thai children aged 6 to 14 years (all)",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "having 60 minutes of moderate-intensity physical activity more than 3 d/wk versus 3 d/wk or less",
+                "es": 0.71,
+                "type": "or",
+                "n": 5925,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question about days in the past week with physical activity increasing breathing rate and heart rate for at least 60 minutes"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "computer game use more than 1 h/d versus 1 h/d or less",
+                "es": 1.53,
+                "type": "or",
+                "n": 5777,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question: How many hours a day during the past month did you play computer games?"
+              }
+            ],
+            "pubyear": 2014,
+            "country": "Thailand",
+            "continent": null,
+            "lang": null,
+            "pubtype": 1,
+            "female": null,
+            "age": null,
+            "clinical": 0,
+            "notes": "Unadjusted odds ratios from Table 2 were extracted. Adjusted odds ratios and TV-viewing associations were not extracted."
+          },
+          {
+            "sample_id": "Thai boys aged 6 to 14 years",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "having 60 minutes of moderate-intensity physical activity more than 3 d/wk versus 3 d/wk or less",
+                "es": 0.78,
+                "type": "or",
+                "n": 2934,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question about days in the past week with physical activity increasing breathing rate and heart rate for at least 60 minutes"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "computer game use more than 1 h/d versus 1 h/d or less",
+                "es": 1.5,
+                "type": "or",
+                "n": 2855,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question: How many hours a day during the past month did you play computer games?"
+              }
+            ],
+            "pubyear": 2014,
+            "country": "Thailand",
+            "continent": null,
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": null,
+            "clinical": 0,
+            "notes": "Unadjusted odds ratios from Table 2 were extracted. Adjusted odds ratios and TV-viewing associations were not extracted."
+          },
+          {
+            "sample_id": "Thai girls aged 6 to 14 years",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "having 60 minutes of moderate-intensity physical activity more than 3 d/wk versus 3 d/wk or less",
+                "es": 0.6,
+                "type": "or",
+                "n": 2991,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question about days in the past week with physical activity increasing breathing rate and heart rate for at least 60 minutes"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "computer game use more than 1 h/d versus 1 h/d or less",
+                "es": 1.5,
+                "type": "or",
+                "n": 2922,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita scale and locally made stadiometer; International Obesity Task Force BMI cut-points",
+                "instr2": "Interview question: How many hours a day during the past month did you play computer games?"
+              }
+            ],
+            "pubyear": 2014,
+            "country": "Thailand",
+            "continent": null,
+            "lang": null,
+            "pubtype": 1,
+            "female": 100,
+            "age": null,
+            "clinical": 0,
+            "notes": "Unadjusted odds ratios from Table 2 were extracted. Adjusted odds ratios and TV-viewing associations were not extracted."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "mawaikambo2015.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 10,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "primary_school_children_kinondoni_dar_es_salaam",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight or obese versus normal/underweight; BMI calculated from measured height and weight and classified using International Obesity Task Force cut-off points",
+                "desc2": "mode of transport to and from school: walking yes versus no",
+                "es": 0.3,
+                "type": "or",
+                "n": 1722,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Body Mass Index (BMI)",
+                "instr2": "structured questionnaire"
+              },
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight or obese versus normal/underweight; BMI calculated from measured height and weight and classified using International Obesity Task Force cut-off points",
+                "desc2": "mode of transport to and from school: private car or school bus versus public transport",
+                "es": 4.2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Body Mass Index (BMI)",
+                "instr2": "structured questionnaire"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight or obese versus normal/underweight; BMI calculated from measured height and weight and classified using International Obesity Task Force cut-off points",
+                "desc2": "usually play video games: yes versus no",
+                "es": 2.3,
+                "type": "or",
+                "n": 1722,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Body Mass Index (BMI)",
+                "instr2": "structured questionnaire"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Tanzania",
+            "continent": "Africa",
+            "lang": null,
+            "pubtype": 1,
+            "female": null,
+            "age": 10.9,
+            "clinical": 0,
+            "notes": "Only crude odds ratios from Model 1 were extracted. Adjusted odds ratios from Model 2 were ignored."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "pitrou2012.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 9,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "PACA French regional school-based children aged 6–11 years (final analytic sample)",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight/obesity based on BMI from parent-reported weight and height using IOTF age- and gender-specific cutoff points",
+                "desc2": "Participation in sport team/club",
+                "es": 0.69,
+                "type": "or",
+                "n": 1030,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": null
+              },
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight/obesity based on BMI from parent-reported weight and height using IOTF age- and gender-specific cutoff points",
+                "desc2": "Low leisure-time physical activity (physical activity outside school, h/week; categorized at 25th and 75th percentiles)",
+                "es": 1.24,
+                "type": "or",
+                "n": 1030,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": null
+              },
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight/obesity based on BMI from parent-reported weight and height using IOTF age- and gender-specific cutoff points",
+                "desc2": "High leisure-time physical activity (physical activity outside school, h/week; categorized at 25th and 75th percentiles)",
+                "es": 0.71,
+                "type": "or",
+                "n": 1030,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": null
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Child overweight/obesity based on BMI from parent-reported weight and height using IOTF age- and gender-specific cutoff points",
+                "desc2": "Low playing video games (previous week, h/week; categorized at 25th and 75th percentiles)",
+                "es": 1.18,
+                "type": "or",
+                "n": 1030,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": null
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Child overweight/obesity based on BMI from parent-reported weight and height using IOTF age- and gender-specific cutoff points",
+                "desc2": "High playing video games (previous week, h/week; categorized at 25th and 75th percentiles)",
+                "es": 1.09,
+                "type": "or",
+                "n": 1030,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": null
+              }
+            ],
+            "pubyear": 2010,
+            "country": "France",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 50.4,
+            "age": 8.2,
+            "clinical": 0,
+            "notes": "Crude univariate ORs were extracted from Table 3; adjusted ORs and TV viewing were excluded. Continuous lifestyle variables were categorized as low, middle, and high according to the 25th and 75th percentiles. 95% CIs: sport team/club 0.48–1.01; LTPA low 0.82–1.87; LTPA high 0.46–1.12; video games low 0.78–1.78; video games high 0.70–1.70."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "siervo2014.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 6,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "Young male students at Newcastle University (UK)",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "BMI (kg/m2)",
+                "desc2": "total video-game playing (hours/week)",
+                "es": 0.3,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "waist circumference (cm)",
+                "desc2": "total video-game playing (hours/week)",
+                "es": 0.42,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": null,
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "fat mass (kg)",
+                "desc2": "total video-game playing (hours/week)",
+                "es": 0.47,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Tanita-305 body-fat analyser",
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "total walking",
+                "desc2": "total video-game playing (hours/week)",
+                "es": -0.02,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "total moderate physical activity",
+                "desc2": "total video-game playing (hours/week)",
+                "es": -0.28,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "total vigorous physical activity",
+                "desc2": "total video-game playing (hours/week)",
+                "es": -0.3,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire"
+              },
+              {
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "total physical activity",
+                "desc2": "total video-game playing (hours/week)",
+                "es": -0.24,
+                "type": "r",
+                "n": 45,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire"
+              }
+            ],
+            "pubyear": 2014,
+            "country": "UK",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": null,
+            "clinical": 0,
+            "notes": "Effect sizes are reported as Spearman’s rho correlations. No eligible reliabilities were reported for the analyzed sample. Age was reported as median/IQR rather than mean."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "stettler2012.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 8,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "Children in grades 1 to 3 from four communities in the Greater Zurich Area, Switzerland",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Obesity defined as overweight and overfat: BMI corresponding to overweight according to the International Obesity Task Force definition and sum of triceps and subscapular skinfolds at or above the 85th percentile",
+                "desc2": "Usual amount of physical activity estimated by the teacher for each child using a visual analog scale from 0 to 10",
+                "es": 0.78,
+                "type": "or",
+                "n": 872,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Seca medical scale; wall-fixed stadiometer; Holtain Caliper",
+                "instr2": "teacher-rated visual analog scale from 0 to 10"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Obesity defined as overweight and overfat: BMI corresponding to overweight according to the International Obesity Task Force definition and sum of triceps and subscapular skinfolds at or above the 85th percentile",
+                "desc2": "Amount of time playing electronic games in hours per day",
+                "es": 1.65,
+                "type": "or",
+                "n": 872,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Seca medical scale; wall-fixed stadiometer; Holtain Caliper",
+                "instr2": "structured interview questionnaire"
+              },
+              {
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Usual amount of physical activity estimated by the teacher for each child using a visual analog scale from 0 to 10",
+                "desc2": "Amount of time playing electronic games in hours per day",
+                "es": -0.04,
+                "type": "r",
+                "n": 872,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "teacher-rated visual analog scale from 0 to 10",
+                "instr2": "structured interview questionnaire"
+              }
+            ],
+            "pubyear": 2004,
+            "country": "Switzerland",
+            "continent": "Europe",
+            "lang": "Swiss German",
+            "pubtype": 1,
+            "female": 47,
+            "age": null,
+            "clinical": 0,
+            "notes": "Unadjusted odds ratios extracted from Table 2 only; adjusted ORs were not extracted. For bm-pa: 95% CI 0.72 to 0.85, p < 0.001. For bm-vg: 95% CI 1.34 to 2.04, p < 0.001. For pa-vg correlation: p = 0.3. Age was reported as median 8.0 years, not mean. The article states the environmental-variable instruments were not formally tested for reproducibility, reliability, or validity."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "thomee2015.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 14,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "baseline_men",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming >2 h per day vs not at all at baseline",
+                "es": 1.7,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming 1–2 h per day vs not at all at baseline",
+                "es": 1.2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming <1 h per day vs not at all at baseline",
+                "es": 1,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": 22.1,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 3 reports GAMING model n range for men n=2515–2647."
+          },
+          {
+            "sample_id": "baseline_women",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming >2 h per day vs not at all at baseline",
+                "es": 2.2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming 1–2 h per day vs not at all at baseline",
+                "es": 2.6,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight (BMI ≥ 25) at baseline",
+                "desc2": "computer gaming <1 h per day vs not at all at baseline",
+                "es": 1.6,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 100,
+            "age": 22,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 3 reports GAMING model n range for women n=3806–4052."
+          },
+          {
+            "sample_id": "1_year_followup_men",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming >2 h per day vs not at all",
+                "es": 1.2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming 1–2 h per day vs not at all",
+                "es": 0.8,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming <1 h per day vs not at all",
+                "es": 1.3,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": null,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 4 reports 1-YEAR GAMING model n range for men n=979–1013."
+          },
+          {
+            "sample_id": "1_year_followup_women",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming >2 h per day vs not at all",
+                "es": 3.4,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming 1–2 h per day vs not at all",
+                "es": 2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 1-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming <1 h per day vs not at all",
+                "es": 1.5,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 100,
+            "age": null,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 4 reports 1-YEAR GAMING model n range for women n=1940–2023."
+          },
+          {
+            "sample_id": "5_year_followup_men",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming >2 h per day vs not at all",
+                "es": 1.5,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming 1–2 h per day vs not at all",
+                "es": 0.9,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming <1 h per day vs not at all",
+                "es": 0.9,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": null,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 4 reports 5-YEAR GAMING model n range for men n=691–703."
+          },
+          {
+            "sample_id": "5_year_followup_women",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming >2 h per day vs not at all",
+                "es": 3.2,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming 1–2 h per day vs not at all",
+                "es": 3.3,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "new cases of overweight (BMI ≥ 25) at 5-year follow-up among those with BMI <25 at baseline",
+                "desc2": "baseline computer gaming <1 h per day vs not at all",
+                "es": 1.1,
+                "type": "or",
+                "n": null,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "self-reported height and weight in the cohort questionnaire",
+                "instr2": "cohort study questionnaire computer gaming item"
+              }
+            ],
+            "pubyear": 2015,
+            "country": "Sweden",
+            "continent": "Europe",
+            "lang": null,
+            "pubtype": 1,
+            "female": 100,
+            "age": null,
+            "clinical": 0,
+            "notes": "Crude (unadjusted) ORs extracted; adjusted Model I and Model II ignored. Exact n for each crude OR was unavailable; Table 4 reports 5-YEAR GAMING model n range for women n=1269–1315."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "touchette2008.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 8,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "Quebec Longitudinal Study of Child Development sample",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "overweight/obesity at 6 years of age",
+                "desc2": "doing physical activities less than 1 time monthly at 6 years, assessed by interview",
+                "es": 1.17,
+                "type": "or",
+                "n": 1138,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "BMI (kg/m²)",
+                "instr2": "interview"
+              },
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "overweight/obesity at 6 years of age",
+                "desc2": "playing video games at least 1 hour weekly at 6 years, assessed by interview",
+                "es": 0.84,
+                "type": "or",
+                "n": 1138,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "BMI (kg/m²)",
+                "instr2": "interview"
+              }
+            ],
+            "pubyear": 2008,
+            "country": "Canada",
+            "continent": "North America",
+            "lang": "French and English",
+            "pubtype": 1,
+            "female": null,
+            "age": null,
+            "clinical": 0,
+            "notes": "Effect sizes are unadjusted odds ratios from Table 2a. Table 2a reports 28 missings for both lifestyle-variable rows extracted."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    },
+    {
+      "filename": "wack2009.pdf",
+      "model": "gpt-5.5",
+      "resolved_model": "gpt-5.5-2026-04-23",
+      "pages_processed": 4,
+      "evidence_count": 0,
+      "result": {
+        "samples": [
+          {
+            "sample_id": "College-aged males from southeastern United States",
+            "records": [
+              {
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Body mass index (BMI) calculated from reported height and weight",
+                "desc2": "Frequency of electronic game play assessed with an adapted Timeline Follow-Back daily diary and extrapolated to weekly frequency",
+                "es": -0.05,
+                "type": "r",
+                "n": 219,
+                "rel1": null,
+                "rel2": null,
+                "rel1_type": null,
+                "rel2_type": null,
+                "instr1": "Demographic questionnaire",
+                "instr2": "Timeline Follow-Back technique"
+              }
+            ],
+            "pubyear": 2009,
+            "country": "United States",
+            "continent": "North America",
+            "lang": null,
+            "pubtype": 1,
+            "female": 0,
+            "age": 20.48,
+            "clinical": 0,
+            "notes": "All participants were male. No reliabilities were reported for BMI or electronic game play frequency."
+          }
+        ],
+        "evidence": [],
+        "schema_version": "masem-effect-sizes-v2"
+      }
+    }
+  ]
+}
