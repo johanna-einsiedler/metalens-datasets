@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "AI at Work: empirical findings on AI's labour-market effects"
+date-released: "2026-06-14"
+type: dataset
+authors:
+  - given-names: "Ole"
+    family-names: "Teutloff"
+  - given-names: "Johanna"
+    family-names: "Einsiedler"
+identifiers:
+  - type: other
+    value: "metalens:ai-at-work-2026-06"

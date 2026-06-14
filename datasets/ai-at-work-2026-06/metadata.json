@@ -1,0 +1,39 @@
+{
+  "schema_version": "metadata-v1",
+  "dataset_id": "ai-at-work-2026-06",
+  "title": "AI at Work: empirical findings on AI's labour-market effects",
+  "description": "Curated extraction of effect-size findings from 77 research papers studying how generative AI and adjacent technologies affect labour productivity, performance inequality, entry-level employment, and human-AI substitution/complementarity. Each paper contributes one or more quantitative findings (metric · value · comparison · p-value), tagged with subtopic and finding type, plus a paper-level qualitative summary across the four core subtopics. Extracted with Gemini 2.5 Pro via the AI Labour Dashboard pipeline, normalised to the MetaPaperLens ai-findings preset schema.",
+  "donor": {
+    "mode": "attributed",
+    "authors": [
+      {
+        "name": "Ole Teutloff"
+      },
+      {
+        "name": "Johanna Einsiedler"
+      }
+    ]
+  },
+  "visibility": "public",
+  "extraction": {
+    "schema_version": "ai-jobs-v1",
+    "paper_count": 77,
+    "sample_count": 543,
+    "record_count": 963,
+    "model_used": [
+      "gemini-2.5-pro"
+    ],
+    "prompt_sha256": "28ac306edd691ee7e08aba357ff18b970a1361d71dc87d31f659f5d0f84c0e05"
+  },
+  "verification": {
+    "human_verified": false,
+    "notes": "Raw model output from Gemini 2.5 Pro extraction via the AI Labour Dashboard pipeline; no comprehensive cell-by-cell human review was performed."
+  },
+  "preset": {
+    "id": "ai-findings",
+    "title": "AI x labour — findings",
+    "note": "Flat-entry shape matching the MetaPaperLens ai-findings preset."
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-06-14T00:00:00Z"
+}
