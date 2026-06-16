@@ -10,7 +10,7 @@
       {"name": "Timo Gnambs"}
     ]
   },
-  "visibility": "public",
+  "visibility": "gated",
   "extraction": {
     "schema_version": "masem-cfa-v1",
     "paper_count": 20,
@@ -28,5 +28,6 @@
     "note": "TAS-20 parameterisation: scale_name=Toronto Alexithymia Scale-20, n_items=20, n_factors=5 (capacity). Template rendered from masem.template.md."
   },
   "license": "CC-BY-4.0",
-  "created_at": "2026-06-16T00:00:00Z"
+  "created_at": "2026-06-16T00:00:00Z",
+  "password_hash": "$2b$12$RDeUOxkSOU1Jn5.1gtW.MOEYbMhTLg.djXc4JiLLhHaI.Rmy051Wi"
 }
