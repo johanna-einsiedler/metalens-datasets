@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "TAS-20 factor-analytic results: LLM extractions with curator corrections"
+date-released: "2026-06-16"
+type: dataset
+authors:
+  - given-names: "Ulrich"
+    family-names: "Schroeders"
+  - given-names: "Timo"
+    family-names: "Gnambs"
+identifiers:
+  - type: other
+    value: "metalens:tas20-corrected-2026-06"

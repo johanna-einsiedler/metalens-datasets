@@ -1,0 +1,32 @@
+{
+  "schema_version": "metadata-v1",
+  "dataset_id": "tas20-corrected-2026-06",
+  "title": "TAS-20 factor-analytic results: LLM extractions with curator corrections",
+  "description": "Curated factor-analytic extractions from 20 primary TAS-20 (Toronto Alexithymia Scale-20) studies covering 30 distinct samples. Each entry carries the model-extracted factor loadings (up to 5 factors x 20 items), factor correlations, and study/sample metadata, plus a `human_overrides[]` array that records every cell where the curator-corrected ground-truth Excel disagrees with the LLM extraction. Extracted with GPT-5.5 via the MetaPaperLens MASEMiner CFA preset; ground truth from Schroeders & Gnambs' corrected coding sheet.",
+  "donor": {
+    "mode": "attributed",
+    "authors": [
+      {"name": "Ulrich Schroeders"},
+      {"name": "Timo Gnambs"}
+    ]
+  },
+  "visibility": "public",
+  "extraction": {
+    "schema_version": "masem-cfa-v1",
+    "paper_count": 20,
+    "sample_count": 30,
+    "model_used": ["gpt-5.5"],
+    "prompt_sha256": "cb7053af86783e8fb9040dda1af9b27ccc412b03d90497a0f55982109c59e2ff"
+  },
+  "verification": {
+    "human_verified": true,
+    "notes": "Ground-truth values come from Schroeders & Gnambs' manually-curated coding sheet (coding_TAS-20_corrected.xlsx). The `human_overrides[]` array on each paper records the curator's corrections vs. the raw LLM extraction. Across the 30 samples, the LLM achieves 99.95% accuracy on factor loadings (1 cell mismatch in 2020), 92.9% sensitivity / 95.2% precision on factor correlations (118 correct of 127 reported, 124 LLM-extracted). 103 metadata-field overrides are LLM omissions (clinical/res/rot/met codes the model didn't extract) rather than value disagreements."
+  },
+  "preset": {
+    "id": "masem",
+    "title": "MASEMiner — factor-analytic (CFA/EFA) extraction",
+    "note": "TAS-20 parameterisation: scale_name=Toronto Alexithymia Scale-20, n_items=20, n_factors=5 (capacity). Template rendered from masem.template.md."
+  },
+  "license": "CC-BY-4.0",
+  "created_at": "2026-06-16T00:00:00Z"
+}
