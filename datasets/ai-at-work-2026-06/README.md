@@ -14,8 +14,8 @@ Curated extraction of effect-size findings from 77 research papers studying how 
 
 ## Contents
 
-- `results.json` — 77 primary-study extractions (4 conceptual papers with no quantitative findings), 543 effect-size findings in total, 963 evidence snippets.  One entry per paper.
-- `prompt.md` — verbatim ai-findings preset prompt used as the canonical extraction template (sha256 `28ac306edd69…`).
+- `results.json` — 77 primary-study extractions (4 conceptual papers with no quantitative findings), 504 effect-size findings in total, 1244 evidence snippets.  One entry per paper.
+- `prompt.md` — verbatim ai-findings preset prompt used as the canonical extraction template (sha256 `5bc94c12d611…`).
 - `metadata.json` — donor + provenance metadata (authors, dates, schema version, prompt SHA).
 - `CITATION.cff` — machine-readable citation block.
 

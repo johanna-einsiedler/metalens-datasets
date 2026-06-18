@@ -18,12 +18,12 @@
   "extraction": {
     "schema_version": "ai-jobs-v1",
     "paper_count": 77,
-    "sample_count": 543,
-    "record_count": 963,
+    "sample_count": 504,
+    "record_count": 1244,
     "model_used": [
       "gemini-2.5-pro"
     ],
-    "prompt_sha256": "28ac306edd691ee7e08aba357ff18b970a1361d71dc87d31f659f5d0f84c0e05"
+    "prompt_sha256": "5bc94c12d61176f721801f03449eee26d78057ee0a82961e9d4a2d757bfa5b1d"
   },
   "verification": {
     "human_verified": false,
@@ -35,5 +35,5 @@
     "note": "Flat-entry shape matching the MetaPaperLens ai-findings preset."
   },
   "license": "CC-BY-4.0",
-  "created_at": "2026-06-14T00:00:00Z"
+  "created_at": "2026-06-18T00:00:00Z"
 }
