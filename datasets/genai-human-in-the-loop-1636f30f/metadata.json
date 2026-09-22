@@ -1,0 +1,857 @@
+{
+  "title": "GenAI \u2013 Human in the Loop",
+  "description": null,
+  "schema_id": "human-ai-collab@193067f7",
+  "slug": "genai-human-in-the-loop-1636f30f",
+  "cite_as": null,
+  "citation": "[author] (2026). GenAI \u2013 Human in the Loop (version 1) [Data set]. Metalens. https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/genai-human-in-the-loop-1636f30f",
+  "attribution": "named",
+  "keywords": [],
+  "readme": null,
+  "version": 1,
+  "visibility": "public",
+  "recipe": {
+    "model": null,
+    "prompt": null,
+    "schema_id": "human-ai-collab@193067f7"
+  },
+  "stats": {
+    "n_papers": 10,
+    "n_records": 16,
+    "n_verified": 16,
+    "n_screened": 0,
+    "n_screened_confirmed": 0,
+    "verified_pct": 100.0,
+    "n_schemas": 1,
+    "total_tokens": 0,
+    "first_extracted": "2026-09-22T02:15:26.173943+00:00",
+    "last_extracted": "2026-09-22T02:16:32.131124+00:00",
+    "last_change": "2026-09-22T02:17:17.287487+00:00"
+  },
+  "credibility": {
+    "dataset_id": "1636f30f-96ae-4c12-9a05-b8a69b60f4cb",
+    "tier": "human_verified",
+    "n_records": 16,
+    "audited": 16,
+    "audited_pct": 100.0,
+    "agreement": 1.0,
+    "agreement_ci": [
+      0.8064,
+      1.0
+    ],
+    "label": "Human-verified \u00b7 100% agree"
+  },
+  "preset": {
+    "schema_id": "human-ai-collab@193067f7",
+    "preset_id": "human-ai-collab",
+    "label": "Human\u2013AI collaboration v2 (193067f7)",
+    "format": 2,
+    "spec": {
+      "id": "human-ai-collab",
+      "meta": {
+        "mode": "extraction",
+        "title": "Human\u2013AI collaboration",
+        "hidden": false,
+        "tagline": "Humans alone vs. AI alone vs. humans + AI on decision tasks \u2014 the Vaccaro, Almaatouq & Malone (2024) extraction protocol, extended for generative AI.",
+        "description": "One experiment per entry, one human\u2013AI condition per sub-entry, one performance measure per table row. Extracts the study design, the task, the participants, the AI system and how it was presented, and the mean / SD / N of human-alone, AI-alone and human\u2013AI performance, so that synergy (human\u2013AI vs. the better of the two) can be computed downstream. Field names follow the original codebook (Exp_Design, Comp_Type, Avg_Perf_HumanAI, \u2026) so exports merge with the existing dataset. Two variables go beyond it: LLM_Model and Interaction_Mode; N_AI is added for AI systems evaluated over several runs."
+      },
+      "paper": {
+        "fields": []
+      },
+      "format": 2,
+      "prompt": {
+        "text": "# TASK\n\nExtract, from a PDF reporting one or more experiments, everything needed to compare the\nperformance of humans alone, an AI system alone, and humans working with that AI on the\nsame task.\n\nThe coding follows the extraction protocol of Vaccaro, Almaatouq & Malone (2024, Nature\nHuman Behaviour, \"When combinations of humans and AI are useful\") and extends it to\ngenerative AI (large language models and other generative systems) on decision tasks.\n\nReturn EXACTLY ONE valid JSON object following the required schema.\n\n# UNITS\n\nExperiment \u2192 human\u2013AI condition \u2192 performance measure.\n\n- An EXPERIMENT is a study with its own participant sample and task. Papers often report\n  several (Study 1, Experiment 2, a replication, a pilot analysed separately). A new task\n  or a new sample is a new experiment; a robustness or sensitivity re-analysis of the same\n  data is not.\n- A CONDITION is an arm in which humans worked WITH the AI. Human-alone arms and AI-alone\n  runs are reference arms, not conditions: their values go into every condition's measure\n  rows. Create one condition per human\u2013AI arm that has its own reported numbers \u2014\n  explanation vs. no explanation, different models, different delegation rules, different\n  amounts of AI information. Participant subgroups (experts vs. novices, older vs. younger)\n  become separate conditions only when the paper reports human-alone AND human\u2013AI values\n  for each subgroup.\n- A MEASURE is one performance metric reported for that condition, with the matching\n  human-alone and AI-alone values on the same scale.\n\n# ELIGIBILITY \u2014 RECORD, DO NOT FILTER\n\nThe review keeps experiments in which (1) humans alone, (2) the AI alone and (3) humans\nworking with the AI were all evaluated on the same task with the same metric, and the task\nis a decision task (Task_Type = Decide). Extract the experiment even when a reference arm\nis missing or the task is Create: leave the missing values null and explain in Exp_Notes\nso that the coder can decide eligibility. Never skip an experiment because it looks\nineligible.\n\n# CODING RULES\n\n## Design\n\n- Exp_Design describes how the human-alone vs. human\u2013AI comparison was assigned.\n  Between-Subjects: different participants in each arm. Within-Subjects: the same\n  participants did both. Mixed, Between-Subjects / Mixed, Within-Subjects: the study has\n  both kinds of factor \u2014 pick the variant that applies to the human vs. human\u2013AI\n  contrast. Other: team-level units, simulated pairings, or anything that fits none.\n- Comp_Type follows from that contrast: Independent Samples when the two values come from\n  different people, Dependent Samples when from the same people. Designs in which the\n  same individuals' own answers are later fused with the AI's are Dependent Samples.\n- N_Exp is the total number of human participants analysed in the experiment.\n\n## Task\n\n- Task_Desc is one verb-first phrase naming what participants had to do.\n- Task_Type = Decide when the answer is scored against a reference answer or an expert\n  rubric: classification, detection, prediction, estimation, diagnosis, structured\n  clinical or legal reasoning, appraisal against a checklist. Task_Type = Create when the\n  output is open-ended and judged on quality: writing, summarising, code, designs,\n  conversations.\n- Task_Data is the modality of the material the human judges; Task_Output the form of the\n  answer. AI_Data_In and AI_Data_Out describe the AI's own input and output, which may\n  differ from the human's.\n\n## Participants\n\n- Participant_Type is the paper's own description. Participant_Type_2 is the coded group;\n  Participant_Expert is true when the participants had domain expertise for the task.\n- Participant_Source is the recruitment channel as stated (MTurk, Prolific, Upwork,\n  Invitation, Email Lists, University, Hospital, Company, Volunteer, Not Specified).\n\n## AI system and its presentation (per condition)\n\n- AI_Type: Generative for large language models and other generative models; Deep for\n  non-generative neural networks; Shallow for classical machine learning; Wizard of Oz\n  when the \"AI\" output was scripted, simulated or fixed by the experimenters.\n- LLM_Model (beyond the original codebook): the specific system with version and access\n  route \u2014 \"GPT-4 via ChatGPT Plus\", \"GPT-4o (gpt-4o-2024-08-06) via API in a custom app\",\n  \"Claude-3-Opus\". Null if the paper does not say.\n- AI_Expl_Incl / AI_Expl_Type: whether the AI's output came with an explanation and in\n  which modality. AI_Conf_Incl: whether confidence, probability or uncertainty was shown.\n- Final_Decision: Human when the human produces the scored answer after seeing, consulting\n  or chatting with the AI; AI when the AI's output is the final answer (the human's input\n  feeds the AI, or a fixed rule fuses independent human and AI answers).\n- Division_Labor: true when items were split between human and AI (delegation, the AI\n  handles some cases alone, only a selected subset goes to humans).\n- Interaction_Mode (beyond the original codebook): advice_first when the AI output is\n  shown before or while the human decides; human_first when the human decides first and\n  may revise after seeing the AI; free_use when the human uses the AI freely as a tool\n  (chat, queries, drafting); fusion when independent human and AI answers are combined by\n  a rule and neither sees the other; review when the human verifies or edits AI-produced\n  answers; other for anything else.\n\n## Numbers (per measure row)\n\n- Record means, SDs and Ns exactly as printed. Never rescale: keep proportions as\n  proportions and percentages as percentages, but the three means in one row must be on\n  the same scale. Put the unit in Perf_Metric when it is not obvious.\n- One row per metric. Accuracy, sensitivity, specificity, time per case \u2026 are separate\n  rows. Sub-scores (domains of a rubric) are separate rows only when the paper reports\n  all three arms for them.\n- When several human\u2013AI conditions are compared against ONE human-alone arm and ONE\n  AI-alone run, repeat those reference values in every condition's rows. When a reference\n  arm is missing, leave its values null and say so in Exp_Notes.\n- For within-subjects designs N_Human = N_HumanAI (the same people).\n- Perf_Dir is Down for errors, error rates and time. Do not negate values.\n- SD: the reported SD. If only an SE or a CI is given you may compute SD (SE \u00d7 \u221an; CI\n  half-width \u00d7 \u221an / 1.96) \u2014 then set Est_ES = true and show the computation in Notes. A\n  deterministic AI reported as a single value gets Sd_Perf_AI = 0, as in the original\n  codebook.\n- Generative AI evaluated over repeated runs (\"the model was prompted five times per\n  case\"): Avg_Perf_AI is the mean over runs, Sd_Perf_AI its SD, N_AI = runs \u00d7 cases.\n- Values that appear only in a figure: estimate only when the figure prints the numbers;\n  otherwise leave null and describe what the figure shows in Notes. Any estimated or\n  computed value makes Est_ES true.\n- Prefer the primary analysis population. When the abstract and a table disagree, use\n  the table and note the discrepancy.\n\n# CONFIDENCE CALIBRATION\n\n- \"high\": the values are printed in a table or in the text, the arm and metric they belong\n  to are unambiguous, and nothing was derived.\n- \"medium\": the values were extractable but at least one of: the arms had to be mapped to\n  conditions with some judgement, a reference value is shared across conditions or\n  reported elsewhere in the paper, a code (design, task type, interaction mode) needed\n  interpretation, or one value was computed from an SE or CI.\n- \"low\": substantial ambiguity remained \u2014 values read from figures, unclear which arm a\n  number belongs to, inconsistent numbers across the paper, or a missing reference arm.\n\nBefore returning, check that every condition has at least one measure row, every measure\nrow has Perf_Dir, and the human-alone and AI-alone values in a row refer to the same\nmetric and scale as the human\u2013AI value.\n",
+        "params": {},
+        "generate": [
+          "paper_metadata",
+          "output_schema",
+          "evidence",
+          "confidence",
+          "return_format"
+        ]
+      },
+      "display": {
+        "tabs": [
+          {
+            "id": "conditions",
+            "label": "Conditions & results",
+            "fields": [
+              "conditions"
+            ]
+          },
+          {
+            "id": "experiment",
+            "label": "Design & participants",
+            "fields": [
+              "Exp_ID",
+              "Exp_Design",
+              "Comp_Type",
+              "N_Exp",
+              "Task_Desc",
+              "Task_Data",
+              "Task_Output",
+              "Task_Type",
+              "AI_Data_In",
+              "AI_Data_Out",
+              "Participant_Type",
+              "Participant_Type_2",
+              "Participant_Source",
+              "Participant_Expert",
+              "Exp_Notes"
+            ]
+          }
+        ],
+        "entries": "cards",
+        "grid_rows": "conditions.measures",
+        "triage": "low_confidence_first",
+        "paper_panel": "open",
+        "analysis": {
+          "default_unit": "conditions.measures",
+          "derived": [
+            {
+              "name": "g_team_vs_human",
+              "label": "Human+AI vs human alone (Hedges' g)",
+              "formula": "hedges_g",
+              "unit": "conditions.measures",
+              "inputs": {
+                "m1": "Avg_Perf_HumanAI",
+                "m2": "Avg_Perf_Human",
+                "sd1": "Sd_Perf_HumanAI",
+                "sd2": "Sd_Perf_Human",
+                "n1": "N_HumanAI",
+                "n2": "N_Human"
+              },
+              "flip": {
+                "column": "Perf_Dir",
+                "in": [
+                  "Down"
+                ]
+              }
+            },
+            {
+              "name": "g_ai_vs_human",
+              "label": "AI alone vs human alone (Hedges' g)",
+              "formula": "hedges_g",
+              "unit": "conditions.measures",
+              "inputs": {
+                "m1": "Avg_Perf_AI",
+                "m2": "Avg_Perf_Human",
+                "sd1": "Sd_Perf_AI",
+                "sd2": "Sd_Perf_Human",
+                "n1": "N_AI",
+                "n2": "N_Human"
+              },
+              "flip": {
+                "column": "Perf_Dir",
+                "in": [
+                  "Down"
+                ]
+              }
+            }
+          ],
+          "units": {
+            "by": "Perf_Metric_Cleaned",
+            "detail": "Perf_Metric",
+            "columns": [
+              "Avg_Perf_Human",
+              "Avg_Perf_AI",
+              "Avg_Perf_HumanAI",
+              "Sd_Perf_Human",
+              "Sd_Perf_AI",
+              "Sd_Perf_HumanAI"
+            ]
+          },
+          "complete": {
+            "unit": "conditions.measures",
+            "columns": [
+              "Avg_Perf_Human",
+              "Avg_Perf_AI",
+              "Avg_Perf_HumanAI"
+            ],
+            "label": "a human-alone, an AI-alone and a human+AI mean"
+          }
+        }
+      },
+      "entries": {
+        "key": "experiments",
+        "help": "a study with its own participant sample and task; papers often report several (Study 1, Experiment 2, a replication). A re-analysis of the same data is not a new experiment.",
+        "label": "Experiment",
+        "title": "Experiment {Exp_ID} \u00b7 {Task_Desc}",
+        "fields": [
+          {
+            "help": "the paper's own label ('1', '2', 'Study 1', 'Experiment 2b'); use '1' when the paper reports a single experiment",
+            "name": "Exp_ID",
+            "type": "string",
+            "label": "Experiment id",
+            "evidence": "row",
+            "required": true
+          },
+          {
+            "help": "how the human-alone vs. human\u2013AI comparison was assigned. Between-Subjects = different participants in each arm; Within-Subjects = the same participants did both; Mixed, \u2026 = the study has both kinds of factor \u2014 pick the variant that applies to the human vs. human\u2013AI contrast; Other = team-level units, simulated pairings, or anything else",
+            "name": "Exp_Design",
+            "type": "enum",
+            "label": "Design",
+            "options": [
+              "Between-Subjects",
+              "Within-Subjects",
+              "Mixed, Between-Subjects",
+              "Mixed, Within-Subjects",
+              "Other"
+            ],
+            "evidence": "value",
+            "required": true,
+            "confidence": "design"
+          },
+          {
+            "help": "Independent Samples when the human-alone and human\u2013AI values come from different people; Dependent Samples when from the same people \u2014 within-subjects designs, and designs where the same individuals' own answers are later fused with the AI's",
+            "name": "Comp_Type",
+            "type": "enum",
+            "label": "Comparison",
+            "options": [
+              "Independent Samples",
+              "Dependent Samples"
+            ],
+            "evidence": "row",
+            "required": true,
+            "confidence": "design"
+          },
+          {
+            "help": "total number of human participants analysed in the experiment, all arms together",
+            "name": "N_Exp",
+            "type": "integer",
+            "label": "N (experiment)",
+            "evidence": "value",
+            "required": false,
+            "confidence": "design"
+          },
+          {
+            "help": "one verb-first phrase: 'Detect deceptive hotel reviews', 'Diagnose a patient case from a vignette', 'Decide whether two face photos show the same person'",
+            "name": "Task_Desc",
+            "type": "string",
+            "label": "Task",
+            "evidence": "row",
+            "required": true,
+            "confidence": "task"
+          },
+          {
+            "help": "modality of the material the human judges \u2014 all that apply",
+            "name": "Task_Data",
+            "type": "multi",
+            "label": "Task input",
+            "options": [
+              "Categoric",
+              "Code",
+              "Image",
+              "Numeric",
+              "Text",
+              "Video"
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "task"
+          },
+          {
+            "help": "form of the required answer: Binary (two classes), Categoric (more than two), Numeric (an estimate, rating or score), Text / Image / Code (open-ended production, even when it is later scored by a rubric)",
+            "name": "Task_Output",
+            "type": "enum",
+            "label": "Task output",
+            "options": [
+              "Binary",
+              "Categoric",
+              "Numeric",
+              "Text",
+              "Image",
+              "Code"
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "task",
+            "allow_other": true
+          },
+          {
+            "help": "Decide = the answer is scored against a reference answer or an expert rubric (classification, detection, prediction, estimation, diagnosis, structured clinical or legal reasoning); Create = open-ended production judged on quality (writing, summarising, code, designs). This review includes Decide tasks only \u2014 record Create anyway so the exclusion is visible",
+            "name": "Task_Type",
+            "type": "enum",
+            "label": "Task type",
+            "options": [
+              "Decide",
+              "Create"
+            ],
+            "evidence": "value",
+            "required": true,
+            "confidence": "task"
+          },
+          {
+            "help": "what the AI receives; it may differ from what the human sees (the AI reads the image, the human a report)",
+            "name": "AI_Data_In",
+            "type": "multi",
+            "label": "AI input",
+            "options": [
+              "Categoric",
+              "Code",
+              "Image",
+              "Numeric",
+              "Text",
+              "Video"
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "task"
+          },
+          {
+            "help": "what the AI produces for the human: a class (Binary / Categorical), a number, probability or score (Numeric), free text such as a chat answer or rationale (Text), an image or heat-map (Image), code",
+            "name": "AI_Data_Out",
+            "type": "multi",
+            "label": "AI output",
+            "options": [
+              "Binary",
+              "Categorical",
+              "Numeric",
+              "Text",
+              "Image",
+              "Code"
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "task"
+          },
+          {
+            "help": "the paper's own description: 'Crowdworkers', 'Practising attending physicians and residents', 'Radiologists (attending)'",
+            "name": "Participant_Type",
+            "type": "string",
+            "label": "Participants",
+            "evidence": "value",
+            "required": false,
+            "confidence": "participants"
+          },
+          {
+            "help": "Specialists (Expert) = professionals with domain expertise in the task (physicians on a medical task, lawyers on a legal task); Specialists (Non-Expert) = professionals in training or working outside their specialty; Working Professionals = employees doing a work task that needs no domain expertise; Volunteers = unpaid members of the public",
+            "name": "Participant_Type_2",
+            "type": "enum",
+            "label": "Participant group",
+            "options": [
+              "Crowdworkers",
+              "Students",
+              "Volunteers",
+              "Working Professionals",
+              "Specialists (Expert)",
+              "Specialists (Non-Expert)"
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "participants",
+            "allow_other": true
+          },
+          {
+            "help": "recruitment channel as stated: MTurk, Prolific, Upwork, Invitation, Email Lists, University, Hospital, Company, Volunteer, Not Specified",
+            "name": "Participant_Source",
+            "type": "string",
+            "label": "Recruitment",
+            "evidence": "value",
+            "required": false,
+            "confidence": "participants"
+          },
+          {
+            "help": "true if the participants had domain expertise for the task",
+            "name": "Participant_Expert",
+            "type": "boolean",
+            "label": "Domain experts",
+            "evidence": "row",
+            "required": false,
+            "confidence": "participants"
+          },
+          {
+            "help": "anything a coder must know: exclusions, which arms became conditions, reference arms that are missing or shared across conditions, unusual designs, discrepancies between text and tables",
+            "name": "Exp_Notes",
+            "type": "text",
+            "label": "Experiment notes",
+            "evidence": "none",
+            "required": false
+          }
+        ],
+        "children": [
+          {
+            "key": "conditions",
+            "help": "one arm in which humans worked WITH the AI. Human-alone arms and AI-alone runs are reference arms, not conditions \u2014 their values go into each condition's measure rows",
+            "label": "Human\u2013AI condition",
+            "title": "{Condition_Name}",
+            "fields": [
+              {
+                "help": "the paper's label for the arm: 'Physicians + GPT-4', 'HAI = Signed + predicted label', 'Fusion with ChatGPT'; with a single human\u2013AI arm, name it after the AI",
+                "name": "Condition_Name",
+                "type": "string",
+                "label": "Condition",
+                "evidence": "row",
+                "required": true
+              },
+              {
+                "help": "Generative = a large language model or other generative model (GPT-4, GPT-4o, Claude, Gemini, ChatGPT with vision, diffusion models); Deep = a non-generative neural network (CNN, BERT classifier); Shallow = classical machine learning (logistic regression, SVM, random forest); Wizard of Oz = simulated AI whose outputs were scripted or fixed by the experimenters",
+                "name": "AI_Type",
+                "type": "enum",
+                "label": "AI type",
+                "options": [
+                  "Generative",
+                  "Deep",
+                  "Shallow",
+                  "Wizard of Oz"
+                ],
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "(beyond the original codebook) the specific system with version and access route: 'GPT-4 via ChatGPT Plus', 'GPT-4o (gpt-4o-2024-08-06) via API in a custom app', 'Claude-3-Opus', 'ChatGPT (GPT-4V) chat interface'; null if not stated",
+                "name": "LLM_Model",
+                "type": "string",
+                "label": "AI model",
+                "evidence": "value",
+                "required": false,
+                "confidence": "condition"
+              },
+              {
+                "help": "true if the AI's output came with an explanation: a rationale, highlighted evidence, feature importance, counterfactuals, a walk-through of the analysis",
+                "name": "AI_Expl_Incl",
+                "type": "boolean",
+                "label": "Explanation shown",
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "modality of the explanation: Text (free-text rationale), Image (highlighted regions, saliency maps, screenshots), Numeric (feature weights, scores); empty when no explanation was shown",
+                "name": "AI_Expl_Type",
+                "type": "multi",
+                "label": "Explanation type",
+                "options": [
+                  "Image",
+                  "Numeric",
+                  "Text"
+                ],
+                "evidence": "row",
+                "required": false,
+                "confidence": "condition"
+              },
+              {
+                "help": "true if the AI's confidence, probability or uncertainty was shown to the human",
+                "name": "AI_Conf_Incl",
+                "type": "boolean",
+                "label": "Confidence shown",
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "who produces the answer that is scored: Human (the AI advises or is consulted and the human answers \u2014 includes free chat use) or AI (the AI's output is the final answer, e.g. the human's input feeds the AI, or a fixed rule fuses independent human and AI answers without either seeing the other)",
+                "name": "Final_Decision",
+                "type": "enum",
+                "label": "Final decision",
+                "options": [
+                  "Human",
+                  "AI"
+                ],
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "true if items were split between human and AI: the AI handles some cases alone and the human others, cases are delegated, or only a verifier-selected subset goes to humans; false if the human judged every item with AI input",
+                "name": "Division_Labor",
+                "type": "boolean",
+                "label": "Division of labour",
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "(beyond the original codebook) how the human and the AI were combined in this condition",
+                "name": "Interaction_Mode",
+                "type": "enum",
+                "label": "Interaction mode",
+                "options": [
+                  {
+                    "label": "AI output shown before or while the human decides",
+                    "value": "advice_first"
+                  },
+                  {
+                    "label": "Human decides first, then sees the AI output and may revise",
+                    "value": "human_first"
+                  },
+                  {
+                    "label": "Human uses the AI freely as a tool (chat, queries, drafting)",
+                    "value": "free_use"
+                  },
+                  {
+                    "label": "Independent human and AI answers combined by a rule; neither sees the other",
+                    "value": "fusion"
+                  },
+                  {
+                    "label": "Human verifies or edits AI-produced answers (the AI drafts first)",
+                    "value": "review"
+                  },
+                  {
+                    "label": "Other",
+                    "value": "other"
+                  }
+                ],
+                "evidence": "value",
+                "required": true,
+                "confidence": "condition"
+              },
+              {
+                "help": "one row per performance measure reported for this condition. Each row carries the human-alone, AI-alone and human\u2013AI values for THAT measure, on the same scale and exactly as printed. Leave a value null rather than guessing",
+                "name": "measures",
+                "type": "table",
+                "label": "Performance measures",
+                "columns": [
+                  {
+                    "help": "as named in the paper, with the unit when it is not obvious: 'Accuracy', 'Diagnostic reasoning score (%)', 'Sensitivity', 'AUC', 'Time per case (s)'",
+                    "name": "Perf_Metric",
+                    "type": "string",
+                    "label": "Metric",
+                    "required": true
+                  },
+                  {
+                    "help": "Accuracy (accuracy, sensitivity, specificity, precision, recall, F1, AUC, agreement, Brier score), Quality (rated quality), Error (absolute or squared error), Error Rate (FPR, FNR, error %), Score (points or rubric scores that are not a proportion), Time",
+                    "name": "Perf_Metric_Cleaned",
+                    "type": "enum",
+                    "label": "Metric class",
+                    "options": [
+                      "Accuracy",
+                      "Quality",
+                      "Error",
+                      "Error Rate",
+                      "Score",
+                      "Time",
+                      "Other"
+                    ],
+                    "required": false
+                  },
+                  {
+                    "help": "Up if higher is better; Down if lower is better (errors, time)",
+                    "name": "Perf_Dir",
+                    "type": "enum",
+                    "label": "Direction",
+                    "options": [
+                      "Up",
+                      "Down"
+                    ],
+                    "required": true
+                  },
+                  {
+                    "help": "participants behind the human-alone value",
+                    "name": "N_Human",
+                    "type": "integer",
+                    "label": "N human",
+                    "required": false
+                  },
+                  {
+                    "help": "(beyond the original codebook) observations behind the AI-alone value: runs \u00d7 cases, or evaluated items; null for a single deterministic run",
+                    "name": "N_AI",
+                    "type": "integer",
+                    "label": "N AI",
+                    "required": false
+                  },
+                  {
+                    "help": "participants in this condition behind the human\u2013AI value",
+                    "name": "N_HumanAI",
+                    "type": "integer",
+                    "label": "N human\u2013AI",
+                    "required": false
+                  },
+                  {
+                    "help": "human-alone mean",
+                    "name": "Avg_Perf_Human",
+                    "type": "number",
+                    "label": "Mean human",
+                    "required": false
+                  },
+                  {
+                    "help": "AI-alone mean",
+                    "name": "Avg_Perf_AI",
+                    "type": "number",
+                    "label": "Mean AI",
+                    "required": false
+                  },
+                  {
+                    "help": "mean in this condition",
+                    "name": "Avg_Perf_HumanAI",
+                    "type": "number",
+                    "label": "Mean human\u2013AI",
+                    "required": false
+                  },
+                  {
+                    "name": "Sd_Perf_Human",
+                    "type": "number",
+                    "label": "SD human",
+                    "required": false
+                  },
+                  {
+                    "help": "0 for a deterministic AI reported as a single value (as in the original codebook); the reported SD across runs for a generative model prompted repeatedly; otherwise null",
+                    "name": "Sd_Perf_AI",
+                    "type": "number",
+                    "label": "SD AI",
+                    "required": false
+                  },
+                  {
+                    "name": "Sd_Perf_HumanAI",
+                    "type": "number",
+                    "label": "SD human\u2013AI",
+                    "required": false
+                  },
+                  {
+                    "help": "true if any value in this row was read from a figure or computed rather than printed (SD = SE \u00d7 \u221an, SD from a 95% CI, a mean of subgroup means); say how in Notes",
+                    "name": "Est_ES",
+                    "type": "boolean",
+                    "label": "Estimated",
+                    "required": false
+                  },
+                  {
+                    "help": "where the values come from and any derivation: 'Table 2; SD from SE 1.8 \u00d7 \u221a46'",
+                    "name": "Notes",
+                    "type": "string",
+                    "label": "Notes",
+                    "required": false
+                  }
+                ],
+                "evidence": "row",
+                "required": false,
+                "confidence": "results"
+              }
+            ],
+            "layout": "cards",
+            "evidence": "row"
+          }
+        ],
+        "evidence": "row",
+        "id_field": "Exp_ID",
+        "cardinality": "many"
+      },
+      "version": 2,
+      "confidence": {
+        "notes": true,
+        "groups": [
+          {
+            "id": "design",
+            "help": "design, comparison type and sample size",
+            "label": "Design",
+            "scope": "entry"
+          },
+          {
+            "id": "task",
+            "help": "task description, task type, and the AI's input and output",
+            "label": "Task",
+            "scope": "entry"
+          },
+          {
+            "id": "participants",
+            "help": "who took part and how they were recruited",
+            "label": "Participants",
+            "scope": "entry"
+          },
+          {
+            "id": "condition",
+            "help": "the AI system, model, what was shown to the human, who decided",
+            "label": "AI system & presentation",
+            "scope": "child"
+          },
+          {
+            "id": "results",
+            "help": "the measures table: right metric, right arm, same scale, correct N / mean / SD",
+            "label": "Results",
+            "scope": "child"
+          }
+        ],
+        "levels": [
+          "high",
+          "medium",
+          "low"
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "paper_id": "dfd5f6c0-905c-4c62-b7ef-02183d7b766a",
+      "title": "Benchmarking Human\u2013AI collaboration for common evidence appraisal tools",
+      "authors": [
+        "Tim Woelfle",
+        "Julian Hirt",
+        "Perrine Janiaud",
+        "Ludwig Kappos",
+        "John P.A. Ioannidis",
+        "Lars G. Hemkens"
+      ],
+      "year": 2024,
+      "journal": "Journal of Clinical Epidemiology",
+      "doi": "10.1016/j.jclinepi.2024.111533",
+      "n_records": 3
+    },
+    {
+      "paper_id": "58b54860-2c03-4c18-9327-35c78b399ebc",
+      "title": "Human-LLM Collaborative Annotation Through Effective Verification of LLM Labels",
+      "authors": [
+        "Xinru Wang",
+        "Hannah Kim",
+        "Sajjadur Rahman",
+        "Kushan Mitra",
+        "Zhengjie Miao"
+      ],
+      "year": 2024,
+      "journal": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+      "doi": "10.1145/3613904.3641960",
+      "n_records": 2
+    },
+    {
+      "paper_id": "207ecedd-41fd-4af7-8049-01004e9a2be8",
+      "title": "AI Assistance in Legal Analysis: An Empirical Study",
+      "authors": [
+        "Jonathan H. Choi",
+        "Daniel Schwarcz"
+      ],
+      "year": 2025,
+      "journal": "Journal of Legal Education",
+      "doi": null,
+      "n_records": 2
+    },
+    {
+      "paper_id": "b8e0c717-3ff5-40ed-9202-f5b1becd3c1c",
+      "title": "Can You Walk Me Through It? Explainable SMS Phishing Detection using LLM-based Agents",
+      "authors": [
+        "Yizhu Wang",
+        "Haoyu Zhai",
+        "Chenkai Wang",
+        "Qingying Hao",
+        "Nick A. Cohen",
+        "Roopa Foulger",
+        "Jonathan A. Handler",
+        "Gang Wang"
+      ],
+      "year": 2025,
+      "journal": "Proceedings of the Twenty-First Symposium on Usable Privacy and Security (SOUPS 2025), USENIX Association",
+      "doi": null,
+      "n_records": 2
+    },
+    {
+      "paper_id": "a6ad68dd-e60f-4cae-bdb8-0bf1de6607b3",
+      "title": "Fusing ChatGPT and Human Decisions in Unfamiliar Face Matching",
+      "authors": [
+        "Robin S. S. Kramer"
+      ],
+      "year": 2025,
+      "journal": "Applied Cognitive Psychology",
+      "doi": "10.1002/acp.70037",
+      "n_records": 2
+    },
+    {
+      "paper_id": "fa9f4620-6e49-45c7-90cf-d5111157b1af",
+      "title": "GPT4 assistance for improvement of physician performance on patient care tasks: a randomized controlled trial",
+      "authors": [
+        "Ethan Goh",
+        "Robert Gallo",
+        "Eric Strong",
+        "Yingjie Weng",
+        "Hannah Kerman",
+        "Jason A. Freed",
+        "Jos\u00e9phine A. Cool",
+        "Zahir Kanjee",
+        "Kathleen P. Lane",
+        "Andrew S. Parsons",
+        "Daniel Yang",
+        "Arnold Milstein",
+        "Andrew P.J Olson",
+        "Jason Hom",
+        "Jonathan H Chen",
+        "Adam Rodman"
+      ],
+      "year": 2025,
+      "journal": "Nature Medicine",
+      "doi": "10.1038/s41591-024-03456-y",
+      "n_records": 1
+    },
+    {
+      "paper_id": "6edf546c-99e7-47dd-8e83-a7c9064f207e",
+      "title": "Human\u2013AI collectives most accurately diagnose clinical vignettes",
+      "authors": [
+        "Nikolas Z\u00f6ller",
+        "Julian Berger",
+        "Irving Lin",
+        "Nathan Fu",
+        "Jayanth Komarneni",
+        "Gioele Barabucci",
+        "Kyle Laskowski",
+        "Victor Shia",
+        "Benjamin Harack",
+        "Eugene A. Chu",
+        "Vito Trianni",
+        "Ralf H. J. M. Kurvers",
+        "Stefan M. Herzog"
+      ],
+      "year": 2025,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2426153122",
+      "n_records": 1
+    },
+    {
+      "paper_id": "e055e1c4-268b-45c5-9d5c-094a546ebc87",
+      "title": "AI Agents for Inventory Control: Human-LLM-OR Complementarity",
+      "authors": [
+        "Jackie Baek",
+        "Yaopeng Fu",
+        "Will Ma",
+        "Tianyi Peng"
+      ],
+      "year": 2026,
+      "journal": "arXiv preprint (arXiv:2602.12631v1 [cs.AI])",
+      "doi": null,
+      "n_records": 1
+    },
+    {
+      "paper_id": "4226f8e7-062c-4131-acac-9dc69b3b08dd",
+      "title": "From tool to teammate in a randomized controlled trial of clinician-AI collaborative workflows for diagnosis",
+      "authors": [
+        "Selin S. Everett",
+        "Bryan J. Bunning",
+        "Priyank Jain",
+        "Ivan Lopez",
+        "Anup Agarwal",
+        "Manisha Desai",
+        "Robert Gallo",
+        "Ethan Goh",
+        "Vinay B. Kadiyala",
+        "Zahir Kanjee",
+        "Jacob M. Koshy",
+        "Andrew Olson",
+        "Adam Rodman",
+        "Kevin Schulman",
+        "Eric Strong",
+        "Jonathan H. Chen",
+        "Eric Horvitz"
+      ],
+      "year": 2026,
+      "journal": "npj Digital Medicine",
+      "doi": "10.1038/s41746-026-02545-1",
+      "n_records": 1
+    },
+    {
+      "paper_id": "8916a677-554e-4c90-a192-308f120ea3a6",
+      "title": "Large language model diagnostic assistance for physicians in a lower-middle-income country: a randomized controlled trial",
+      "authors": [
+        "Ihsan Ayyub Qazi",
+        "Ayesha Ali",
+        "Asad Ullah Khawaja",
+        "Muhammad Junaid Akhtar",
+        "Ali Zafar Sheikh",
+        "Muhammad Hamad Alizai"
+      ],
+      "year": 2026,
+      "journal": "Nature Health",
+      "doi": "10.1038/s44360-025-00007-8",
+      "n_records": 1
+    }
+  ],
+  "engine": {
+    "name": "metalens",
+    "version": "0.1.0",
+    "git_sha": null
+  }
+}

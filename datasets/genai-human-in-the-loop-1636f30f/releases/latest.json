@@ -1,0 +1,20 @@
+{
+  "number": 1,
+  "path": "releases/v1",
+  "created_at": "2026-09-22T02:17:42+00:00",
+  "content_sha": "884c06abd7f252edd8ae7f7357d74f94810dc83eda3ca8022fa621cb4d9f937c",
+  "credibility": {
+    "tier": "human_verified",
+    "label": "Human-verified \u00b7 100% agree",
+    "audited": 16,
+    "n_records": 16
+  },
+  "files": [
+    "README.md",
+    "evidence.json",
+    "release.json",
+    "tables/conditions.json",
+    "tables/conditions.measures.json",
+    "tables/entries.json"
+  ]
+}
