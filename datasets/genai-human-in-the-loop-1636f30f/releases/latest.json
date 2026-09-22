@@ -9,6 +9,7 @@
     "audited": 16,
     "n_records": 16
   },
+  "doi": "10.5281/zenodo.22898717",
   "files": [
     "README.md",
     "evidence.json",
