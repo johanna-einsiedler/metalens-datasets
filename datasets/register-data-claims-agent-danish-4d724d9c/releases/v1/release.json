@@ -1,0 +1,2143 @@
+{
+ "format": "metalens-release",
+ "format_version": 1,
+ "dataset": {
+  "title": "Register-data claims — agent (Danish)",
+  "slug": "register-data-claims-agent-danish-4d724d9c",
+  "author": "Johanna Einsiedler",
+  "citation": "Johanna Einsiedler (2026). Register-data claims — agent (Danish) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=4d724d9c-8f58-4b75-8d81-64ea365d7592",
+  "published_url": null,
+  "description": "The nine seed papers extracted by the danish-register-econ agent with stated_claims_v3_agent.md (four passes; constructs, estimands, value_from). The review target; supersedes the import of the old pipeline's claims.",
+  "keywords": [
+   "causal claims",
+   "Danish register data",
+   "administrative data",
+   "economics",
+   "labor supply",
+   "taxation",
+   "evidence extraction"
+  ]
+ },
+ "release": {
+  "number": 1,
+  "created_at": "2026-09-29T02:17:07+02:00",
+  "content_sha": "001a785b24df88d8d7f0e22b1dadafe0f237bb0e6231c2d79926201dbb65cc00",
+  "notes": "v1 — nine seed papers, agent-extracted (stated_claims_v3_agent); one paper prints no abstract and yields no claims by the anchor rule; all records unverified pending human review; vocabularies cause/effect v1; cross-check vs the tables dataset frozen.",
+  "changes": {
+   "first": true,
+   "status": {
+    "newly_flagged": 0,
+    "newly_verified": 0
+   },
+   "records": {
+    "added": 62,
+    "changed": 0,
+    "removed": 0
+   },
+   "n_papers": 8,
+   "n_records": 62,
+   "papers_added": [
+    {
+     "doi": "10.3982/ecta9113",
+     "study": "Kleven et al. (2011)",
+     "title": "Unwilling or Unable to Cheat? Evidence From a Tax Audit Experiment in Denmark",
+     "records": 11
+    },
+    {
+     "doi": "10.1257/pol.6.4.271",
+     "study": "Kleven & Schultz (2014)",
+     "title": "Estimating Taxable Income Responses Using Danish Tax Reforms",
+     "records": 4
+    },
+    {
+     "doi": "10.1257/pol.20140233",
+     "study": "Kreiner et al. (2016)",
+     "title": "Tax Reforms and Intertemporal Shifting of Wage Income: Evidence from Danish Monthly Payroll Records",
+     "records": 7
+    },
+    {
+     "doi": "10.1257/aer.20141467",
+     "study": "Lundborg et al. (2017)",
+     "title": "Can Women Have Children and a Career? IV Evidence from IVF Treatments",
+     "records": 10
+    },
+    {
+     "doi": "10.1257/app.20180010",
+     "study": "Kleven et al. (2019)",
+     "title": "Children and Gender Inequality: Evidence from Denmark",
+     "records": 10
+    },
+    {
+     "doi": "10.1257/app.20170604",
+     "study": "Fadlon & Nielsen (2021)",
+     "title": "Family Labor Supply Responses to Severe Health Shocks: Evidence from Danish Administrative Records",
+     "records": 8
+    },
+    {
+     "doi": "10.1016/j.jinteco.2023.103810",
+     "study": "Keller & Utar (2023)",
+     "title": "International trade and job polarization: Evidence at the worker level",
+     "records": 7
+    },
+    {
+     "doi": "10.1257/aer.20240432",
+     "study": "Jensen & Zhang (2026)",
+     "title": "Effects of Parental Death on Labor Market Outcomes",
+     "records": 5
+    }
+   ],
+   "papers_removed": [],
+   "preset_changed": false
+  },
+  "doi": null,
+  "concept_doi": null
+ },
+ "credibility": {
+  "tier": "ai_only",
+  "label": "AI-only",
+  "audited": 0,
+  "n_records": 62
+ },
+ "engine": {
+  "name": "metalens",
+  "git_sha": "514313878dab",
+  "version": "0.1.0"
+ },
+ "preset": {
+  "id": "register-claims",
+  "title": "Register-data claims"
+ },
+ "schema_id": "register-claims@f7387875",
+ "n_papers": 8,
+ "left_out": null,
+ "units": [
+  {
+   "id": "entries",
+   "label": "Stated claim",
+   "level": "entry",
+   "default": false,
+   "n_rows": 62,
+   "file": "tables/entries.json",
+   "columns": [
+    {
+     "name": "_study",
+     "label": "Study",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 8
+    },
+    {
+     "name": "_title",
+     "label": "Paper title",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 8
+    },
+    {
+     "name": "_doi",
+     "label": "DOI",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 8
+    },
+    {
+     "name": "_year",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "system",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 8
+    },
+    {
+     "name": "_journal",
+     "label": "Journal",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 5
+    },
+    {
+     "name": "_entry",
+     "label": "Entry",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 11
+    },
+    {
+     "name": "_status",
+     "label": "Verification status",
+     "type": "enum",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 1
+    },
+    {
+     "name": "claim_id",
+     "label": "Claim id",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "identifier",
+      "label"
+     ],
+     "n": 62,
+     "distinct": 11
+    },
+    {
+     "name": "type",
+     "label": "Type",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 3
+    },
+    {
+     "name": "statement",
+     "label": "Statement",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "label"
+     ],
+     "n": 62,
+     "distinct": 62
+    },
+    {
+     "name": "cause",
+     "label": "Cause",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 18
+    },
+    {
+     "name": "effect",
+     "label": "Effect",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 29
+    },
+    {
+     "name": "cause_construct",
+     "label": "Cause construct",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 11,
+     "distinct": 2
+    },
+    {
+     "name": "effect_construct",
+     "label": "Effect construct",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 28,
+     "distinct": 9
+    },
+    {
+     "name": "construct_basis",
+     "label": "Construct basis",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 33,
+     "distinct": 1
+    },
+    {
+     "name": "construct_note",
+     "label": "Construct assumption",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 20,
+     "distinct": 15
+    },
+    {
+     "name": "sign",
+     "label": "Sign",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 44,
+     "distinct": 3
+    },
+    {
+     "name": "anchor_quote",
+     "label": "Abstract anchor",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 62,
+     "distinct": 30
+    },
+    {
+     "name": "intro_sentence",
+     "label": "Introduction sentence",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 62,
+     "distinct": 49
+    },
+    {
+     "name": "support",
+     "label": "Support",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 3
+    },
+    {
+     "name": "refined_by_introduction",
+     "label": "Refined by the introduction",
+     "type": "boolean",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 2
+    },
+    {
+     "name": "scope_setting",
+     "label": "Setting",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 19
+    },
+    {
+     "name": "scope_period",
+     "label": "Period",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 62,
+     "distinct": 19
+    },
+    {
+     "name": "scope_population",
+     "label": "Population",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "label"
+     ],
+     "n": 62,
+     "distinct": 32
+    },
+    {
+     "name": "scope_identification",
+     "label": "Identification",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "label"
+     ],
+     "n": 61,
+     "distinct": 32
+    },
+    {
+     "name": "magnitude_stated",
+     "label": "Stated magnitude",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 15,
+     "distinct": 15
+    },
+    {
+     "name": "qualifies",
+     "label": "Qualifies",
+     "type": "list",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 10,
+     "distinct": 7
+    },
+    {
+     "name": "moderator",
+     "label": "Moderator",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 10,
+     "distinct": 9
+    },
+    {
+     "name": "relation",
+     "label": "Relation",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 10,
+     "distinct": 9
+    },
+    {
+     "name": "notes",
+     "label": "Notes",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 62,
+     "distinct": 61
+    },
+    {
+     "name": "cause_concept",
+     "label": "cause · concept",
+     "type": "string",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 13
+    },
+    {
+     "name": "cause_polarity",
+     "label": "cause · polarity",
+     "type": "enum",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 2
+    },
+    {
+     "name": "effect_concept",
+     "label": "effect · concept",
+     "type": "string",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 28
+    },
+    {
+     "name": "effect_polarity",
+     "label": "effect · polarity",
+     "type": "enum",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 46,
+     "distinct": 1
+    }
+   ]
+  },
+  {
+   "id": "results",
+   "label": "Table result",
+   "level": "child",
+   "default": true,
+   "n_rows": 211,
+   "file": "tables/results.json",
+   "columns": [
+    {
+     "name": "_study",
+     "label": "Study",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 8
+    },
+    {
+     "name": "_title",
+     "label": "Paper title",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 8
+    },
+    {
+     "name": "_doi",
+     "label": "DOI",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 8
+    },
+    {
+     "name": "_year",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "system",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 8
+    },
+    {
+     "name": "_journal",
+     "label": "Journal",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 5
+    },
+    {
+     "name": "_entry",
+     "label": "Entry",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 11
+    },
+    {
+     "name": "_status",
+     "label": "Verification status",
+     "type": "enum",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 1
+    },
+    {
+     "name": "claim_id",
+     "label": "Claim id",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "identifier",
+      "label"
+     ],
+     "n": 211,
+     "distinct": 11
+    },
+    {
+     "name": "type",
+     "label": "Type",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 3
+    },
+    {
+     "name": "statement",
+     "label": "Statement",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 62
+    },
+    {
+     "name": "cause",
+     "label": "Cause",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 18
+    },
+    {
+     "name": "effect",
+     "label": "Effect",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 29
+    },
+    {
+     "name": "cause_construct",
+     "label": "Cause construct",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 56,
+     "distinct": 2
+    },
+    {
+     "name": "effect_construct",
+     "label": "Effect construct",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 93,
+     "distinct": 9
+    },
+    {
+     "name": "construct_basis",
+     "label": "Construct basis",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 123,
+     "distinct": 1
+    },
+    {
+     "name": "construct_note",
+     "label": "Construct assumption",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 77,
+     "distinct": 15
+    },
+    {
+     "name": "sign",
+     "label": "Sign",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 163,
+     "distinct": 3
+    },
+    {
+     "name": "anchor_quote",
+     "label": "Abstract anchor",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 211,
+     "distinct": 30
+    },
+    {
+     "name": "intro_sentence",
+     "label": "Introduction sentence",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 211,
+     "distinct": 49
+    },
+    {
+     "name": "support",
+     "label": "Support",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 3
+    },
+    {
+     "name": "refined_by_introduction",
+     "label": "Refined by the introduction",
+     "type": "boolean",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 2
+    },
+    {
+     "name": "scope_setting",
+     "label": "Setting",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 19
+    },
+    {
+     "name": "scope_period",
+     "label": "Period",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 19
+    },
+    {
+     "name": "scope_population",
+     "label": "Population",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 211,
+     "distinct": 32
+    },
+    {
+     "name": "scope_identification",
+     "label": "Identification",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 210,
+     "distinct": 32
+    },
+    {
+     "name": "magnitude_stated",
+     "label": "Stated magnitude",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 69,
+     "distinct": 15
+    },
+    {
+     "name": "qualifies",
+     "label": "Qualifies",
+     "type": "list",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 41,
+     "distinct": 7
+    },
+    {
+     "name": "moderator",
+     "label": "Moderator",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 41,
+     "distinct": 9
+    },
+    {
+     "name": "relation",
+     "label": "Relation",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 41,
+     "distinct": 9
+    },
+    {
+     "name": "notes",
+     "label": "Notes",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 211,
+     "distinct": 61
+    },
+    {
+     "name": "result_id",
+     "label": "Result id",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "identifier"
+     ],
+     "n": 203,
+     "distinct": 10
+    },
+    {
+     "name": "estimand",
+     "label": "Estimand",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "identifier",
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 146
+    },
+    {
+     "name": "role",
+     "label": "Role",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 3
+    },
+    {
+     "name": "exhibit",
+     "label": "Exhibit",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 2
+    },
+    {
+     "name": "source_table",
+     "label": "Table / figure",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 21
+    },
+    {
+     "name": "panel",
+     "label": "Panel",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 169,
+     "distinct": 21
+    },
+    {
+     "name": "column",
+     "label": "Column",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 147,
+     "distinct": 18
+    },
+    {
+     "name": "row_label",
+     "label": "Row",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "label"
+     ],
+     "n": 202,
+     "distinct": 70
+    },
+    {
+     "name": "subgroup",
+     "label": "Subgroup",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 117,
+     "distinct": 56
+    },
+    {
+     "name": "horizon",
+     "label": "Horizon",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 157,
+     "distinct": 25
+    },
+    {
+     "name": "horizon_lo",
+     "label": "Horizon from (years)",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "bound"
+     ],
+     "n": 102,
+     "distinct": 9
+    },
+    {
+     "name": "horizon_hi",
+     "label": "Horizon to (years)",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "bound"
+     ],
+     "n": 102,
+     "distinct": 7
+    },
+    {
+     "name": "horizon_kind",
+     "label": "Horizon kind",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 102,
+     "distinct": 2
+    },
+    {
+     "name": "outcome_variable",
+     "label": "Outcome",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 59
+    },
+    {
+     "name": "regressor",
+     "label": "Regressor",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 195,
+     "distinct": 54
+    },
+    {
+     "name": "value_from",
+     "label": "Number from",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 3
+    },
+    {
+     "name": "point_estimate",
+     "label": "Point estimate",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "measure"
+     ],
+     "n": 201,
+     "distinct": 158
+    },
+    {
+     "name": "estimate_se",
+     "label": "Standard error",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "dispersion"
+     ],
+     "n": 125,
+     "distinct": 83
+    },
+    {
+     "name": "treatment_relation",
+     "label": "Treatment relation",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 195,
+     "distinct": 3
+    },
+    {
+     "name": "outcome_relation",
+     "label": "Outcome relation",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 201,
+     "distinct": 2
+    },
+    {
+     "name": "sign_consistent",
+     "label": "Sign consistent",
+     "type": "boolean",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 170,
+     "distinct": 2
+    },
+    {
+     "name": "why",
+     "label": "Why",
+     "type": "text",
+     "scope": "child",
+     "roles": [],
+     "n": 203,
+     "distinct": 173
+    },
+    {
+     "name": "_crosscheck",
+     "label": "Cross-check",
+     "type": "enum",
+     "scope": "check",
+     "roles": [
+      "dimension"
+     ],
+     "n": 203,
+     "distinct": 3
+    },
+    {
+     "name": "cause_concept",
+     "label": "cause · concept",
+     "type": "string",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 13
+    },
+    {
+     "name": "cause_polarity",
+     "label": "cause · polarity",
+     "type": "enum",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 2
+    },
+    {
+     "name": "effect_concept",
+     "label": "effect · concept",
+     "type": "string",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 28
+    },
+    {
+     "name": "effect_polarity",
+     "label": "effect · polarity",
+     "type": "enum",
+     "scope": "vocabulary",
+     "roles": [
+      "dimension"
+     ],
+     "n": 175,
+     "distinct": 1
+    }
+   ]
+  }
+ ],
+ "files": [
+  "README.md",
+  "crosscheck.json",
+  "evidence.json",
+  "release.json",
+  "tables/entries.json",
+  "tables/results.json",
+  "tile-prompt.md"
+ ],
+ "vocabularies": [
+  {
+   "unit": "claims",
+   "column": "cause",
+   "version": 1,
+   "committed_at": "2026-09-29T02:07:34+02:00",
+   "domains": [
+    {
+     "id": "family",
+     "label": "Family and Demographics"
+    },
+    {
+     "id": "health",
+     "label": "Health"
+    },
+    {
+     "id": "taxation",
+     "label": "Taxation and Enforcement"
+    },
+    {
+     "id": "economy",
+     "label": "Macroeconomics and Finance"
+    }
+   ],
+   "concepts": [
+    {
+     "id": "economy.import_competition",
+     "label": "Import competition",
+     "parent": "economy",
+     "aliases": [
+      "trade exposure"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This represents a macroeconomic trade shock, specifically from the dismantling of import quotas.",
+     "definition": "The level of competition faced by domestic firms from foreign imports.",
+     "more_means": "greater exposure to foreign import competition",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "economy.liquidity_constraints",
+     "label": "Liquidity constraints",
+     "parent": "economy",
+     "aliases": [
+      "credit constraints"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Liquidity constraints limit the ability of agents to smooth consumption or intertemporally shift income.",
+     "definition": "The inability of individuals or firms to access liquid funds or credit.",
+     "more_means": "more severely constrained liquidity",
+     "member_values": [
+      "V013"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "family.children",
+     "label": "Having children",
+     "parent": "family",
+     "aliases": [
+      "fertility",
+      "child arrival"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "These phrases all capture the extensive or intensive margin of having children and their arrival in the family.",
+     "definition": "The presence, arrival, or number of children in a household.",
+     "more_means": "having more children or experiencing childbirth",
+     "member_values": [
+      "V001",
+      "V002",
+      "V012"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "family.grandparents_labor",
+     "label": "Maternal grandparents' relative labor supply",
+     "parent": "family",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "This is a specific family background variable capturing the intergenerational transmission of child penalties.",
+     "definition": "The labor supply of maternal grandparents relative to paternal grandparents, proxying childhood environment.",
+     "more_means": "higher relative labor supply of maternal grandparents",
+     "member_values": [
+      "V016"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.parental_death",
+     "label": "Parental death",
+     "parent": "health",
+     "aliases": [
+      "parental bereavement"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This captures the event of losing a parent, which acts as a sudden family health and psychological shock.",
+     "definition": "The sudden death of a parent, representing a severe family bereavement shock.",
+     "more_means": "experiencing a parental death",
+     "member_values": [
+      "V003"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.shock",
+     "label": "Health shock",
+     "parent": "health",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Parent concept for categorizing fatal and nonfatal health shocks.",
+     "definition": "A sudden, severe deterioration in the health status of a family member.",
+     "more_means": "experiencing a severe health shock",
+     "member_values": [],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.shock.fatal",
+     "label": "Fatal health shock",
+     "parent": "health.shock",
+     "aliases": [
+      "spousal death"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This specifically captures lethal health shocks that result in the death of a family member.",
+     "definition": "A health shock resulting in the death of a family member (e.g., spouse).",
+     "more_means": "experiencing a fatal health shock in the family",
+     "member_values": [
+      "V004"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.shock.nonfatal",
+     "label": "Severe nonfatal health shock",
+     "parent": "health.shock",
+     "aliases": [
+      "nonfatal illness"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "This captures severe health shocks where the family member survives, allowing researchers to isolate the non-fatal channel.",
+     "definition": "A severe but non-lethal health shock experienced by a family member.",
+     "more_means": "experiencing a severe nonfatal health shock",
+     "member_values": [
+      "V007"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "taxation.enforcement",
+     "label": "Tax audit enforcement",
+     "parent": "taxation",
+     "aliases": [
+      "tax enforcement"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both prior audits and threat-of-audit letters represent active tax enforcement mechanisms designed to increase compliance.",
+     "definition": "The active enforcement of tax compliance through audits or threats of audits.",
+     "more_means": "higher probability or presence of tax audits or audit threats",
+     "member_values": [
+      "V009",
+      "V010"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "taxation.firm_cooperation",
+     "label": "Firm willingness to cooperate in tax shifting",
+     "parent": "taxation",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "This captures the supply side of tax avoidance, where firms facilitate or block shifting behavior.",
+     "definition": "The inclination of employers to assist employees in shifting income to reduce tax liability.",
+     "more_means": "firms are more willing to cooperate in shifting behavior",
+     "member_values": [
+      "V011"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "taxation.marginal_tax",
+     "label": "Marginal tax rate",
+     "parent": "taxation",
+     "aliases": [
+      "tax schedule kink"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Marginal tax rate and net-of-tax rate are mirror images of the same tax schedule. A tax reform reducing marginal tax rates is a negative shock to the marginal tax rate.",
+     "definition": "The tax rate imposed on the last dollar of taxable income.",
+     "more_means": "higher marginal tax rates",
+     "member_values": [
+      "V006",
+      "V008",
+      "V017"
+     ],
+     "member_polarity": {
+      "V006": "higher_is_less",
+      "V017": "higher_is_less"
+     }
+    },
+    {
+     "id": "taxation.marginal_tax.capital",
+     "label": "Marginal tax rate on capital income",
+     "parent": "taxation.marginal_tax",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A sub-concept of marginal tax rates specifically targeting capital income, measured here as the net-of-tax rate (mirror image).",
+     "definition": "The marginal tax rate applied specifically to capital income.",
+     "more_means": "higher marginal tax rate on capital income",
+     "member_values": [
+      "V014"
+     ],
+     "member_polarity": {
+      "V014": "higher_is_less"
+     }
+    },
+    {
+     "id": "taxation.marginal_tax.labor",
+     "label": "Marginal tax rate on labor income",
+     "parent": "taxation.marginal_tax",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A sub-concept of marginal tax rates specifically targeting labor income, measured here as the net-of-tax rate (mirror image).",
+     "definition": "The marginal tax rate applied specifically to labor earnings.",
+     "more_means": "higher marginal tax rate on labor income",
+     "member_values": [
+      "V015"
+     ],
+     "member_polarity": {
+      "V015": "higher_is_less"
+     }
+    },
+    {
+     "id": "taxation.salience",
+     "label": "Tax salience",
+     "parent": "taxation",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Tax salience is a cognitive factor influencing how taxpayers perceive and respond to tax rates.",
+     "definition": "The visibility or prominence of tax liabilities to taxpayers.",
+     "more_means": "taxes are more salient to the taxpayer",
+     "member_values": [
+      "V018"
+     ],
+     "member_polarity": {}
+    }
+   ],
+   "left_out": [],
+   "assignments": {
+    "children": {
+     "basis": "member",
+     "value": "children",
+     "polarity": "higher_is_more",
+     "concept_id": "family.children"
+    },
+    "prior audits": {
+     "basis": "member",
+     "value": "prior audits",
+     "polarity": "higher_is_more",
+     "concept_id": "taxation.enforcement"
+    },
+    "tax salience": {
+     "basis": "member",
+     "value": "tax salience",
+     "polarity": "higher_is_more",
+     "concept_id": "taxation.salience"
+    },
+    "parental death": {
+     "basis": "member",
+     "value": "parental death",
+     "polarity": "higher_is_more",
+     "concept_id": "health.parental_death"
+    },
+    "having children": {
+     "basis": "member",
+     "value": "having children",
+     "polarity": "higher_is_more",
+     "concept_id": "family.children"
+    },
+    "net-of-tax rate": {
+     "basis": "member",
+     "value": "net-of-tax rate",
+     "polarity": "higher_is_less",
+     "concept_id": "taxation.marginal_tax"
+    },
+    "marginal tax rate": {
+     "basis": "member",
+     "value": "marginal tax rate",
+     "polarity": "higher_is_more",
+     "concept_id": "taxation.marginal_tax"
+    },
+    "fatal health shock": {
+     "basis": "member",
+     "value": "fatal health shock",
+     "polarity": "higher_is_more",
+     "concept_id": "health.shock.fatal"
+    },
+    "import competition": {
+     "basis": "member",
+     "value": "import competition",
+     "polarity": "higher_is_more",
+     "concept_id": "economy.import_competition"
+    },
+    "liquidity constraints": {
+     "basis": "member",
+     "value": "liquidity constraints",
+     "polarity": "higher_is_more",
+     "concept_id": "economy.liquidity_constraints"
+    },
+    "threat-of-audit letters": {
+     "basis": "member",
+     "value": "threat-of-audit letters",
+     "polarity": "higher_is_more",
+     "concept_id": "taxation.enforcement"
+    },
+    "having additional children": {
+     "basis": "member",
+     "value": "having additional children",
+     "polarity": "higher_is_more",
+     "concept_id": "family.children"
+    },
+    "severe nonfatal health shock": {
+     "basis": "member",
+     "value": "severe nonfatal health shock",
+     "polarity": "higher_is_more",
+     "concept_id": "health.shock.nonfatal"
+    },
+    "tax reform reducing marginal tax rates": {
+     "basis": "member",
+     "value": "tax reform reducing marginal tax rates",
+     "polarity": "higher_is_less",
+     "concept_id": "taxation.marginal_tax"
+    },
+    "marginal net-of-tax rate on labor income": {
+     "basis": "member",
+     "value": "marginal net-of-tax rate on labor income",
+     "polarity": "higher_is_less",
+     "concept_id": "taxation.marginal_tax.labor"
+    },
+    "firm willingness to cooperate in shifting": {
+     "basis": "member",
+     "value": "firm willingness to cooperate in shifting",
+     "polarity": "higher_is_more",
+     "concept_id": "taxation.firm_cooperation"
+    },
+    "marginal net-of-tax rate on capital income": {
+     "basis": "member",
+     "value": "marginal net-of-tax rate on capital income",
+     "polarity": "higher_is_less",
+     "concept_id": "taxation.marginal_tax.capital"
+    },
+    "relative labor supply of the maternal grandparents": {
+     "basis": "member",
+     "value": "relative labor supply of the maternal grandparents",
+     "polarity": "higher_is_more",
+     "concept_id": "family.grandparents_labor"
+    }
+   },
+   "columns": [
+    "cause_concept",
+    "cause_polarity"
+   ]
+  },
+  {
+   "unit": "claims",
+   "column": "effect",
+   "version": 1,
+   "committed_at": "2026-09-29T02:07:34+02:00",
+   "domains": [
+    {
+     "id": "income",
+     "label": "Income and Earnings"
+    },
+    {
+     "id": "labor_supply",
+     "label": "Labor Supply"
+    },
+    {
+     "id": "tax",
+     "label": "Taxes and Tax Behavior"
+    },
+    {
+     "id": "health",
+     "label": "Health and Healthcare"
+    },
+    {
+     "id": "gender_gap",
+     "label": "Gender Gaps and Penalties"
+    }
+   ],
+   "concepts": [
+    {
+     "id": "gender_gap.child_penalty_earnings",
+     "label": "Female child penalty in earnings",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A specific dynamic gap measure capturing the earnings penalty associated with motherhood.",
+     "definition": "The long-run negative impact of having children on women's earnings relative to men's.",
+     "more_means": "a larger child penalty on female earnings",
+     "member_values": [
+      "V011"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.earnings",
+     "label": "Gender gap in earnings",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A between-group inequality metric tracking the overall gender earnings gap.",
+     "definition": "The difference in earnings between male and female workers.",
+     "more_means": "a larger earnings gap between men and women",
+     "member_values": [
+      "V012"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.family_friendly_firm",
+     "label": "Probability of working in a family-friendly firm for women relative to men",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A relative firm-type choice metric tracking sorting into family-friendly workplaces.",
+     "definition": "The likelihood of women working in family-friendly environments compared to men.",
+     "more_means": "higher relative probability of women working in family-friendly firms",
+     "member_values": [
+      "V025"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.hours_worked",
+     "label": "Gender gap in hours worked",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A between-group inequality metric tracking differences in intensive-margin labor supply.",
+     "definition": "The difference in hours worked between male and female workers.",
+     "more_means": "a larger gap in hours worked between men and women",
+     "member_values": [
+      "V013"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.manager_probability",
+     "label": "Probability of becoming manager for women relative to men",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A relative career progression metric tracking leadership attainment.",
+     "definition": "The likelihood of a female worker attaining a managerial position relative to a male worker.",
+     "more_means": "higher relative probability of women becoming managers",
+     "member_values": [
+      "V024"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.occupational_rank",
+     "label": "Occupational rank of women relative to men",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A relative occupational status metric comparing women to men.",
+     "definition": "The relative standing or prestige of women's occupations compared to men's.",
+     "more_means": "higher occupational rank of women relative to men",
+     "member_values": [
+      "V021"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.participation",
+     "label": "Gender gap in labor participation",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A between-group inequality metric tracking differences in extensive-margin labor supply.",
+     "definition": "The difference in labor force participation rates between men and women.",
+     "more_means": "a larger participation gap between men and women",
+     "member_values": [
+      "V014"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.public_sector",
+     "label": "Probability of working in the public sector for women relative to men",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A relative sector sorting metric tracking public vs. private employment.",
+     "definition": "The likelihood of women being employed in the public sector compared to men.",
+     "more_means": "higher relative probability of women working in the public sector",
+     "member_values": [
+      "V026"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "gender_gap.wage_rates",
+     "label": "Gender gap in wage rates",
+     "parent": "gender_gap",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A between-group inequality metric tracking differences in hourly compensation.",
+     "definition": "The difference in hourly wage rates between male and female workers.",
+     "more_means": "a larger wage rate gap between men and women",
+     "member_values": [
+      "V015"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.mental_health_prescriptions",
+     "label": "Mental health prescriptions",
+     "parent": "health",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures medical treatment of mental health conditions via prescription drugs.",
+     "definition": "Prescriptions filled for psychiatric or mental health conditions.",
+     "more_means": "more prescriptions for mental health conditions",
+     "member_values": [
+      "V023"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.opioid_prescriptions",
+     "label": "Opioid prescriptions",
+     "parent": "health",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures prescription drug use specifically for pain management/opioids.",
+     "definition": "Prescriptions filled for opioid medications.",
+     "more_means": "more opioid prescriptions",
+     "member_values": [
+      "V022"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "health.psychological_assistance",
+     "label": "Use of psychological assistance",
+     "parent": "health",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Measures healthcare utilization related to mental health counseling.",
+     "definition": "Utilization of mental health services and psychological counseling.",
+     "more_means": "more frequent use of psychological assistance",
+     "member_values": [
+      "V028"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.capital",
+     "label": "Capital income",
+     "parent": "income",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Capital income is distinct from labor income.",
+     "definition": "Income derived from capital assets and investments.",
+     "more_means": "higher capital income",
+     "member_values": [
+      "V007"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.hourly_earnings",
+     "label": "Hourly earnings",
+     "parent": "income",
+     "aliases": [
+      "hourly wage"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Hourly earnings is a distinct intensive-margin wage rate variable.",
+     "definition": "The rate of labor earnings per hour worked.",
+     "more_means": "higher hourly wage rate",
+     "member_values": [
+      "V016"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.household_post_transfer",
+     "label": "Household post-transfer income",
+     "parent": "income",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A household-level post-policy income metric, distinct from individual labor earnings.",
+     "definition": "Total household income after accounting for government transfers and benefits.",
+     "more_means": "higher household disposable income",
+     "member_values": [
+      "V017"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.labor",
+     "label": "Labor income",
+     "parent": "income",
+     "aliases": [
+      "earnings",
+      "labor earnings"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Both phrases refer to the total earnings or income generated from employment.",
+     "definition": "Earnings and income derived from labor market work.",
+     "more_means": "higher labor earnings",
+     "member_values": [
+      "V001",
+      "V019"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.taxable",
+     "label": "Taxable income",
+     "parent": "income",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Taxable income is the broad base of income subject to taxation.",
+     "definition": "The amount of income subject to personal income tax.",
+     "more_means": "higher total taxable income",
+     "member_values": [
+      "V004"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.taxable.self_reported",
+     "label": "Self-reported taxable income",
+     "parent": "income.taxable",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Distinguished by the paper from third-party reported income due to different evasion opportunities.",
+     "definition": "Taxable income that is self-reported by the taxpayer rather than third-party verified.",
+     "more_means": "higher self-reported income",
+     "member_values": [
+      "V005"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "income.taxable.third_party",
+     "label": "Third-party reported taxable income",
+     "parent": "income.taxable",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Distinguished from self-reported income because third-party reporting leaves little room for evasion.",
+     "definition": "Taxable income reported directly to tax authorities by third parties such as employers.",
+     "more_means": "higher third-party reported income",
+     "member_values": [
+      "V006"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "labor_supply.employment_high_wage",
+     "label": "Employment in high-wage occupations",
+     "parent": "labor_supply",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "An occupational choice outcome tracking employment in high-paying jobs.",
+     "definition": "Employment in occupations classified in the top tier of the wage distribution.",
+     "more_means": "higher probability of working in a high-wage occupation",
+     "member_values": [
+      "V008"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "labor_supply.employment_low_wage",
+     "label": "Employment in low-wage occupations",
+     "parent": "labor_supply",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "An occupational choice outcome tracking employment in low-paying jobs.",
+     "definition": "Employment in occupations classified in the bottom tier of the wage distribution.",
+     "more_means": "higher probability of working in a low-wage occupation",
+     "member_values": [
+      "V009"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "labor_supply.employment_mid_wage",
+     "label": "Employment in mid-wage occupations",
+     "parent": "labor_supply",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "An occupational choice outcome tracking employment in middle-tier jobs.",
+     "definition": "Employment in occupations classified in the middle tier of the wage distribution.",
+     "more_means": "higher probability of working in a mid-wage occupation",
+     "member_values": [
+      "V010"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "labor_supply.hours_worked",
+     "label": "Hours worked",
+     "parent": "labor_supply",
+     "aliases": [
+      "weekly hours"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents the intensive margin of labor supply.",
+     "definition": "The number of hours worked in a given period (typically weekly).",
+     "more_means": "more hours worked",
+     "member_values": [
+      "V029"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "labor_supply.participation",
+     "label": "Labor force participation",
+     "parent": "labor_supply",
+     "aliases": [
+      "labor supply extensive margin"
+     ],
+     "direction": "higher_is_more",
+     "rationale": "Represents the extensive margin of labor supply.",
+     "definition": "Whether an individual is active in the labor force (employed or actively seeking work).",
+     "more_means": "higher probability of participating in the labor force",
+     "member_values": [
+      "V002"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "tax.avoidance",
+     "label": "Tax avoidance",
+     "parent": "tax",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Legal behavioral responses to tax schedules, distinct from illegal evasion.",
+     "definition": "Legal methods used to minimize the amount of income tax owed.",
+     "more_means": "more legal tax avoidance",
+     "member_values": [
+      "V020"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "tax.evasion",
+     "label": "Tax evasion",
+     "parent": "tax",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "Illegal non-compliance, distinct from legal tax avoidance.",
+     "definition": "Illegal non-payment or underpayment of tax, specifically on self-reported income.",
+     "more_means": "more tax evasion",
+     "member_values": [
+      "V027"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "tax.shifting",
+     "label": "Tax shifting behavior",
+     "parent": "tax",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A general concept for behavioral tax optimization through shifting.",
+     "definition": "Behavioral responses aimed at shifting income across tax categories or periods to minimize tax liability.",
+     "more_means": "more active tax shifting",
+     "member_values": [
+      "V003"
+     ],
+     "member_polarity": {}
+    },
+    {
+     "id": "tax.shifting.intertemporal",
+     "label": "Intertemporal tax shifting",
+     "parent": "tax.shifting",
+     "aliases": [],
+     "direction": "higher_is_more",
+     "rationale": "A specific sub-type of tax shifting focused on the timing of income realization.",
+     "definition": "Shifting the timing of income realization across tax years to exploit tax rate differentials.",
+     "more_means": "more intertemporal shifting of income",
+     "member_values": [
+      "V018"
+     ],
+     "member_polarity": {}
+    }
+   ],
+   "left_out": [],
+   "assignments": {
+    "earnings": {
+     "basis": "member",
+     "value": "earnings",
+     "polarity": "higher_is_more",
+     "concept_id": "income.labor"
+    },
+    "labor income": {
+     "basis": "member",
+     "value": "labor income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.labor"
+    },
+    "capital income": {
+     "basis": "member",
+     "value": "capital income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.capital"
+    },
+    "taxable income": {
+     "basis": "member",
+     "value": "taxable income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.taxable"
+    },
+    "hourly earnings": {
+     "basis": "member",
+     "value": "hourly earnings",
+     "polarity": "higher_is_more",
+     "concept_id": "income.hourly_earnings"
+    },
+    "shifting behavior": {
+     "basis": "member",
+     "value": "shifting behavior",
+     "polarity": "higher_is_more",
+     "concept_id": "tax.shifting"
+    },
+    "weekly hours worked": {
+     "basis": "member",
+     "value": "weekly hours worked",
+     "polarity": "higher_is_more",
+     "concept_id": "labor_supply.hours_worked"
+    },
+    "opioid prescriptions": {
+     "basis": "member",
+     "value": "opioid prescriptions",
+     "polarity": "higher_is_more",
+     "concept_id": "health.opioid_prescriptions"
+    },
+    "self-reported income": {
+     "basis": "member",
+     "value": "self-reported income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.taxable.self_reported"
+    },
+    "gender gap in earnings": {
+     "basis": "member",
+     "value": "gender gap in earnings",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.earnings"
+    },
+    "gender gap in wage rates": {
+     "basis": "member",
+     "value": "gender gap in wage rates",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.wage_rates"
+    },
+    "labor force participation": {
+     "basis": "member",
+     "value": "labor force participation",
+     "polarity": "higher_is_more",
+     "concept_id": "labor_supply.participation"
+    },
+    "gender gap in hours worked": {
+     "basis": "member",
+     "value": "gender gap in hours worked",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.hours_worked"
+    },
+    "gender gap in participation": {
+     "basis": "member",
+     "value": "gender gap in participation",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.participation"
+    },
+    "third-party reported income": {
+     "basis": "member",
+     "value": "third-party reported income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.taxable.third_party"
+    },
+    "household post-transfer income": {
+     "basis": "member",
+     "value": "household post-transfer income",
+     "polarity": "higher_is_more",
+     "concept_id": "income.household_post_transfer"
+    },
+    "use of psychological assistance": {
+     "basis": "member",
+     "value": "use of psychological assistance",
+     "polarity": "higher_is_more",
+     "concept_id": "health.psychological_assistance"
+    },
+    "female child penalty in earnings": {
+     "basis": "member",
+     "value": "female child penalty in earnings",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.child_penalty_earnings"
+    },
+    "employment in low-wage occupations": {
+     "basis": "member",
+     "value": "employment in low-wage occupations",
+     "polarity": "higher_is_more",
+     "concept_id": "labor_supply.employment_low_wage"
+    },
+    "employment in mid-wage occupations": {
+     "basis": "member",
+     "value": "employment in mid-wage occupations",
+     "polarity": "higher_is_more",
+     "concept_id": "labor_supply.employment_mid_wage"
+    },
+    "employment in high-wage occupations": {
+     "basis": "member",
+     "value": "employment in high-wage occupations",
+     "polarity": "higher_is_more",
+     "concept_id": "labor_supply.employment_high_wage"
+    },
+    "tax evasion for self-reported income": {
+     "basis": "member",
+     "value": "tax evasion for self-reported income",
+     "polarity": "higher_is_more",
+     "concept_id": "tax.evasion"
+    },
+    "intertemporal shifting of labor income": {
+     "basis": "member",
+     "value": "intertemporal shifting of labor income",
+     "polarity": "higher_is_more",
+     "concept_id": "tax.shifting.intertemporal"
+    },
+    "legal avoidance and behavioral responses": {
+     "basis": "member",
+     "value": "legal avoidance and behavioral responses",
+     "polarity": "higher_is_more",
+     "concept_id": "tax.avoidance"
+    },
+    "occupational rank of women relative to men": {
+     "basis": "member",
+     "value": "occupational rank of women relative to men",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.occupational_rank"
+    },
+    "prescriptions for mental health conditions": {
+     "basis": "member",
+     "value": "prescriptions for mental health conditions",
+     "polarity": "higher_is_more",
+     "concept_id": "health.mental_health_prescriptions"
+    },
+    "probability of becoming manager for women relative to men": {
+     "basis": "member",
+     "value": "probability of becoming manager for women relative to men",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.manager_probability"
+    },
+    "probability of working in the public sector for women relative to men": {
+     "basis": "member",
+     "value": "probability of working in the public sector for women relative to men",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.public_sector"
+    },
+    "probability of working in a family-friendly firm for women relative to men": {
+     "basis": "member",
+     "value": "probability of working in a family-friendly firm for women relative to men",
+     "polarity": "higher_is_more",
+     "concept_id": "gender_gap.family_friendly_firm"
+    }
+   },
+   "columns": [
+    "effect_concept",
+    "effect_polarity"
+   ]
+  }
+ ],
+ "companion": {
+  "dataset": "Register-data tables (Danish)",
+  "slug": "register-data-tables-danish-22d1d58d",
+  "release": null,
+  "content_sha": null,
+  "unit": "results",
+  "summary": {
+   "exact": 141,
+   "mismatch": 0,
+   "unlinked": 6,
+   "no_estimate": 0,
+   "figure": 56,
+   "stated": 0
+  },
+  "file": "crosscheck.json"
+ }
+}
