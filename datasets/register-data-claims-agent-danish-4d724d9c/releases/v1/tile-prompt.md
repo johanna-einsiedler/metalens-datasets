@@ -20,7 +20,7 @@ result.
 ```
 Draw a 1200x630 illustration for the cover of a research dashboard.
 
-Subject — illustrate the idea, not the words: Register-data claims — agent (Danish) The nine seed papers extracted by the danish-register-econ agent with stated_claims_v3_agent.md (four passes; constructs, estimands, value_from). The review target; supersedes the import of the old pipeline's claims. Themes: causal claims, Danish register data, administrative data, economics, labor supply, taxation, evidence extraction.
+Subject — illustrate the idea, not the words: Register-data claims — agent (Danish) Stated causal claims from nine economics papers that use Danish administrative register data, extracted by a four-pass agentic pipeline: each claim is anchored to a sentence of the abstract, refined by the introduction, and linked to the printed table and figure results that support it, with… Themes: causal claims, Danish register data, administrative data, economics, labor supply, taxation, evidence extraction.
 
 Find one concrete visual metaphor for that subject and draw only it. Do not try to depict every theme listed; do not draw a chart of invented data, and do not imply a finding the dashboard may not support.
 
