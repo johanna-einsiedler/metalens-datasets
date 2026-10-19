@@ -2,12 +2,14 @@
  "format": "metalens-release",
  "format_version": 1,
  "dataset": {
+  "id": "4d724d9c-8f58-4b75-8d81-64ea365d7592",
+  "url": "https://metalens.tech/dataset?slug=register-data-claims-agent-danish-4d724d9c",
   "title": "Register-data claims — agent (Danish)",
   "slug": "register-data-claims-agent-danish-4d724d9c",
   "author": "Johanna Einsiedler",
   "citation": "Johanna Einsiedler (2026). Register-data claims — agent (Danish) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=4d724d9c-8f58-4b75-8d81-64ea365d7592",
   "published_url": null,
-  "description": "The nine seed papers extracted by the danish-register-econ agent with stated_claims_v3_agent.md (four passes; constructs, estimands, value_from). The review target; supersedes the import of the old pipeline's claims.",
+  "description": "Stated causal claims from nine economics papers that use Danish administrative register data, extracted by a four-pass agentic pipeline: each claim is anchored to a sentence of the abstract, refined by the introduction, and linked to the printed table and figure results that support it, with verbatim evidence quotes throughout.",
   "keywords": [
    "causal claims",
    "Danish register data",
@@ -17,6 +19,12 @@
    "taxation",
    "evidence extraction"
   ]
+ },
+ "evidence_policy": {
+  "max_chars": 200,
+  "mark": "…",
+  "text": "Quotations in these files are cut to at most 200 characters around the extracted value, with the page and the source kept: the snippet length publishers' text-and-data-mining terms allow for published output (Elsevier TDM licence). A cut end is marked with an ellipsis. The full quotations are kept with the dataset on Metalens, where its owner reviews them against the papers.",
+  "dataset_url": "https://metalens.tech/dataset?slug=register-data-claims-agent-danish-4d724d9c"
  },
  "release": {
   "number": 1,
@@ -105,7 +113,7 @@
  },
  "preset": {
   "id": "register-claims",
-  "title": "Register-data claims"
+  "title": "Claims in empirical economics papers"
  },
  "schema_id": "register-claims@f7387875",
  "n_papers": 8,

@@ -30,6 +30,6 @@ Stated causal claims from nine economics papers that use Danish administrative r
 ## Provenance
 
 - Preset / schema: `register-claims@f7387875`
-- Engine: Metalens 0.1.0 (commit 514313878dab)
+- Engine: Metalens 0.1.0
 - Files: `metadata.json` (recipe, preset spec, stats, credibility), `results.json` (one entry per paper with its records, evidence quotes and per-paper provenance)
 - Every value was extracted from the source PDF with a verbatim evidence quote and page; the credibility badge is computed from human verification events.
