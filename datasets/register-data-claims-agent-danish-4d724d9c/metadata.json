@@ -17,7 +17,7 @@
   ],
   "readme": "Stated causal claims from nine economics papers that use Danish administrative register data, extracted by an agentic pipeline (prompt `stated_claims_v3_agent.md` in the danish-register-econ repository): the abstract decides which claims exist, the introduction refines them, and every supporting table or figure result is recorded with its printed value and a verbatim quote. One of the nine papers prints no abstract and therefore yields no claims under the anchor rule, so the dataset holds 62 claims from eight papers. Result timings carry numeric horizons (years since the event) where the paper's labels allow it. Cited table values were cross-checked deterministically against an independently extracted regression-tables dataset: of 147 table-cited values, 141 match exactly and 0 mismatch (6 cite a table the companion extraction did not transcribe); 56 further results cite figures. Cause and effect phrases resolve into a reviewed concept vocabulary (v1).\n\n**Verification status: none of the records has been individually human-verified yet.** The verification ledger in this release records machine extraction and withdrawn spot checks only; full human review is in progress.",
   "version": 1,
-  "visibility": "private",
+  "visibility": "public",
   "recipe": {
     "model": null,
     "prompt": null,
@@ -44,7 +44,8 @@
     "audited_pct": 0.0,
     "agreement": null,
     "agreement_ci": null,
-    "label": "AI-only"
+    "label": "AI-only",
+    "agreed": 0
   },
   "preset": {
     "schema_id": "register-claims@f7387875",
@@ -131,85 +132,19 @@
             ]
           }
         ],
-        "review": {
-          "edge": {
-            "to": "effect",
-            "from": "cause",
-            "sign": "sign",
-            "signs": {
-              "+": "increases",
-              "-": "decreases",
-              "0": "no effect",
-              "mixed": "mixed"
-            }
-          },
-          "notes": "notes",
-          "scope": [
-            "scope_setting",
-            "scope_population",
-            "scope_period",
-            "scope_identification"
-          ],
-          "layout": "chain",
-          "quotes": [
-            {
-              "field": "anchor_quote",
-              "label": "Abstract"
-            },
-            {
-              "field": "intro_sentence",
-              "label": "Introduction"
-            }
-          ],
-          "results": {
-            "se": "estimate_se",
-            "row": "row_label",
-            "why": "why",
-            "role": "role",
-            "cause": "regressor",
-            "child": "results",
-            "label": "Table",
-            "value": "point_estimate",
-            "effect": "outcome_variable",
-            "exhibit": [
-              "source_table",
-              "panel",
-              "column"
-            ],
-            "horizon": "horizon",
-            "estimand": "estimand",
-            "subgroup": "subgroup",
-            "value_from": "value_from",
-            "cause_relation": "treatment_relation",
-            "effect_relation": "outcome_relation",
-            "sign_consistent": "sign_consistent"
-          },
-          "support": "support",
-          "magnitude": "magnitude_stated",
-          "qualifies": {
-            "text": "relation",
-            "type": "type",
-            "field": "qualifies",
-            "moderator": "moderator"
-          },
-          "statement": "statement",
-          "constructs": {
-            "to": "effect_construct",
-            "from": "cause_construct",
-            "note": "construct_note",
-            "basis": "construct_basis"
-          },
-          "support_labels": {
-            "weak": "direction or variable inferred",
-            "assembled": "assembled from the introduction"
-          }
-        },
-        "triage": "low_confidence_first",
         "entries": "cards",
+        "grid_rows": "results",
+        "triage": "low_confidence_first",
+        "paper_panel": "open",
         "analysis": {
+          "default_unit": "results",
           "roles": {
-            "role": [
-              "dimension"
+            "claim_id": [
+              "identifier",
+              "label"
+            ],
+            "result_id": [
+              "identifier"
             ],
             "sign": [
               "dimension"
@@ -217,95 +152,92 @@
             "type": [
               "dimension"
             ],
-            "exhibit": [
+            "role": [
               "dimension"
             ],
-            "horizon": [
+            "exhibit": [
               "dimension"
             ],
             "support": [
               "dimension"
             ],
-            "claim_id": [
-              "identifier",
-              "label"
+            "point_estimate": [
+              "measure"
             ],
-            "estimand": [
-              "identifier",
+            "estimate_se": [
+              "dispersion"
+            ],
+            "cause_construct": [
+              "dimension"
+            ],
+            "effect_construct": [
               "dimension"
             ],
             "subgroup": [
               "dimension"
             ],
-            "result_id": [
-              "identifier"
-            ],
-            "value_from": [
+            "horizon": [
               "dimension"
             ],
-            "estimate_se": [
-              "dispersion"
-            ],
-            "point_estimate": [
-              "measure"
-            ],
-            "cause_construct": [
+            "estimand": [
+              "identifier",
               "dimension"
             ],
             "construct_basis": [
               "dimension"
             ],
-            "effect_construct": [
+            "value_from": [
               "dimension"
             ]
           },
-          "default_unit": "results",
           "default_dashboard": [
             {
-              "unit": "results",
+              "template": "stat_count",
               "title": "Papers",
+              "unit": "results",
               "bindings": {
                 "column": {
                   "column": "_study"
                 }
-              },
-              "template": "stat_count"
+              }
             },
             {
-              "unit": "entries",
+              "template": "stat_count",
               "title": "Claims",
-              "bindings": {},
-              "template": "stat_count"
-            },
-            {
-              "unit": "results",
-              "title": "Table results",
-              "bindings": {},
-              "template": "stat_count"
-            },
-            {
               "unit": "entries",
+              "bindings": {}
+            },
+            {
+              "template": "stat_count",
+              "title": "Table results",
+              "unit": "results",
+              "bindings": {}
+            },
+            {
+              "template": "bar",
               "title": "Claims by sign",
+              "unit": "entries",
               "bindings": {
                 "category": {
                   "column": "sign"
                 }
-              },
-              "template": "bar"
+              }
             },
             {
-              "unit": "results",
+              "template": "bar",
               "title": "Results by role",
+              "unit": "results",
               "bindings": {
                 "category": {
                   "column": "role"
                 }
-              },
-              "template": "bar"
+              }
             },
             {
-              "unit": "results",
+              "template": "dot_strip",
               "title": "Point estimates by paper",
+              "unit": "results",
+              "main_message": "One dot per matched table result, as printed; scales differ across papers.",
               "bindings": {
                 "x": {
                   "column": "point_estimate"
@@ -314,20 +246,19 @@
                   "column": "_study"
                 }
               },
-              "template": "dot_strip",
               "transform": {
                 "filter": [
                   {
-                    "op": "not_null",
-                    "column": "point_estimate"
+                    "column": "point_estimate",
+                    "op": "not_null"
                   }
                 ]
-              },
-              "main_message": "One dot per matched table result, as printed; scales differ across papers."
+              }
             },
             {
-              "unit": "results",
+              "template": "rows_table",
               "title": "Claims and their results",
+              "unit": "results",
               "bindings": {
                 "columns": {
                   "columns": [
@@ -345,13 +276,83 @@
                     "sign_consistent"
                   ]
                 }
-              },
-              "template": "rows_table"
+              }
             }
           ]
         },
-        "grid_rows": "results",
-        "paper_panel": "open"
+        "review": {
+          "layout": "chain",
+          "edge": {
+            "from": "cause",
+            "to": "effect",
+            "sign": "sign",
+            "signs": {
+              "+": "increases",
+              "-": "decreases",
+              "0": "no effect",
+              "mixed": "mixed"
+            }
+          },
+          "statement": "statement",
+          "scope": [
+            "scope_setting",
+            "scope_population",
+            "scope_period",
+            "scope_identification"
+          ],
+          "quotes": [
+            {
+              "label": "Abstract",
+              "field": "anchor_quote"
+            },
+            {
+              "label": "Introduction",
+              "field": "intro_sentence"
+            }
+          ],
+          "results": {
+            "child": "results",
+            "label": "Table",
+            "exhibit": [
+              "source_table",
+              "panel",
+              "column"
+            ],
+            "row": "row_label",
+            "value": "point_estimate",
+            "se": "estimate_se",
+            "cause": "regressor",
+            "effect": "outcome_variable",
+            "cause_relation": "treatment_relation",
+            "effect_relation": "outcome_relation",
+            "role": "role",
+            "sign_consistent": "sign_consistent",
+            "why": "why",
+            "subgroup": "subgroup",
+            "horizon": "horizon",
+            "estimand": "estimand",
+            "value_from": "value_from"
+          },
+          "qualifies": {
+            "type": "type",
+            "field": "qualifies",
+            "text": "relation",
+            "moderator": "moderator"
+          },
+          "support": "support",
+          "notes": "notes",
+          "support_labels": {
+            "weak": "direction or variable inferred",
+            "assembled": "assembled from the introduction"
+          },
+          "constructs": {
+            "from": "cause_construct",
+            "to": "effect_construct",
+            "basis": "construct_basis",
+            "note": "construct_note"
+          },
+          "magnitude": "magnitude_stated"
+        }
       },
       "entries": {
         "key": "claims",
@@ -938,6 +939,6 @@
   "engine": {
     "name": "metalens",
     "version": "0.1.0",
-    "git_sha": "514313878dab"
+    "git_sha": null
   }
 }
