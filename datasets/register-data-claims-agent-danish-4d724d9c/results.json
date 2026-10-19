@@ -1118,34 +1118,39 @@
         ],
         "evidence": [
           {
-            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax rates for one-fourth of all employees.",
+            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0]"
+            "field": "claims[0]",
+            "truncated": true
           },
           {
-            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax rates for one-fourth of all employees.",
+            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0].anchor_quote"
+            "field": "claims[0].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax rates for one-fourth of all employees.",
+            "snippet": "This paper uses monthly payroll records for all Danish employees to identify widespread intertemporal shifting of labor income in response to a tax reform that significantly reduced the marginal tax\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0].sign"
+            "field": "claims[0].sign",
+            "truncated": true
           },
           {
-            "snippet": "Considering all the individuals with an incentive to shift income, we find that the average level of reported wage income is nearly 10 percent higher in January 2010 and correspondingly lower in November and December 2009, revealing large shifting effects even at the macro level.",
+            "snippet": "Considering all the individuals with an incentive to shift income, we find that the average level of reported wage income is nearly 10 percent higher in January 2010 and correspondingly lower in\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[0].intro_sentence"
+            "field": "claims[0].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Considering all the individuals with an incentive to shift income, we find that the average level of reported wage income is nearly 10 percent higher in January 2010 and correspondingly lower in November and December 2009, revealing large shifting effects even at the macro level.",
+            "snippet": "\u2026with an incentive to shift income, we find that the average level of reported wage income is nearly 10 percent higher in January 2010 and correspondingly lower in November and December\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[0].magnitude_stated"
+            "field": "claims[0].magnitude_stated",
+            "truncated": true
           },
           {
             "snippet": "The wage income of the T-group is 3 percent and 5 percent below its counterfactual levels in the two months leading up to the reform, and 9 percent above in January 2010.",
@@ -1256,16 +1261,18 @@
             "field": "claims[1].intro_sentence"
           },
           {
-            "snippet": "The estimated ETI is increasing as a function of income from 0 for individuals with the lowest income levels within the treatment group to 0.25 for the taxpayers in the top 1 percent of the income distribution.",
+            "snippet": "The estimated ETI is increasing as a function of income from 0 for individuals with the lowest income levels within the treatment group to 0.25 for the taxpayers in the top 1 percent of the income\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "The estimated ETI is increasing as a function of income from 0 for individuals with the lowest income levels within the treatment group to 0.25 for the taxpayers in the top 1 percent of the income distribution.",
+            "snippet": "The estimated ETI is increasing as a function of income from 0 for individuals with the lowest income levels within the treatment group to 0.25 for the taxpayers in the top 1 percent of the income\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[2].magnitude_stated"
+            "field": "claims[2].magnitude_stated",
+            "truncated": true
           },
           {
             "snippet": "Full sample           0.10 (0.08, 0.11)    0.05 (0.03, 0.06)    0.86 (0.82, 0.89)  0.03 (0.01, 0.04)   0.01 (\u22120.00, 0.03)",
@@ -1520,40 +1527,46 @@
             "field": "claims[6].anchor_quote"
           },
           {
-            "snippet": "The results further indicate that income shifting is concentrated among those who are informed in the treatment group but, on the other hand, less than 10 percent of the informed individuals actually engage in shifting.",
+            "snippet": "The results further indicate that income shifting is concentrated among those who are informed in the treatment group but, on the other hand, less than 10 percent of the informed individuals\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[4].intro_sentence"
+            "field": "claims[4].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "The results further indicate that income shifting is concentrated among those who are informed in the treatment group but, on the other hand, less than 10 percent of the informed individuals actually engage in shifting.",
+            "snippet": "The results further indicate that income shifting is concentrated among those who are informed in the treatment group but, on the other hand, less than 10 percent of the informed individuals\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[4].sign"
+            "field": "claims[4].sign",
+            "truncated": true
           },
           {
-            "snippet": "When we redo the graphical analysis for the T-group including only informed individuals, we see a clear spike at January 2010 with a 5.5 percentage point difference between the informed T-group and the C-group (panel B).",
+            "snippet": "When we redo the graphical analysis for the T-group including only informed individuals, we see a clear spike at January 2010 with a 5.5 percentage point difference between the informed T-group and\u2026",
             "page": 19,
             "source": "Figure A2, panel B",
-            "field": "claims[4].results[0]"
+            "field": "claims[4].results[0]",
+            "truncated": true
           },
           {
-            "snippet": "When we redo the graphical analysis for the T-group including only informed individuals, we see a clear spike at January 2010 with a 5.5 percentage point difference between the informed T-group and the C-group (panel B).",
+            "snippet": "\u2026analysis for the T-group including only informed individuals, we see a clear spike at January 2010 with a 5.5 percentage point difference between the informed T-group and the C-group (panel B).",
             "page": 19,
             "source": "Figure A2, panel B",
-            "field": "claims[4].results[0].point_estimate"
+            "field": "claims[4].results[0].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "Second, we find that shifting is less pronounced for individuals with a low level of liquid assets relative to income, consistent with the explanation that liquidity constraints prevent some tax taxpayers from shifting income forward.",
+            "snippet": "Second, we find that shifting is less pronounced for individuals with a low level of liquid assets relative to income, consistent with the explanation that liquidity constraints prevent some tax\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[5].intro_sentence"
+            "field": "claims[5].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Second, we find that shifting is less pronounced for individuals with a low level of liquid assets relative to income, consistent with the explanation that liquidity constraints prevent some tax taxpayers from shifting income forward.",
+            "snippet": "Second, we find that shifting is less pronounced for individuals with a low level of liquid assets relative to income, consistent with the explanation that liquidity constraints prevent some tax\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[5].sign"
+            "field": "claims[5].sign",
+            "truncated": true
           },
           {
             "snippet": "Tgrp \u00d7 (liquidity of 1\u20132month \u2212 m(liquidity of 1\u20132month))                             0.7                (0.4, 1.0)",
@@ -1580,28 +1593,32 @@
             "field": "claims[5].results[1].point_estimate"
           },
           {
-            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity constraints have a role to play when employees decide whether or not to engage in shifting behavior.",
+            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity\u2026",
             "page": 16,
             "source": "Figure 9",
-            "field": "claims[5].results[2]"
+            "field": "claims[5].results[2]",
+            "truncated": true
           },
           {
-            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity constraints have a role to play when employees decide whether or not to engage in shifting behavior.",
+            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity\u2026",
             "page": 16,
             "source": "Figure 9",
-            "field": "claims[5].results[2].point_estimate"
+            "field": "claims[5].results[2].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity constraints have a role to play when employees decide whether or not to engage in shifting behavior.",
+            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity\u2026",
             "page": 16,
             "source": "Figure 9",
-            "field": "claims[5].results[3]"
+            "field": "claims[5].results[3]",
+            "truncated": true
           },
           {
-            "snippet": "The spike at January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity constraints have a role to play when employees decide whether or not to engage in shifting behavior.",
+            "snippet": "\u2026January 2010 is increasing from 2.3 percent shifters in the group with low financial capacity to 3.0 percent in the group with high financial capacity, indicating that liquidity constraints have\u2026",
             "page": 16,
             "source": "Figure 9",
-            "field": "claims[5].results[3].point_estimate"
+            "field": "claims[5].results[3].point_estimate",
+            "truncated": true
           },
           {
             "snippet": "First, we find that shifting is negligible among government employees, is more common in small private firms than in large firms, and is much more common among the top-five earners within a firm.",
@@ -2237,10 +2254,11 @@
             "field": "claims[0].anchor_quote"
           },
           {
-            "snippet": "The stable income distribution in Denmark eliminates the threat to identification coming from nontax changes in inequality and therefore isolates mean-reversion as the key source of bias that must be controlled for.",
+            "snippet": "The stable income distribution in Denmark eliminates the threat to identification coming from nontax changes in inequality and therefore isolates mean-reversion as the key source of bias that must\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[0].intro_sentence"
+            "field": "claims[0].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "We provide compelling graphical evidence of taxable income responses, arguably representing the first nonparametrically identified evidence of taxable income elasticities using tax reforms.",
@@ -2279,28 +2297,32 @@
             "field": "claims[2].intro_sentence"
           },
           {
-            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income elasticities.",
+            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income\u2026",
             "page": 4,
             "source": "Introduction",
-            "field": "claims[1].magnitude_stated"
+            "field": "claims[1].magnitude_stated",
+            "truncated": true
           },
           {
-            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income elasticities.",
+            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income\u2026",
             "page": 4,
             "source": "Introduction",
-            "field": "claims[1].sign"
+            "field": "claims[1].sign",
+            "truncated": true
           },
           {
-            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income elasticities.",
+            "snippet": "\u2026income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income elasticities.",
             "page": 4,
             "source": "Introduction",
-            "field": "claims[2].magnitude_stated"
+            "field": "claims[2].magnitude_stated",
+            "truncated": true
           },
           {
-            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income elasticities.",
+            "snippet": "Labor income elasticities are around 0.05 for wage earners and 0.10 for self-employed individuals, while capital income elasticities are around two to three times larger than labor income\u2026",
             "page": 4,
             "source": "Introduction",
-            "field": "claims[2].sign"
+            "field": "claims[2].sign",
+            "truncated": true
           },
           {
             "snippet": "elasticities of taxable labor income and taxable capital income with respect to the marginal tax rate on each.",
@@ -2327,16 +2349,18 @@
             "field": "claims[2].construct_note"
           },
           {
-            "snippet": "Notice that we would expect the elasticity of negative capital income (in absolute value) to be negative and the elasticity of positive capital income to be positive, and this is indeed what we find for all specifications.",
+            "snippet": "Notice that we would expect the elasticity of negative capital income (in absolute value) to be negative and the elasticity of positive capital income to be positive, and this is indeed what we find\u2026",
             "page": 22,
             "source": "Section IV.B",
-            "field": "claims[2].cause"
+            "field": "claims[2].cause",
+            "truncated": true
           },
           {
-            "snippet": "Notice that we would expect the elasticity of negative capital income (in absolute value) to be negative and the elasticity of positive capital income to be positive, and this is indeed what we find for all specifications.",
+            "snippet": "Notice that we would expect the elasticity of negative capital income (in absolute value) to be negative and the elasticity of positive capital income to be positive, and this is indeed what we find\u2026",
             "page": 22,
             "source": "Section IV.B",
-            "field": "claims[2].effect"
+            "field": "claims[2].effect",
+            "truncated": true
           },
           {
             "snippet": "We also present panel regression evidence that is extremely robust to specification, unlike previous results which have been very sensitive.",
@@ -2351,10 +2375,11 @@
             "field": "claims[3].anchor_quote"
           },
           {
-            "snippet": "Importantly, we show that the above findings are extremely robust to empirical specification, including socioeconomic controls and the specification of pre-reform income controls (which have been so crucial in previous work).",
+            "snippet": "Importantly, we show that the above findings are extremely robust to empirical specification, including socioeconomic controls and the specification of pre-reform income controls (which have been so\u2026",
             "page": 5,
             "source": "Introduction",
-            "field": "claims[3].intro_sentence"
+            "field": "claims[3].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "DD elasticity = 0.214 (0.011)",
@@ -3744,52 +3769,60 @@
             "field": "claims[2].anchor_quote"
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3]"
+            "field": "claims[3]",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3].anchor_quote"
+            "field": "claims[3].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3].sign"
+            "field": "claims[3].sign",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4]"
+            "field": "claims[4]",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4].anchor_quote"
+            "field": "claims[4].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4].sign"
+            "field": "claims[4].sign",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5]"
+            "field": "claims[5]",
+            "truncated": true
           },
           {
-            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that this effect is small in comparison to legal avoidance and behavioral responses.",
+            "snippet": "Second, using quasi-experimental variation created by large kinks in the income tax schedule, we find that marginal tax rates have a positive impact on tax evasion for self-reported income, but that\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5].anchor_quote"
+            "field": "claims[5].anchor_quote",
+            "truncated": true
           },
           {
             "snippet": "Third, using the randomization of enforcement, we find that prior audits and threat-of-audit letters have significant effects on self-reported income, but no effect on third-party reported income.",
@@ -3876,10 +3909,11 @@
             "field": "claims[1].intro_sentence"
           },
           {
-            "snippet": "While the overall tax evasion uncovered by audits constitutes a modest share of total income, there is considerable variation in tax evasion rates across income items depending on the information environment.",
+            "snippet": "While the overall tax evasion uncovered by audits constitutes a modest share of total income, there is considerable variation in tax evasion rates across income items depending on the information\u2026",
             "page": 3,
             "source": "Section 1, Introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "The second part estimates the effect of the marginal tax rate on evasion using quasi-experimental variation in tax rates created by large and salient kinks in the nonlinear income tax schedule.",
@@ -3936,10 +3970,11 @@
             "field": "claims[9].intro_sentence"
           },
           {
-            "snippet": "In this study, we first extend the standard economic model of tax evasion to account for the fact that the probability of detection is endogenous to the type of income being underreported (third-party reported versus self-reported income).",
+            "snippet": "In this study, we first extend the standard economic model of tax evasion to account for the fact that the probability of detection is endogenous to the type of income being underreported\u2026",
             "page": 2,
             "source": "Section 1, Introduction",
-            "field": "claims[10].intro_sentence"
+            "field": "claims[10].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "Positive income Amounts 243,984 3776 3943 \u2212167 223,882 516 20,102 3427 (2511) (485) (485) (27) (1860) (76) (1693) (478)",
@@ -3978,16 +4013,18 @@
             "field": "claims[2].results[0].point_estimate"
           },
           {
-            "snippet": "For third-party reported income, the evasion rate is always extremely small: it is equal to 0.23% for total positive income, 0.35% for total negative income, and always below 1% across all the different categories.",
+            "snippet": "For third-party reported income, the evasion rate is always extremely small: it is equal to 0.23% for total positive income, 0.35% for total negative income, and always below 1% across all the\u2026",
             "page": 20,
             "source": "Section 4.2",
-            "field": "claims[0].results[1]"
+            "field": "claims[0].results[1]",
+            "truncated": true
           },
           {
-            "snippet": "For third-party reported income, the evasion rate is always extremely small: it is equal to 0.23% for total positive income, 0.35% for total negative income, and always below 1% across all the different categories.",
+            "snippet": "For third-party reported income, the evasion rate is always extremely small: it is equal to 0.23% for total positive income, 0.35% for total negative income, and always below 1% across all the\u2026",
             "page": 20,
             "source": "Section 4.2",
-            "field": "claims[0].results[1].point_estimate"
+            "field": "claims[0].results[1].point_estimate",
+            "truncated": true
           },
           {
             "snippet": "the evasion rate is 17.1% for total positive income, 7.5% for total negative income, 5.4% for capital income, 13.6% for stock income, and 17.7% for self-employment income",
@@ -5220,58 +5257,67 @@
         ],
         "evidence": [
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0]"
+            "field": "claims[0]",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0].anchor_quote"
+            "field": "claims[0].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[0].sign"
+            "field": "claims[0].sign",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[1]"
+            "field": "claims[1]",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[1].anchor_quote"
+            "field": "claims[1].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[1].sign"
+            "field": "claims[1].sign",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[2]"
+            "field": "claims[2]",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[2].anchor_quote"
+            "field": "claims[2].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World Trade Organization to show, first, that rising import competition has led to reduced employment in mid-wage occupations compensated by an increased likelihood of employment in both low-wage and high-wage occupations.",
+            "snippet": "We employ employer-employee matched data from Denmark and utilize plausibly exogenous variation in the rise of import competition due to the dismantling of import quotas as China entered the World\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[2].sign"
+            "field": "claims[2].sign",
+            "truncated": true
           },
           {
             "snippet": "First, workers affected by import competition are pushed away from mid-wage occupations to a greater extent than workers not as affected, contributing to the hollowing out of the mid-wage jobs.",
@@ -5286,10 +5332,11 @@
             "field": "claims[1].intro_sentence"
           },
           {
-            "snippet": "Import competition also facilitates low-wage workers' transition to high-wage occupations, which is in line with increased school enrollment among low-educated workers in response to import competition, as documented in Utar (2018).",
+            "snippet": "Import competition also facilitates low-wage workers' transition to high-wage occupations, which is in line with increased school enrollment among low-educated workers in response to import\u2026",
             "page": 2,
             "source": "1. Introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "Workers with higher education are more likely to move from mid- to high-wage occupations due to trade compared to moving from mid- to low-wage occupations.",
@@ -5310,40 +5357,46 @@
             "field": "claims[3].intro_sentence"
           },
           {
-            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task intensity of occupations.",
+            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4]"
+            "field": "claims[4]",
+            "truncated": true
           },
           {
-            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task intensity of occupations.",
+            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4].anchor_quote"
+            "field": "claims[4].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task intensity of occupations.",
+            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5]"
+            "field": "claims[5]",
+            "truncated": true
           },
           {
-            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task intensity of occupations.",
+            "snippet": "Employing task content information of detailed occupations, we also show that workers performing manual tasks are the ones most affected by import competition independently of the routine-task\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5].anchor_quote"
+            "field": "claims[5].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Employing task content information on the importance of individual tasks in narrowly defined occupations, we demonstrate that workers in manual task-intensive occupations are most negatively affected by import competition, whereas workers in non-manual (cognitive) task-intensive occupations are disproportionately less affected by job polarization induced import competition.",
+            "snippet": "Employing task content information on the importance of individual tasks in narrowly defined occupations, we demonstrate that workers in manual task-intensive occupations are most negatively\u2026",
             "page": 2,
             "source": "1. Introduction",
-            "field": "claims[4].intro_sentence"
+            "field": "claims[4].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "By showing that rising import competition leads more strongly to job polarization the more manual task-intensive an occupation is, irrespective of its routine task-intensity, we separate the mechanisms through which international openness and technological change operate in the context of job polarization.",
+            "snippet": "By showing that rising import competition leads more strongly to job polarization the more manual task-intensive an occupation is, irrespective of its routine task-intensity, we separate the\u2026",
             "page": 3,
             "source": "1. Introduction",
-            "field": "claims[5].intro_sentence"
+            "field": "claims[5].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "This implies that the effect of import competition is distinct from that of routine task-replacing technological change.",
@@ -6889,16 +6942,18 @@
             "field": "claims[1].magnitude_stated"
           },
           {
-            "snippet": "Notably, widowers, who tend to be primary earners and need to financially support one fewer person when losing their wives, if anything decrease their labor supply; while widows, who tend to experience larger income losses when losing their husbands, meaningfully increase their labor supply.",
+            "snippet": "Notably, widowers, who tend to be primary earners and need to financially support one fewer person when losing their wives, if anything decrease their labor supply; while widows, who tend to\u2026",
             "page": 4,
             "source": "introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Notably, widowers, who tend to be primary earners and need to financially support one fewer person when losing their wives, if anything decrease their labor supply; while widows, who tend to experience larger income losses when losing their husbands, meaningfully increase their labor supply.",
+            "snippet": "Notably, widowers, who tend to be primary earners and need to financially support one fewer person when losing their wives, if anything decrease their labor supply; while widows, who tend to\u2026",
             "page": 4,
             "source": "introduction",
-            "field": "claims[3].intro_sentence"
+            "field": "claims[3].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "Consistent with this lack of a significant average income drop, which suggests there is no substantial need for self-insurance on average, there are no notable changes in spouses\u2019 labor supply.",
@@ -6973,40 +7028,46 @@
             "field": "claims[1].results[0].point_estimate"
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their\u2026",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[0].results[1]"
+            "field": "claims[0].results[1]",
+            "truncated": true
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "\u2026pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their\u2026",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[0].results[1].point_estimate"
+            "field": "claims[0].results[1].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their\u2026",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[0].results[1].horizon"
+            "field": "claims[0].results[1].horizon",
+            "truncated": true
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their\u2026",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[1].results[1]"
+            "field": "claims[1].results[1]",
+            "truncated": true
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "\u2026participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[1].results[1].point_estimate"
+            "field": "claims[1].results[1].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their labor force participation with a corresponding rise of 10.1 percent in their annual earnings.",
+            "snippet": "Four years after the event, widows\u2019 labor force participation increases by 2.2 pp from a baseline participation rate of 19.5 pp, which amounts to a considerable increase of 11.3 percent in their\u2026",
             "page": 16,
             "source": "Section III.A (Figure 3, panels A-B, widows)",
-            "field": "claims[1].results[1].horizon"
+            "field": "claims[1].results[1].horizon",
+            "truncated": true
           },
           {
             "snippet": "Treat \u00d7 post \u22120.0016 \u22120.0017 \u2212939 \u2212906 0.0188 0.0164 2,957 2,707",
@@ -7579,112 +7640,130 @@
             "field": "claims[7].scope_population"
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[0].scope_population"
+            "field": "claims[0].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[1].scope_population"
+            "field": "claims[1].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[2].scope_population"
+            "field": "claims[2].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[3].scope_population"
+            "field": "claims[3].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[0].scope_period"
+            "field": "claims[0].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[1].scope_period"
+            "field": "claims[1].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[2].scope_period"
+            "field": "claims[2].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[3].scope_period"
+            "field": "claims[3].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[4].scope_period"
+            "field": "claims[4].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[5].scope_period"
+            "field": "claims[5].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[6].scope_period"
+            "field": "claims[6].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages 45 and 80 in the year of the (actual or placebo) event.",
+            "snippet": "Our sample is composed of all households in which one spouse experienced an event from year 1985 to 2011. Our main sample is comprised of all households in which one spouse died and was between ages\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[7].scope_period"
+            "field": "claims[7].scope_period",
+            "truncated": true
           },
           {
-            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three years.",
+            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[4].scope_population"
+            "field": "claims[4].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three years.",
+            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[5].scope_population"
+            "field": "claims[5].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three years.",
+            "snippet": "Our secondary sample of nonfatal severe health shocks is comprised of all households in which one spouse experienced a heart attack or a stroke (for the first time) and survived for at least three\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[6].scope_population"
+            "field": "claims[6].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early retirement benefits.",
+            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[4].scope_population"
+            "field": "claims[4].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early retirement benefits.",
+            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[5].scope_population"
+            "field": "claims[5].scope_population",
+            "truncated": true
           },
           {
-            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early retirement benefits.",
+            "snippet": "Therefore, we focus in this second sample on households with both spouses under 60 to ensure that the results we document are driven only by the health shocks and not by eligibility for early\u2026",
             "page": 14,
             "source": "Section II.B",
-            "field": "claims[6].scope_population"
+            "field": "claims[6].scope_population",
+            "truncated": true
           }
         ]
       },
@@ -8652,28 +8731,32 @@
             "field": "paper_metadata.authors"
           },
           {
-            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3 percent following a parental death.",
+            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3\u2026",
             "page": 1,
             "source": "abstract",
-            "field": "claims[0]"
+            "field": "claims[0]",
+            "truncated": true
           },
           {
-            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3 percent following a parental death.",
+            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3\u2026",
             "page": 1,
             "source": "abstract",
-            "field": "claims[0].anchor_quote"
+            "field": "claims[0].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3 percent following a parental death.",
+            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3\u2026",
             "page": 1,
             "source": "abstract",
-            "field": "claims[0].sign"
+            "field": "claims[0].sign",
+            "truncated": true
           },
           {
-            "snippet": "Leveraging the timing of sudden, first parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3 percent following a parental death.",
+            "snippet": "\u2026parental deaths and a matched-control difference-in-differences strategy, we find that men\u2019s earnings decline by 2 percent, while women\u2019s earnings decline by 3 percent following a parental death.",
             "page": 1,
             "source": "abstract",
-            "field": "claims[0].magnitude_stated"
+            "field": "claims[0].magnitude_stated",
+            "truncated": true
           },
           {
             "snippet": "Both women and men experience mental health deterioration, leading to increased use of psychological assistance and prescriptions for mental health conditions and opioids.",
@@ -8772,40 +8855,46 @@
             "field": "claims[0].results[1].horizon"
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths,\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].intro_sentence"
+            "field": "claims[1].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths,\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].magnitude_stated"
+            "field": "claims[1].magnitude_stated",
+            "truncated": true
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths,\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].results[0]"
+            "field": "claims[1].results[0]",
+            "truncated": true
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths,\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].results[0].point_estimate"
+            "field": "claims[1].results[0].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths,\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].results[1]"
+            "field": "claims[1].results[1]",
+            "truncated": true
           },
           {
-            "snippet": "Our findings show that, compared to their matched controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent relative to the baseline mean, respectively.",
+            "snippet": "\u2026controls, women visit psychologists 0.10 more times per year after their mothers\u2019 deaths and 0.06 more times after their fathers\u2019 deaths, representing increases of 130 percent and 78 percent\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[1].results[1].point_estimate"
+            "field": "claims[1].results[1].point_estimate",
+            "truncated": true
           },
           {
             "snippet": "For men, psychologist visits increase by 0.031 and 0.018 after mothers\u2019 and fathers\u2019 deaths, corresponding to 147 percent and 86 percent relative to the baseline mean.",
@@ -8832,64 +8921,74 @@
             "field": "claims[1].results[3].point_estimate"
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "\u2026the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].magnitude_stated"
+            "field": "claims[2].magnitude_stated",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[0]"
+            "field": "claims[2].results[0]",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "\u2026an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[0].point_estimate"
+            "field": "claims[2].results[0].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[1]"
+            "field": "claims[2].results[1]",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "\u2026in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[1].point_estimate"
+            "field": "claims[2].results[1].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[2]"
+            "field": "claims[2].results[2]",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "\u2026an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[2].point_estimate"
+            "field": "claims[2].results[2].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[3]"
+            "field": "claims[2].results[3]",
+            "truncated": true
           },
           {
-            "snippet": "We also observe an increase in the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
+            "snippet": "\u2026the share of individuals receiving mental health\u2013related prescriptions, rising by 1.5 (0.9) percentage points for women and 1 (0.6) percentage points for men after their mothers\u2019 (fathers\u2019) deaths.",
             "page": 3,
             "source": "introduction",
-            "field": "claims[2].results[3].point_estimate"
+            "field": "claims[2].results[3].point_estimate",
+            "truncated": true
           },
           {
             "snippet": "Additionally, opioid prescriptions rise following parental death \u2014 by about 6 percent for men and 5 percent for women relative to the baseline mean.",
@@ -8904,58 +9003,67 @@
             "field": "claims[3].magnitude_stated"
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[4].intro_sentence"
+            "field": "claims[4].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[0].results[6]"
+            "field": "claims[0].results[6]",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[0].results[6].point_estimate"
+            "field": "claims[0].results[6].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[0].results[8]"
+            "field": "claims[0].results[8]",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[0].results[8].point_estimate"
+            "field": "claims[0].results[8].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[4].results[0]"
+            "field": "claims[4].results[0]",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[4].results[0].point_estimate"
+            "field": "claims[4].results[0].point_estimate",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[4].results[2]"
+            "field": "claims[4].results[2]",
+            "truncated": true
           },
           {
-            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by around 1 percent following the death of either parent.",
+            "snippet": "In contrast, women with young children see a larger earnings drop of almost 4 percent (3.5 percent) after losing their mothers (fathers), while for men with young children, earnings decline by\u2026",
             "page": 3,
             "source": "introduction",
-            "field": "claims[4].results[2].point_estimate"
+            "field": "claims[4].results[2].point_estimate",
+            "truncated": true
           },
           {
             "snippet": "Our findings show that men and women without young children experience similar earnings declines of around 2 percent (1.4 percent) following the deaths of their mothers (fathers).",
@@ -9090,28 +9198,32 @@
             "field": "claims[0].results[5].point_estimate"
           },
           {
-            "snippet": "Estimates of equation (3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage points, whereas for women, the decline is 0.7 percentage points. Similarly, first parental death leads to an overall earnings reduction of 1.5 percent for men and 2 percent for women.",
+            "snippet": "\u2026(3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage\u2026",
             "page": 13,
             "source": "Figure 1 (text)",
-            "field": "claims[0].results[2].horizon"
+            "field": "claims[0].results[2].horizon",
+            "truncated": true
           },
           {
-            "snippet": "Estimates of equation (3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage points, whereas for women, the decline is 0.7 percentage points. Similarly, first parental death leads to an overall earnings reduction of 1.5 percent for men and 2 percent for women.",
+            "snippet": "\u2026(3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage\u2026",
             "page": 13,
             "source": "Figure 1 (text)",
-            "field": "claims[0].results[3].horizon"
+            "field": "claims[0].results[3].horizon",
+            "truncated": true
           },
           {
-            "snippet": "Estimates of equation (3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage points, whereas for women, the decline is 0.7 percentage points. Similarly, first parental death leads to an overall earnings reduction of 1.5 percent for men and 2 percent for women.",
+            "snippet": "\u2026(3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage\u2026",
             "page": 13,
             "source": "Figure 1 (text)",
-            "field": "claims[0].results[4].horizon"
+            "field": "claims[0].results[4].horizon",
+            "truncated": true
           },
           {
-            "snippet": "Estimates of equation (3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage points, whereas for women, the decline is 0.7 percentage points. Similarly, first parental death leads to an overall earnings reduction of 1.5 percent for men and 2 percent for women.",
+            "snippet": "\u2026(3) are given in the lower left corner of the graph regions in Figure 1. On average, over the five years after parental death, we find that men\u2019s overall employment declines by 0.4 percentage\u2026",
             "page": 13,
             "source": "Figure 1 (text)",
-            "field": "claims[0].results[5].horizon"
+            "field": "claims[0].results[5].horizon",
+            "truncated": true
           },
           {
             "snippet": "Effects are within five years after the first parental death.",
@@ -10623,28 +10735,32 @@
             "field": "claims[5].sign"
           },
           {
-            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young children in the management.",
+            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[6].intro_sentence"
+            "field": "claims[6].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young children in the management.",
+            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[6].sign"
+            "field": "claims[6].sign",
+            "truncated": true
           },
           {
-            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young children in the management.",
+            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[7].intro_sentence"
+            "field": "claims[7].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young children in the management.",
+            "snippet": "Furthermore, women switch jobs to firms that are more \u201cfamily friendly\u201d proxied either by being in the public sector (which is known for its family friendliness) or by having women with young\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[7].sign"
+            "field": "claims[7].sign",
+            "truncated": true
           },
           {
             "snippet": "We find that the fraction of gender inequality caused by child penalties has featured a dramatic increase over the last three to four decades.",
@@ -10695,10 +10811,11 @@
             "field": "claims[9].sign"
           },
           {
-            "snippet": "We find that female child penalties are strongly related to the labor supply history of the maternal grandparents, but not the paternal grandparents, even after controlling for a rich set of family characteristics.",
+            "snippet": "We find that female child penalties are strongly related to the labor supply history of the maternal grandparents, but not the paternal grandparents, even after controlling for a rich set of family\u2026",
             "page": 3,
             "source": "Introduction",
-            "field": "claims[9]"
+            "field": "claims[9]",
+            "truncated": true
           },
           {
             "snippet": "Long-run child penalty = 0.194",
@@ -10893,10 +11010,11 @@
             "field": "claims[9].results[0].point_estimate"
           },
           {
-            "snippet": "Figure 7 shows intergenerational correlations when we control for other factors that are transmitted across generations and impact labor supply: dummies for the education level and field of each grandparent, dummies for the wealth quantile of the grandparents, and dummies for the region and cohort of the grandparents.",
+            "snippet": "Figure 7 shows intergenerational correlations when we control for other factors that are transmitted across generations and impact labor supply: dummies for the education level and field of each\u2026",
             "page": 25,
             "source": "Figure 7, panel A",
-            "field": "claims[9].results[1]"
+            "field": "claims[9].results[1]",
+            "truncated": true
           }
         ]
       },
@@ -12656,94 +12774,109 @@
             "field": "claims[2].anchor_quote"
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3]"
+            "field": "claims[3]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3].anchor_quote"
+            "field": "claims[3].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[3].sign"
+            "field": "claims[3].sign",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4]"
+            "field": "claims[4]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[4].anchor_quote"
+            "field": "claims[4].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5]"
+            "field": "claims[5]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[5].anchor_quote"
+            "field": "claims[5].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[6]"
+            "field": "claims[6]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[6].anchor_quote"
+            "field": "claims[6].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[7]"
+            "field": "claims[7]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[7].anchor_quote"
+            "field": "claims[7].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[8]"
+            "field": "claims[8]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[8].anchor_quote"
+            "field": "claims[8].anchor_quote",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[9]"
+            "field": "claims[9]",
+            "truncated": true
           },
           {
-            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and (iii) much stronger at the extensive margin than at the intensive margin.",
+            "snippet": "Our IV estimates indicate that fertility effects on earnings are: (i) negative, large, and long-lasting; (ii) driven by fertility effects on hourly earnings and not so much on labor supply; and\u2026",
             "page": 1,
             "source": "Abstract",
-            "field": "claims[9].anchor_quote"
+            "field": "claims[9].anchor_quote",
+            "truncated": true
           },
           {
             "snippet": "To identify fertility effects measured at the extensive margin, we propose a novel instrumental variable (IV) strategy based on in vitro fertilization (IVF).",
@@ -12758,10 +12891,11 @@
             "field": "claims[1].intro_sentence"
           },
           {
-            "snippet": "Since observed working histories of successfully and unsuccessfully treated women are virtually identical before they seek IVF treatment, we believe that IVF treatment success creates exogenous variation in the likelihood of having children and can be used as an instrumental variable to estimate the causal effect of having any children on a wide range of female labor market outcomes.",
+            "snippet": "Since observed working histories of successfully and unsuccessfully treated women are virtually identical before they seek IVF treatment, we believe that IVF treatment success creates exogenous\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[2].intro_sentence"
+            "field": "claims[2].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "Our main finding is that women who are successfully treated by IVF earn persistently less because of having children.",
@@ -12794,16 +12928,18 @@
             "field": "claims[7].intro_sentence"
           },
           {
-            "snippet": "Equally interesting is our finding that the decline in annual earnings we estimate for having children is far greater than the decline in earnings we get when we estimate the effect of having additional children among women who already have children.",
+            "snippet": "Equally interesting is our finding that the decline in annual earnings we estimate for having children is far greater than the decline in earnings we get when we estimate the effect of having\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[8].intro_sentence"
+            "field": "claims[8].intro_sentence",
+            "truncated": true
           },
           {
-            "snippet": "Equally interesting is our finding that the decline in annual earnings we estimate for having children is far greater than the decline in earnings we get when we estimate the effect of having additional children among women who already have children.",
+            "snippet": "Equally interesting is our finding that the decline in annual earnings we estimate for having children is far greater than the decline in earnings we get when we estimate the effect of having\u2026",
             "page": 2,
             "source": "Introduction",
-            "field": "claims[9].intro_sentence"
+            "field": "claims[9].intro_sentence",
+            "truncated": true
           },
           {
             "snippet": "In particular, hourly wages fall by 12\u201313 percent in the medium and long run.",
