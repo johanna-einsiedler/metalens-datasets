@@ -13,4 +13,6 @@ Johanna Einsiedler (2026). Register-data claims — agent (Danish) (version 1) [
 - `tables/results.json` — one row per table result (211 rows)
 - `evidence.json` — the quote, page and source behind every cell that has one (`cells[unit][row index][column]` → `items`)
 
+Quotations are cut to at most 200 characters around the extracted value, the snippet length publishers' text-and-data-mining terms allow for published output; a cut end is marked with an ellipsis. The full quotations are kept with the dataset on Metalens, where its owner reviews them against the papers.
+
 Every value was extracted from the cited paper; columns marked `derived` are computed from extracted values by the stated formula. Made with Metalens.
