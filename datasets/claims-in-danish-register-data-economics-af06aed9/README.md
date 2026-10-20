@@ -1,0 +1,257 @@
+# Claims in Danish register-data economics papers
+
+Economics papers using Danish register data — imported from the danish-register-econ pipeline.
+
+**AI-only** · 243 papers · 1832 records · published anonymously
+
+## How to cite
+
+> [author] (2026). Claims in Danish register-data economics papers (version 1) [Data set]. Metalens. https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/claims-in-danish-register-data-economics-af06aed9
+
+## Included papers
+
+- [authors] (2009). The effect of integration policies on the time until regular employment of newly arrived immigrants: Evidence from Denmark. Labour Economics. https://doi.org/10.1016/j.labeco.2008.12.006 — 4 records
+- [authors] (2009). The impact of health on individual retirement plans: self‐reported versus diagnostic measures. Health Economics. https://doi.org/10.1002/hec.1523 — 11 records
+- [authors] (2011). Adjustment Costs, Firm Responses, and Micro vs. Macro Labor Supply Elasticities: Evidence from Danish Tax Records. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjr013 — 9 records
+- [authors] (2011). Adverse workplace conditions, high-involvement work practices and labor turnover: Evidence from Danish linked employer–employee data. Labour Economics. https://doi.org/10.1016/j.labeco.2011.07.003 — 5 records
+- Henrik Jacobsen Kleven, Martin B. Knudsen, Claus Thustrup Kreiner, Søren Pedersen, Emmanuel Saez (2011). Unwilling or Unable to Cheat? Evidence From a Tax Audit Experiment in Denmark. Econometrica. https://doi.org/10.3982/ecta9113 — 10 records
+- [authors] (2012). Ability or Finances as Constraints on Entrepreneurship? Evidence from Survival Rates in a Natural Experiment. Review of Financial Studies. https://doi.org/10.1093/rfs/hhs107 — 4 records
+- [authors] (2012). Early interventions and infant health: Evidence from the Danish home visiting program. Labour Economics. https://doi.org/10.1016/j.labeco.2012.05.012 — 6 records
+- [authors] (2012). Labour market signalling and unemployment duration: An empirical analysis using employer–employee data. Economics Letters. https://doi.org/10.1016/j.econlet.2012.09.032 — 2 records
+- [authors] (2012). Offshoring, Transition, and Training: Evidence from Danish Matched Worker-Firm Data. American Economic Review. https://doi.org/10.1257/aer.102.3.424 — 4 records
+- [authors] (2013). Migration and Wage Effects of Taxing Top Earners: Evidence from the Foreigners’ Tax Scheme in Denmark*. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjt033 — 4 records
+- [authors] (2013). Tax bunching, income shifting and self-employment. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2013.08.002 — 7 records
+- [authors] (2013). Taxation and International Migration of Superstars: Evidence from the European Football Market. American Economic Review. https://doi.org/10.1257/aer.103.5.1892 — 8 records
+- [authors] (2014). Active vs. Passive Decisions and Crowd-Out in Retirement Savings Accounts: Evidence from Denmark *. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qju013 — 14 records
+- [authors] (2014). An Empirical Model of Wage Dispersion with Sorting. The Review of Economic Studies. https://doi.org/10.1093/restud/rdy022 — 11 records
+- Henrik Jacobsen Kleven, Esben Anton Schultz (2014). Estimating Taxable Income Responses Using Danish Tax Reforms. American Economic Journal: Economic Policy. https://doi.org/10.1257/pol.6.4.271 — 8 records
+- [authors] (2014). Taxation and the Long Run Allocation of Labor: Theory and Danish Evidence. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2014.03.012 — 4 records
+- [authors] (2014). The Wage Effects of Offshoring: Evidence from Danish Matched Worker-Firm Data. American Economic Review. https://doi.org/10.1257/aer.104.6.1597 — 15 records
+- [authors] (2014). When the Floodgates Open: “Northern” Firms' Response to Removal of Trade Quotas on Chinese Goods. American Economic Journal Applied Economics. https://doi.org/10.1257/app.6.4.226 — 14 records
+- [authors] (2015). Disruptive school peers and student outcomes. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2015.01.004 — 5 records
+- [authors] (2015). Long-term effects of school size on students’ outcomes. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2015.01.003 — 4 records
+- [authors] (2015). Systematic differences across evaluation schemes and educational choice. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2015.05.003 — 7 records
+- [authors] (2016). Do Employer Pension Contributions Reflect Employee Preferences? Evidence from a Retirement Savings Reform in Denmark. American Economic Journal Applied Economics. https://doi.org/10.1257/app.20150015 — 9 records
+- [authors] (2016). Immigrants' Effect on Native Workers: New Analysis on Longitudinal Data. American Economic Journal Applied Economics. https://doi.org/10.1257/app.20150114 — 6 records
+- [authors] (2016). Long-term consequences of workplace bullying on sickness absence. Labour Economics. https://doi.org/10.1016/j.labeco.2016.06.008 — 13 records
+- [authors] (2016). Pension saving responses to anticipated tax changes: Evidence from monthly pension contribution records. Economics Letters. https://doi.org/10.1016/j.econlet.2016.11.011 — 3 records
+- Claus Thustrup Kreiner, Søren Leth-Petersen, Peer Ebbesen Skov (2016). Tax Reforms and Intertemporal Shifting of Wage Income: Evidence from Danish Monthly Payroll Records. American Economic Journal: Economic Policy. https://doi.org/10.1257/pol.20140233 — 7 records
+- Simon H. Boserup, Wojciech Kopczuk, Claus T. Kreiner (2016). The Role of Bequests in Shaping Wealth Inequality: Evidence from Danish Wealth Records. American Economic Review: Papers & Proceedings. https://doi.org/10.1257/aer.p20161036 — 7 records
+- Petter Lundborg, Erik Plug, Astrid Würtz Rasmussen (2017). Can Women Have Children and a Career? IV Evidence from IVF Treatments. American Economic Review. https://doi.org/10.1257/aer.20141467 — 8 records
+- [authors] (2017). Gender gaps in the effects of childhood family environment: Do they persist into adulthood?. European Economic Review. https://doi.org/10.1016/j.euroecorev.2017.04.004 — 15 records
+- [authors] (2017). International Family Migration and the Dual-Earner Model. Journal of Economic Geography. https://doi.org/10.1093/jeg/lbab050 — 12 records
+- [authors] (2017). Measurement Error in Income and Schooling and the Bias of Linear Estimators. Journal of Labor Economics. https://doi.org/10.1086/692539 — 5 records
+- [authors] (2017). Sibling Spillovers. National Bureau of Economic Research. https://doi.org/10.3386/w23062 — 3 records
+- [authors] (2017). The Decentralization of Wage Bargaining and Income Losses after Worker Displacement. Journal of the European Economic Association. https://doi.org/10.1093/jeea/jvx004 — 4 records
+- [authors] (2017). The use of third-party information reporting for tax deductions: evidence and implications from charitable deductions in Denmark. Oxford Economic Papers. https://doi.org/10.1093/oep/gpx055 — 9 records
+- [authors] (2018). Admission to higher education programmes and student educational outcomes and earnings–Evidence from Denmark. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2018.01.002 — 5 records
+- [authors] (2018). Attitude–behavior consistency in tax compliance: A cross-national comparison. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2018.10.013 — 6 records
+- [authors] (2018). Do tax incentives for saving in pension accounts cause debt accumulation? Evidence from Danish register data. European Economic Review. https://doi.org/10.1016/j.euroecorev.2018.04.007 — 4 records
+- [authors] (2018). Employment, job skills and occupational mobility of cancer survivors. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2018.01.006 — 6 records
+- [authors] (2018). Intergenerational mobility: New evidence from consumption data. Journal of Applied Econometrics. https://doi.org/10.1002/jae.2626 — 5 records
+- [authors] (2018). International trade and retail market performance and structure: Theory and empirical evidence. Journal of International Economics. https://doi.org/10.1016/j.jinteco.2018.08.010 — 7 records
+- [authors] (2018). Parental responses to child support obligations: Evidence from administrative data. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2018.06.003 — 7 records
+- [authors] (2018). The gift of time? School starting age and mental health. Health Economics. https://doi.org/10.1002/hec.3638 — 6 records
+- [authors] (2018). The heterogeneous effects of education on crime: Evidence from Danish administrative twin data. Labour Economics. https://doi.org/10.1016/j.labeco.2018.02.002 — 16 records
+- [authors] (2018). The labor market gender gap in Denmark: Sorting out the past 30 years. Labour Economics. https://doi.org/10.1016/j.labeco.2018.11.003 — 15 records
+- Henrik Kleven, Camille Landais, Jakob Egholt Sogaard (2019). Children and Gender Inequality: Evidence from Denmark. American Economic Journal: Applied Economics. https://doi.org/10.1257/app.20180010 — 11 records
+- [authors] (2019). Cognitive Consequences of Iodine Deficiency in Adolescence: Evidence from Salt Iodization in Denmark. Scandinavian Journal of Economics. https://doi.org/10.1111/sjoe.12473 — 1 record
+- [authors] (2019). Consumption Network Effects. The Review of Economic Studies. https://doi.org/10.1093/restud/rdz026 — 7 records
+- [authors] (2019). Earmarked paternity leave and the relative income within couples. Economics Letters. https://doi.org/10.1016/j.econlet.2019.04.018 — 4 records
+- [authors] (2019). Exposure to More Female Peers Widens the Gender Gap in STEM Participation. Journal of Labor Economics. https://doi.org/10.1086/706646 — 7 records
+- [authors] (2019). Family Health Behaviors. American Economic Review. https://doi.org/10.1257/aer.20171993 — 15 records
+- [authors] (2019). Financial Trouble Across Generations: Evidence from the Universe of Personal Loans in Denmark. The Economic Journal. https://doi.org/10.1093/ej/uez046 — 10 records
+- [authors] (2019). Job Displacement, Unemployment, and Crime: Evidence from Danish Microdata and Reforms. Journal of the European Economic Association. https://doi.org/10.1093/jeea/jvz054 — 11 records
+- [authors] (2019). Labor supply and optimization frictions: Evidence from the Danish student labor market. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2019.03.003 — 9 records
+- [authors] (2019). Liquidity Constraint Tightness and Consumer Responses to Fiscal Stimulus Policy. American Economic Journal Economic Policy. https://doi.org/10.1257/pol.20140313 — 2 records
+- [authors] (2019). Occupations and Import Competition: Evidence from Denmark. American Economic Review. https://doi.org/10.1257/aer.20161925 — 5 records
+- [authors] (2019). Wealth Taxation and Wealth Accumulation: Theory and Evidence From Denmark*. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjz032 — 7 records
+- [authors] (2020). Associations of age, occupation and nationality of seafarers with risk of evacuations at sea: A register-based study on Danish-flagged merchant ships. Marine Policy. https://doi.org/10.1016/j.marpol.2020.103989 — 8 records
+- [authors] (2020). Consumption Heterogeneity: Micro Drivers and Macro Implications. Finance and Economics Discussion Series. https://doi.org/10.17016/feds.2020.005 — 6 records
+- [authors] (2020). De utryghedsmæssige konsekvenser af udsathed for kriminalitet i Danmark. Nordisk Tidsskrift for Kriminalvidenskab. https://doi.org/10.7146/ntfk.v107i1.124801 — 3 records
+- [authors] (2020). Does early childbearing matter? New approach using Danish register data. Labour Economics. https://doi.org/10.1016/j.labeco.2020.101852 — 1 record
+- [authors] (2020). Education, Birth Order and Family Size. The Economic Journal. https://doi.org/10.1093/ej/ueaa089 — 6 records
+- [authors] (2020). Family, Community and Long-Term Socio-Economic Inequality: Evidence from Siblings and Youth Peers. The Economic Journal. https://doi.org/10.1093/ej/ueaa121 — 13 records
+- [authors] (2020). Home prices, fertility, and early-life health outcomes. National Bureau of Economic Research. https://doi.org/10.3386/w27469 — 8 records
+- [authors] (2020). Implementation of altered provider incentives for a more individual‐risk‐based assignment of dental recall intervals: evidence from a health systems reform in Denmark. Health Economics. https://doi.org/10.1002/hec.3997 — 8 records
+- [authors] (2020). Inequality of Opportunity for Income in Denmark and the United States: A Comparison Based on Administrative Data. National Bureau of Economic Research. https://doi.org/10.3386/w27835 — 11 records
+- [authors] (2020). Is Parental Leave Costly for Firms and Coworkers?. Journal of Labor Economics. https://doi.org/10.1086/725554 — 12 records
+- [authors] (2020). Local labour demand and immigrant employment. Labour Economics. https://doi.org/10.1016/j.labeco.2020.101808 — 3 records
+- [authors] (2020). Prison as a Criminal School: Peer Effects and Criminal Learning behind Bars. The Journal of Law and Economics. https://doi.org/10.1086/706820 — 11 records
+- [authors] (2020). Sibling Spillovers. The Economic Journal. https://doi.org/10.1093/ej/ueaa074 — 2 records
+- [authors] (2020). Spillover Effects of Early-Life Medical Interventions. The Review of Economics and Statistics. https://doi.org/10.1162/rest_a_00982 — 7 records
+- [authors] (2020). Spillover effects of stricter immigration policies. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2020.104239 — 6 records
+- [authors] (2020). The association between workplace bullying and suicidal behaviour: A register-based prospective study of 98,330 participants in Denmark. Figshare. https://doi.org/10.6084/m9.figshare.13072199 — 2 records
+- [authors] (2020). The Intergenerational Effects of Intermarriage. Journal of International Migration and Integration / Revue de l integration et de la migration internationale. https://doi.org/10.1007/s12134-019-00745-1 — 6 records
+- [authors] (2020). The Returns to Nursing: Evidence from a Parental-Leave Program. The Review of Economic Studies. https://doi.org/10.1093/restud/rdaa082 — 8 records
+- [authors] (2020). The Temporality of Being NEET: A Longitudinal Study of NEET Occurrences among Young Adults in Denmark. Young. https://doi.org/10.1177/1103308820945098 — 2 records
+- [authors] (2020). Time Discounting and Wealth Inequality. American Economic Review. https://doi.org/10.1257/aer.20181096 — 7 records
+- [authors] (2020). What is the Added Value of Preschool for Poor Children? Long-Term and Intergenerational Impacts and Interactions with an Infant Health Intervention. American Economic Journal Applied Economics. https://doi.org/10.1257/app.20180698 — 5 records
+- [authors] (2020). Work Organization and Job Polarization. Research Policy. https://doi.org/10.1016/j.respol.2020.104015 — 5 records
+- [authors] (2021). Brothers increase women’s gender conformity. Journal of Population Economics. https://doi.org/10.1007/s00148-021-00830-9 — 6 records
+- [authors] (2021). Career Effects of Mental Health. National Bureau of Economic Research. https://doi.org/10.3386/w29031 — 7 records
+- [authors] (2021). Competition, Ownership, and the Impact of Government Outsourcing on Employees. Journal of Public Administration Research and Theory. https://doi.org/10.1093/jopart/muab032 — 5 records
+- [authors] (2021). Constraints on Hours within the Firm. Journal of Labor Economics. https://doi.org/10.1086/714827 — 7 records
+- [authors] (2021). Discontinuity in care: Practice closures among primary care providers and patient health care utilization. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102551 — 10 records
+- [authors] (2021). Do People Respond to the Mortgage Interest Deduction? Quasi-Experimental Evidence from Denmark. American Economic Journal Economic Policy. https://doi.org/10.1257/pol.20170366 — 5 records
+- [authors] (2021). Economics of Mental Well-Being: A Prospective Study Estimating Associated Health Care Costs and Sickness Benefit Transfers in Denmark. The European Journal of Health Economics. https://doi.org/10.1007/s10198-021-01305-0 — 2 records
+- [authors] (2021). Effects of parental health shocks on children's school achievements: A register-based population study. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102573 — 11 records
+- [authors] (2021). Ethnic segregation and native out-migration in Copenhagen. European Urban and Regional Studies. https://doi.org/10.1177/09697764211039183 — 3 records
+- [authors] (2021). Family Disadvantage, Gender, and the Returns to Genetic Human Capital. Scandinavian Journal of Economics. https://doi.org/10.1111/sjoe.12462 — 9 records
+- Itzik Fadlon, Torben Heien Nielsen (2021). Family Labor Supply Responses to Severe Health Shocks: Evidence from Danish Administrative Records. American Economic Journal: Applied Economics. https://doi.org/10.1257/app.20170604 — 11 records
+- [authors] (2021). Family Visitation Patterns during Incarceration in Denmark. Journal of Family Issues. https://doi.org/10.1177/0192513x21991187 — 12 records
+- [authors] (2021). Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread. American Economic Review. https://doi.org/10.1257/aer.20231521 — 9 records
+- [authors] (2021). Home Prices, Fertility, and Early-Life Health Outcomes. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2021.104366 — 8 records
+- [authors] (2021). How Different Parental Leave Schemes Create Different Take-Up Patterns: Denmark in Nordic Comparison. Social Inclusion. https://doi.org/10.17645/si.v9i2.3870 — 6 records
+- [authors] (2021). Inattention or reluctance? Parental responses to vaccination reminder letters. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102439 — 5 records
+- [authors] (2021). Innovative competences, the financial crisis and firm-level productivity in Denmark and Finland. Economics of Innovation and New Technology. https://doi.org/10.1080/10438599.2021.1895496 — 6 records
+- [authors] (2021). Intergenerational health mobility: Evidence from Danish registers. Health Economics. https://doi.org/10.1002/hec.4433 — 7 records
+- [authors] (2021). Linking retirement age to life expectancy does not lessen the demographic implications of unequal lifespans. Insurance Mathematics and Economics. https://doi.org/10.1016/j.insmatheco.2021.04.010 — 9 records
+- [authors] (2021). Maternal education and child health: Causal evidence from Denmark. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102552 — 8 records
+- [authors] (2021). Overview of European legislation in the field of creating and functioning of population registers. Вестник Российского университета дружбы народов. Серия: Юридические науки. https://doi.org/10.22363/2313-2337-2021-25-4-935-945 — 5 records
+- [authors] (2021). Parental Assortative Mating and the Intergenerational Transmission of Human Capital. Labour Economics. https://doi.org/10.1016/j.labeco.2021.102047 — 6 records
+- [authors] (2021). Relative age for grade and adolescent risky health behavior. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102438 — 10 records
+- [authors] (2021). The Danish EQ-5D-5L Value Set: A Hybrid Model Using CTTO and DCE Data. Applied Health Economics and Health Policy. https://doi.org/10.1007/s40258-021-00639-3 — 6 records
+- [authors] (2021). The effects of unemployment on fertility. Advances in Life Course Research. https://doi.org/10.1016/j.alcr.2020.100401 — 4 records
+- [authors] (2021). The impact of childhood health shocks on parental labor supply. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2021.102486 — 6 records
+- [authors] (2021). The Importance of Peer Quality for Completion of Higher Education. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2021.102120 — 7 records
+- [authors] (2021). The Importance of Workplace Accommodation for Cancer Survivors--The Role of Flexible Work Schedules and Psychological Help in Returning to Work. Economics & Human Biology. https://doi.org/10.1016/j.ehb.2021.101057 — 5 records
+- [authors] (2021). The internal spatial organization of firms: Evidence from Denmark. Journal of Urban Economics. https://doi.org/10.1016/j.jue.2021.103366 — 9 records
+- [authors] (2021). The social class gap in bachelor’s and master’s completion: university dropout in times of educational expansion. Higher Education. https://doi.org/10.1007/s10734-021-00726-3 — 4 records
+- [authors] (2021). Time to retire? A register-based study of GPs’ practice style prior to retirement. Social Science & Medicine. https://doi.org/10.1016/j.socscimed.2021.114099 — 9 records
+- [authors] (2021). Vacancies, Employment Outcomes and Firm Growth: Evidence from Denmark. Labour Economics. https://doi.org/10.1016/j.labeco.2021.102103 — 19 records
+- [authors] (2021). Work-related violence and depressive disorder among 955,573 employees followed for 6.99 million person-years. The Danish Work Life Course Cohort study. Journal of Affective Disorders. https://doi.org/10.1016/j.jad.2021.03.065 — 4 records
+- [authors] (2022). ‘Migrant Carer- Wives’ – Between Transnational Marriages, Care Work for Older Husbands and Gendered Precarity. Nordic Journal of Migration Research. https://doi.org/10.33134/njmr.427 — 11 records
+- [authors] (2022). Accounting for employee flows. Journal of Business Finance &amp Accounting. https://doi.org/10.1111/jbfa.12673 — 11 records
+- [authors] (2022). And Yet It Moves: Intergenerational Mobility in Italy. American Economic Journal Applied Economics. https://doi.org/10.1257/app.20210151 — 7 records
+- [authors] (2022). Characterizing the Danish Energy Prosumer: Who Buys Solar PV Systems and Why Do They Buy Them?. Ecological Economics. https://doi.org/10.1016/j.ecolecon.2021.107333 — 17 records
+- [authors] (2022). Consumption Heterogeneity: Micro Drivers and Macro Implications. American Economic Journal Macroeconomics. https://doi.org/10.1257/mac.20200352 — 8 records
+- [authors] (2022). Danish Flexicurity: Rights and Duties. The Journal of Economic Perspectives. https://doi.org/10.1257/jep.36.4.81 — 4 records
+- [authors] (2022). Employer-to-Employer Transitions and Time Aggregation Bias. Labour Economics. https://doi.org/10.1016/j.labeco.2022.102130 — 5 records
+- [authors] (2022). Globalization, Gender, and the Family. The Review of Economic Studies. https://doi.org/10.1093/restud/rdac012 — 18 records
+- [authors] (2022). Identifying behavioral responses to tax reforms: New insights and a new approach. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2022.104691 — 16 records
+- [authors] (2022). Is inequality in subjective well-being meritocratic? Danish evidence from linked survey and administrative data.. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2022.09.004 — 7 records
+- [authors] (2022). Long-term relatedness and income distribution: understanding the deep roots of inequality. Oxford Economic Papers. https://doi.org/10.1093/oep/gpac038 — 4 records
+- [authors] (2022). Lost Marie Curies: Parental Impact on the Probability of Becoming an Inventor. Management Science. https://doi.org/10.1287/mnsc.2022.4432 — 15 records
+- [authors] (2022). Migration for co‐residence among long‐distance couples: The role of local family ties and gender. Population Space and Place. https://doi.org/10.1002/psp.2631 — 8 records
+- [authors] (2022). Network Connections and Board Seats: Are Female Networks Less Valuable?. Journal of Labor Economics. https://doi.org/10.1086/719965 — 9 records
+- [authors] (2022). Nurses and infant vaccination coverage. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2022.01.030 — 4 records
+- [authors] (2022). Playing alone? Interest representation in the videogame industry in Denmark, Italy and the Netherlands. Economic and Industrial Democracy. https://doi.org/10.1177/0143831x221129651 — 9 records
+- [authors] (2022). Reference Dependence in the Housing Market. American Economic Review. https://doi.org/10.1257/aer.20191766 — 10 records
+- [authors] (2022). Representativeness of survey participants in relation to mental disorders: a linkage between national registers and a population-representative survey. International Journal for Population Data Science. https://doi.org/10.23889/ijpds.v7i4.1759 — 13 records
+- [authors] (2022). Selective migration and mortality by economic status in Lolland-Falster, Denmark, 1992–2018. Scientific Reports. https://doi.org/10.1038/s41598-022-24635-2 — 4 records
+- [authors] (2022). Socioeconomic background affects mortality in Danish children with severe chronic disease. Acta Paediatrica. https://doi.org/10.1111/apa.16540 — 7 records
+- [authors] (2022). Studying and Working: Your Student Job Affects Your Future Labor Market Outcomes. Samfundsøkonomen. https://doi.org/10.7146/samfundsokonomen.v2022i3.133978 — 7 records
+- [authors] (2022). The Retirement (Food)-Consumption Puzzle Revisited--A Panel Data Study from Denmark. Food Policy. https://doi.org/10.1016/j.foodpol.2022.102330 — 5 records
+- [authors] (2022). Vocational versus General Upper Secondary Education and Earnings. The Journal of Human Resources. https://doi.org/10.3368/jhr.0221-11497r2 — 12 records
+- [authors] (2023). A guide to estimating the canonical income process in quasidifferences. Macroeconomic Dynamics. https://doi.org/10.1017/s1365100523000457 — 13 records
+- [authors] (2023). Boys left behind: The effects of summer camp and follow-up strategies on academic, personal, and social competencies. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2023.102370 — 6 records
+- [authors] (2023). Educational consequences of a sibling's disability: Evidence from type 1 diabetes. Economics of Education Review. https://doi.org/10.1016/j.econedurev.2023.102407 — 5 records
+- [authors] (2023). Efficient Targeting in Childhood Interventions. The Journal of Human Resources. https://doi.org/10.3368/jhr.0320-10756r4 — 4 records
+- [authors] (2023). Estimating labor supply responses to Danish tax reforms. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2023.104943 — 12 records
+- [authors] (2023). Gender gaps from labor market shocks. Labour Economics. https://doi.org/10.1016/j.labeco.2023.102394 — 9 records
+- [authors] (2023). Income effects and labour supply: Evidence from a child benefits reform. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2023.105049 — 6 records
+- [authors] (2023). Interethnic Union Formation Among 1.5- and Second-Generation Immigrants: The Role of Cultural Proximity. International Migration Review. https://doi.org/10.1177/01979183231177969 — 11 records
+- Wolfgang Keller, Hale Utar (2023). International trade and job polarization: Evidence at the worker level. Journal of International Economics. https://doi.org/10.1016/j.jinteco.2023.103810 — 10 records
+- [authors] (2023). Joint Utility or Sub-optimal Outcomes? Household Income Development of Same-Sex and Different-Sex Couples Transitioning to Parenthood in Denmark, Finland, Norway, and Sweden. Journal of Family Issues. https://doi.org/10.1177/0192513x231194305 — 4 records
+- [authors] (2023). Motherhood and the Gender Productivity Gap. Journal of the European Economic Association. https://doi.org/10.1093/jeea/jvad064 — 7 records
+- [authors] (2023). New system responses to juvenile crime. Nordisk Tidsskrift for Kriminalvidenskab. https://doi.org/10.7146/ntfk.v110i3.141475 — 2 records
+- [authors] (2023). Reminder design and childhood vaccination coverage. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2023.102832 — 12 records
+- [authors] (2023). School Performance and Retrospective Voting: Evidence from Local Elections in Denmark. European Journal of Political Economy. https://doi.org/10.1016/j.ejpoleco.2023.102426 — 3 records
+- [authors] (2023). Sibling spillovers and the choice to get vaccinated: Evidence from a regression discontinuity design. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2023.102843 — 8 records
+- [authors] (2023). Social Positions and Fairness Views on Inequality. The Review of Economic Studies. https://doi.org/10.1093/restud/rdad019 — 19 records
+- [authors] (2023). The Link between Physician Motivation and Care. The European Journal of Health Economics. https://doi.org/10.1007/s10198-023-01605-7 — 5 records
+- [authors] (2023). The Unequal Consequences of Job Loss across Countries. American Economic Review Insights. https://doi.org/10.1257/aeri.20220006 — 22 records
+- [authors] (2023). Transaction Costs in Voluntary Social Organisations. International Journal of Economics and Finance. https://doi.org/10.5539/ijef.v15n4p35 — 10 records
+- [authors] (2023). Undeclared Danish Labor: Using the Labor Input Method with Linked Individual-Level Tax Data to Estimate Undeclared Work in Denmark. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2023.08.017 — 11 records
+- [authors] (2024). Beliefs About the Economy are Excessively Sensitive to Household-Level Shocks: Evidence from Linked Survey and Administrative Data. The Quarterly Journal of Economics. https://doi.org/10.1093/qje/qjag032 — 13 records
+- [authors] (2024). Changes in vaccination uptake against pneumococcal disease, influenza, and coronavirus disease 2019 (COVID-19) before and after a Head and Neck cancer diagnosis. Vaccine. https://doi.org/10.1016/j.vaccine.2024.05.021 — 7 records
+- [authors] (2024). Duration and timing of depression and risk of family dissolution: A register-based cohort study of newly-formed Danish families. Journal of Affective Disorders. https://doi.org/10.1016/j.jad.2024.01.022 — 5 records
+- [authors] (2024). Forecasting Inequalities in Survival to Retirement Age by Socioeconomic Status in Denmark and Sweden. European Journal of Population / Revue européenne de Démographie. https://doi.org/10.1007/s10680-024-09704-8 — 6 records
+- [authors] (2024). Gender and socioeconomic dimensions of relative age effects on ADHD prescriptions: Evidence from Denmark. Economics Letters. https://doi.org/10.1016/j.econlet.2024.112000 — 5 records
+- [authors] (2024). Is There a Link between Health Care Utilisation and Subjective Well-Being? An Exploratory Study among Older Danes. The European Journal of Health Economics. https://doi.org/10.1007/s10198-024-01691-1 — 4 records
+- [authors] (2024). Job ladders and labour market assimilation of immigrants. Labour Economics. https://doi.org/10.1016/j.labeco.2024.102594 — 12 records
+- [authors] (2024). Live longer, work longer? An investigation of the health capacity to work at older ages in Denmark using combined register and survey data. Journal for Labour Market Research. https://doi.org/10.1186/s12651-024-00360-3 — 5 records
+- [authors] (2024). Pension reform and wealth inequality: Theory and evidence. European Economic Review. https://doi.org/10.1016/j.euroecorev.2024.104746 — 4 records
+- [authors] (2024). Public Pensions and Private Savings. American Economic Journal Economic Policy. https://doi.org/10.1257/pol.20220019 — 12 records
+- [authors] (2024). Robots and immigration. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2024.106708 — 4 records
+- [authors] (2024). Subjective well-being and chronic illnesses: A combined survey and register study. International Journal of Wellbeing. https://doi.org/10.5502/ijw.v14i1.2443 — 4 records
+- [authors] (2024). Taxing the Wealth of the Poor: Evidence from the Danish Old-Age Support Asset Test. American Economic Review Insights. https://doi.org/10.1257/aeri.20240634 — 5 records
+- [authors] (2024). The coverage of influenza vaccination and predictors of influenza non-vaccination in Danish cancer patients: A nationwide register-based cohort study. Vaccine. https://doi.org/10.1016/j.vaccine.2024.02.009 — 7 records
+- [authors] (2024). The division of parental leave: Empirical evidence and policy design. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2024.105202 — 10 records
+- [authors] (2024). The education-health gradient: Revisiting the role of socio-emotional skills. Journal of Health Economics. https://doi.org/10.1016/j.jhealeco.2024.102911 — 15 records
+- [authors] (2024). The effect of influenza vaccination on the rate of dementia amongst older adults. European Journal of Neurology. https://doi.org/10.1111/ene.16489 — 10 records
+- [authors] (2024). The Gender Application Gap: Do Men and Women Apply for the Same Jobs?. American Economic Journal Economic Policy. https://doi.org/10.1257/pol.20210607 — 6 records
+- [authors] (2024). The life-cycle and opportunities of migrants and natives in the Danish experience. Journal of Economic Behavior & Organization. https://doi.org/10.1016/j.jebo.2024.106867 — 4 records
+- [authors] (2024). The long‐term impact of Danish vulnerable neighbourhoods in adolescence on employment status in emerging adulthood. Population Space and Place. https://doi.org/10.1002/psp.2829 — 5 records
+- [authors] (2024). The scale and nature of neighborhood effects on children. Journal of Public Economics. https://doi.org/10.1016/j.jpubeco.2024.105260 — 14 records
+- [authors] (2024). Untying the Knot: How Child Support and Alimony Affect Couples’ Dynamic Decisions and Welfare. The Review of Economic Studies. https://doi.org/10.1093/restud/rdae105 — 8 records
+- [authors] (2024). When inequality means equity: horizontal wage dispersion and the propensity to leave current employment across different organizational settings. Industrial and Corporate Change. https://doi.org/10.1093/icc/dtae023 — 3 records
+- [authors] (2024). Worker reallocation, firm innovation, and Chinese import competition. Journal of International Economics. https://doi.org/10.1016/j.jinteco.2024.103951 — 11 records
+- [authors] (2024). Working Hours, Top Management Appointments, and Gender: Evidence from Linked Employer-Employee Data. Journal of Labor Economics. https://doi.org/10.1086/733490 — 4 records
+- [authors] (2025). Association between intimate partner violence and birth outcomes among pregnant women in the STOP‐VIO‐PREG cohort: A cohort study utilizing Patient‐Reported Outcome and Danish registers data. Acta Obstetricia Et Gynecologica Scandinavica. https://doi.org/10.1111/aogs.15175 — 4 records
+- [authors] (2025). Building stock modelling for circularity: Insights from a Danish component-level model. Resources Conservation and Recycling. https://doi.org/10.1016/j.resconrec.2025.108397 — 2 records
+- [authors] (2025). Changing Landscapes of Parenthood: Childbearing Among Same‐Sex and Different‐Sex Couples in the Nordic Countries. Population and Development Review. https://doi.org/10.1111/padr.70068 — 10 records
+- [authors] (2025). Changing Tracks: Human Capital Investment after Loss of Ability. American Economic Review. https://doi.org/10.1257/aer.20231067 — 9 records
+- [authors] (2025). Danish flexicurity and occupational mobility: A comparison with the United States. Economics Letters. https://doi.org/10.1016/j.econlet.2025.112743 — 5 records
+- [authors] (2025). Danish parents’ vaccination readiness is associated with their children’s officially registered vaccination history. Vaccine. https://doi.org/10.1016/j.vaccine.2024.126693 — 3 records
+- [authors] (2025). Does volunteering reduce antidepressant use among older adults? Longitudinal register-based evidence from Denmark. Social Science Research. https://doi.org/10.1016/j.ssresearch.2025.103172 — 5 records
+- [authors] (2025). Effect of a proactive childhood vaccination reminder system on vaccination coverage and uptake in Denmark: A register-based cohort study. Vaccine. https://doi.org/10.1016/j.vaccine.2025.126934 — 11 records
+- [authors] (2025). Elite corporate networks and CEO compensation: the causes and consequences of CEO pay premiums. Socio-Economic Review. https://doi.org/10.1093/ser/mwaf004 — 3 records
+- [authors] (2025). Family reunification and mental health. Economics Letters. https://doi.org/10.1016/j.econlet.2025.112479 — 5 records
+- [authors] (2025). Mandatory pension contributions, household consumption, and savings. Journal of Pensions Economics and Finance. https://doi.org/10.1017/s147474722510005x — 8 records
+- [authors] (2025). Micro versus Macro Labor Supply Elasticities: The Role of Dynamic Returns to Effort. American Economic Review. https://doi.org/10.1257/aer.20240554 — 12 records
+- [authors] (2025). On the determinants of residential segregation of immigrants and descendants. Cities. https://doi.org/10.1016/j.cities.2025.106209 — 8 records
+- [authors] (2025). Out-of-Home-Care Rates among Indigenous and Non-Indigenous Children in Countries With Histories of Settler Colonialism. Child Maltreatment. https://doi.org/10.1177/10775595251411524 — 6 records
+- [authors] (2025). Overcoming obstacles to innovation: Can an educated workforce help?. Journal of Innovation & Knowledge. https://doi.org/10.1016/j.jik.2025.100707 — 6 records
+- [authors] (2025). Persistent Trends or Pandemic Effects? A Multi-cohort Longitudinal Study on Student Well-Being, Inequality, and Educational Transitions. Social Indicators Research. https://doi.org/10.1007/s11205-025-03617-7 — 12 records
+- [authors] (2025). Predictors of domestic infant adoption – what characterizes the family circumstances of parents and children prior to adoption?. Developmental Child Welfare. https://doi.org/10.1177/25161032251324853 — 7 records
+- [authors] (2025). Price response in residential electricity demand: Evidence from Danish smart meter data. Energy Economics. https://doi.org/10.1016/j.eneco.2025.109087 — 10 records
+- [authors] (2025). Public Versus Private Providers: How Ownership Impacts Quality in Public Service Markets. Public Administration. https://doi.org/10.1111/padm.70017 — 3 records
+- [authors] (2025). School Absence Among Children With Juvenile Idiopathic Arthritis: A National Matched Comparison Study. The Journal of Rheumatology. https://doi.org/10.3899/jrheum.2024-1182 — 8 records
+- [authors] (2025). Segmentation of Working Time in the Gig Economy— A Panel Data Study. Nordic Journal of Working Life Studies. https://doi.org/10.18291/njwls.158796 — 3 records
+- [authors] (2025). Socioeconomic inequalities in survival to retirement age in Denmark: a register-based analysis. Genus. https://doi.org/10.1186/s41118-025-00258-z — 9 records
+- [authors] (2025). Spatial Wage Differentials, Geographic Frictions and the Organization of Labor within Firms. Regional Science and Urban Economics. https://doi.org/10.1016/j.regsciurbeco.2025.104128 — 6 records
+- [authors] (2025). Survivors' Mental Health and the Protective Role of Income Stability. American Economic Review Insights. https://doi.org/10.1257/aeri.20250006 — 3 records
+- [authors] (2025). Vaccination against measles-mumps-rubella and rates of non-targeted infectious disease hospitalisations: Nationwide register-based cohort studies in Denmark, Finland, Norway, and Sweden. Journal of Infection. https://doi.org/10.1016/j.jinf.2024.106365 — 6 records
+- [authors] (2026). Assortative Mating and Education Gradients Within and Across Generations. CESifo. https://doi.org/10.65864/o9wl4x5kxa — 13 records
+- [authors] (2026). Back to the countryside? Remote work and counterurbanisation in Denmark and Sweden. Regional Science Policy & Practice. https://doi.org/10.1016/j.rspp.2026.100297 — 14 records
+- [authors] (2026). CEO aging and investment propensity: Experimental evidence. Journal of Corporate Finance. https://doi.org/10.1016/j.jcorpfin.2026.103074 — 11 records
+- [authors] (2026). Competing Demographic Drivers of Hospital Expenditures: Coexistence of the Red Herring and the Steepening Effects. Health Economics. https://doi.org/10.1002/hec.70092 — 8 records
+- [authors] (2026). Dad went to prison, but school goes on. Journal of Criminal Justice. https://doi.org/10.1016/j.jcrimjus.2026.102741 — 5 records
+- [authors] (2026). Digital skill adoption and employment dynamics: Evidence from matched vacancy-employer–employee data. Research Policy. https://doi.org/10.1016/j.respol.2026.105476 — 11 records
+- [authors] (2026). Does schooling increase or reduce inequality in achievement and conscientiousness in Denmark?. Research in Social Stratification and Mobility. https://doi.org/10.1016/j.rssm.2026.101129 — 6 records
+- Mathias Fjællegaard Jensen, Ning Zhang (2026). Effects of Parental Death on Labor Market Outcomes. American Economic Review. https://doi.org/10.1257/aer.20240432 — 9 records
+- [authors] (2026). Foundation ownership and parental leave uptake: Evidence from a Danish reform. Finance research letters. https://doi.org/10.1016/j.frl.2026.110043 — 7 records
+- [authors] (2026). Globalization and the gender gap in mental well-being. Journal of International Economics. https://doi.org/10.1016/j.jinteco.2026.104253 — 7 records
+- [authors] (2026). Impacts of criminal records on labor market outcomes: Theoretical and empirical evidence from Denmark. Labour Economics. https://doi.org/10.1016/j.labeco.2026.102891 — 7 records
+- [authors] (2026). Influenza Vaccination Among Individuals With Type 1 Diabetes in Denmark: Coverage, Persistence, and Determinants, 2015–2022. Diabetes Obesity and Metabolism. https://doi.org/10.1111/dom.70965 — 12 records
+- [authors] (2026). Location-specific wage effects from offshoring and backshoring. Global challenges & regional science.. https://doi.org/10.1016/j.gcrs.2026.100030 — 7 records
+- [authors] (2026). Measuring higher education: comparing Danish survey and register data in the study of values. Quality & Quantity. https://doi.org/10.1007/s11135-026-03042-z — 10 records
+- [authors] (2026). Når daginstitutionen gøres nødvendig: Politisk diskurs og hjemmepassende forældres fortællinger om små børns behov. Nordisk tidsskrift for pedagogikk og kritikk. https://doi.org/10.23865/ntpk.v12.7050 — 4 records
+- [authors] (2026). New venture team stability and long-run organizational growth. Strategic Entrepreneurship Journal. https://doi.org/10.1002/sej.70011 — 9 records
+- [authors] (2026). Nuanced Wealth Inequality: How Measurement Choices Affect the Gini Coefficient in 30 European Countries. Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.21885963 — 14 records
+- [authors] (2026). Old firms and the relationship between age and size. Scandinavian Journal of Economics. https://doi.org/10.1111/sjoe.70016 — 8 records
+- [authors] (2026). Pathways Through Public Services for Maltreated Children in Care: A Scoping Review of Studies Using Linked Administrative Data. International Journal for Population Data Science. https://doi.org/10.23889/ijpds.v11i5.3622 — 8 records
+- [authors] (2026). Patterns of service contacts for children who have experienced maltreatment and are known to social services: a Linked Routine Administrative Data Study in Wales, England and Denmark. International Journal for Population Data Science. https://doi.org/10.23889/ijpds.v11i5.3623 — 6 records
+- [authors] (2026). Preaching to the converted: Cultural intermediaries and cultural consumer behavior. Poetics. https://doi.org/10.1016/j.poetic.2026.102088 — 4 records
+- [authors] (2026). SOCIAL LEARNING THEORY AND CRIMINAL OFFENDING: SOURCES, MECHANISMS AND CONTEMPORARY EXPRESSIONS IN SELECTED EUROPEAN UNION MEMBER STATES. E-Journal VFU. https://doi.org/10.53606/evfu.26.542-559 — 14 records
+- [authors] (2026). The effect of job loss on labor supply, wealth, and spousal labor supply for older workers. Journal of Population Economics. https://doi.org/10.1007/s00148-026-01205-8 — 13 records
+- [authors] (2026). The Longitudinal Association Between Organized Leisure Sports and School-Related Social Well-Being. Healthcare. https://doi.org/10.3390/healthcare14193288 — 1 record
+- [authors] (2026). The Moving Parts of Life: A Meso-level Analysis of Interregional Migration Patterns after Life Course Events. The Annals of Regional Science. https://doi.org/10.1007/s00168-026-01478-7 — 17 records
+- [authors] (2026). The Myth of Nordic Mobility: Social Mobility Rates in Modern Denmark and Sweden. Comparative Economic Studies. https://doi.org/10.1057/s41294-025-00267-z — 6 records
+- [authors] (2026). Universal Daycare and Mothers’ Working Lifetime. The Economic Journal. https://doi.org/10.1093/ej/ueag031 — 13 records
+- [authors] (2026). Using Beneficial Ownership Data for Systematic Risk Assessment in Public procurement. The Example of 6 European Countries. European Journal on Criminal Policy and Research. https://doi.org/10.1007/s10610-025-09654-9 — 8 records
+- [authors] (2026). Using home‐equity release to strengthen retirement incomes: potential and challenges. Fiscal Studies. https://doi.org/10.1111/1475-5890.70027 — 4 records
+- [authors] (2026). Wage Expectations and Job Search. CESifo. https://doi.org/10.65864/2ozmiizto5 — 8 records
+- [authors] (2026). What Can Providers' Motivations Tell Us About Healthcare Quality?. Health Economics. https://doi.org/10.1002/hec.70144 — 6 records
+- [authors] (2026). When It Hurts the Most: Timing of Parental Job Loss and a Child’s Education,. Journal of the European Economic Association. https://doi.org/10.1093/jeea/jvag048 — 9 records
+- [authors] (2026). Who drove the marriage rate decline in the wake of the Great Recession?. Journal of Family Research. https://doi.org/10.20377/jfr-1378 — 7 records
+- [authors] (2026). Why Are Marginal Workers Unemployed: Low Productivity or High Opportunity Cost of Employment?. Labour Economics. https://doi.org/10.1016/j.labeco.2025.102847 — 6 records
+
+## Provenance
+
+- Preset / schema: `register-claims@f7387875`
+- Engine: Metalens 2.0.0
+- Files: `metadata.json` (recipe, preset spec, stats, credibility), `results.json` (one entry per paper with its records, evidence quotes and per-paper provenance)
+- Every value was extracted from the source PDF with a verbatim evidence quote and page; the credibility badge is computed from human verification events.
