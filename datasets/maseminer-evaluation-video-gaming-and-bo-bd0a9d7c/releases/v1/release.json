@@ -1,0 +1,735 @@
+{
+ "format": "metalens-release",
+ "format_version": 1,
+ "dataset": {
+  "id": "bd0a9d7c-7603-46ea-b9ab-93b67ae7b4a2",
+  "url": "https://metalens.tech/dataset?slug=maseminer-evaluation-video-gaming-and-bo-bd0a9d7c",
+  "title": "MASEMiner evaluation · Video gaming and body mass (Marker et al., 2022)",
+  "slug": "maseminer-evaluation-video-gaming-and-bo-bd0a9d7c",
+  "author": null,
+  "citation": "[author] (2026). MASEMiner evaluation · Video gaming and body mass (Marker et al., 2022) (version 1) [Data set]. Metalens. https://metalens.tech/dataset?id=bd0a9d7c-7603-46ea-b9ab-93b67ae7b4a2",
+  "published_url": null,
+  "description": "Ten primary studies of the meta-analysis by Marker, Gnambs & Appel (2022) on sedentary video gaming and body mass, extracted with the MASEMiner direct-information preset (gpt-5.6-sol) and then corrected cell by cell to the reference database of the meta-analysis. Each correction is a recorded human edit, so the published values equal the reference coding and the audit trail shows the model's omissions, over-extractions and wrong values. Held-out validation case of Schroeders, Gnambs & Einsiedler (2026).",
+  "keywords": []
+ },
+ "evidence_policy": {
+  "max_chars": 200,
+  "mark": "…",
+  "text": "Quotations in these files are cut to at most 200 characters around the extracted value, with the page and the source kept: the snippet length publishers' text-and-data-mining terms allow for published output (Elsevier TDM licence). A cut end is marked with an ellipsis. The full quotations are kept with the dataset on Metalens, where its owner reviews them against the papers.",
+  "dataset_url": "https://metalens.tech/dataset?slug=maseminer-evaluation-video-gaming-and-bo-bd0a9d7c"
+ },
+ "release": {
+  "number": 1,
+  "created_at": "2026-10-23T15:08:10+00:00",
+  "content_sha": "8ab2abc5c93298835db649a3179a8d3cde42692d6193cfafe3cd37f1588c1dda",
+  "notes": null,
+  "changes": {
+   "first": true,
+   "status": {
+    "newly_flagged": 0,
+    "newly_verified": 17
+   },
+   "records": {
+    "added": 17,
+    "changed": 0,
+    "removed": 0
+   },
+   "n_papers": 10,
+   "n_records": 17,
+   "papers_added": [
+    {
+     "doi": "10.1038/oby.2004.109",
+     "study": "Stettler et al. (2004)",
+     "title": "Electronic Games and Environmental Factors Associated with Childhood Obesity in Switzerland",
+     "records": 1
+    },
+    {
+     "doi": null,
+     "study": "Touchette et al. (2008)",
+     "title": "Associations Between Sleep Duration Patterns and Overweight/Obesity at Age 6",
+     "records": 1
+    },
+    {
+     "doi": "10.1089/cpb.2008.0151",
+     "study": "Wack & Tantleff-Dunn (2009)",
+     "title": "Relationships between Electronic Game Play, Obesity, and Psychosocial Functioning in Young Men",
+     "records": 1
+    },
+    {
+     "doi": "10.1038/oby.2009.278",
+     "study": "Pitrou et al. (2010)",
+     "title": "Child Overweight, Associated Psychopathology, and Social Functioning: A French School-based Survey in 6- to 11-year-old Children",
+     "records": 1
+    },
+    {
+     "doi": "10.1186/1471-2458-12-1053",
+     "study": "Grydeland et al. (2012)",
+     "title": "Correlates of weight status among Norwegian 11-year-olds: The HEIA study",
+     "records": 1
+    },
+    {
+     "doi": "10.1007/s40519-014-0128-1",
+     "study": "Siervo et al. (2014)",
+     "title": "Frequent video-game playing in young males is associated with central adiposity and high-sugar, low-fibre dietary consumption",
+     "records": 1
+    },
+    {
+     "doi": "10.1155/2014/364702",
+     "study": "Mo-suwan et al. (2014)",
+     "title": "Computer Game Use and Television Viewing Increased Risk for Overweight among Low Activity Girls: Fourth Thai National Health Examination Survey 2008-2009",
+     "records": 3
+    },
+    {
+     "doi": "10.1186/s12889-015-2598-0",
+     "study": "Mwaikambo et al. (2015)",
+     "title": "Why are primary school children overweight and obese? A cross sectional study undertaken in Kinondoni district, Dar-es-salaam",
+     "records": 1
+    },
+    {
+     "doi": "10.1093/eurpub/ckv071",
+     "study": "Martinovic et al. (2015)",
+     "title": "Prevalence of and contributing factors for overweight and obesity among Montenegrin schoolchildren",
+     "records": 1
+    },
+    {
+     "doi": "10.1186/s12889-015-2131-5",
+     "study": "Thomée et al. (2015)",
+     "title": "Leisure time computer use and overweight development in young adults – a prospective study",
+     "records": 6
+    }
+   ],
+   "papers_removed": [],
+   "preset_changed": false
+  },
+  "doi": null,
+  "concept_doi": null
+ },
+ "credibility": {
+  "tier": "human_verified",
+  "label": "Human-verified · 47% agree",
+  "audited": 17,
+  "n_records": 17
+ },
+ "engine": {
+  "name": "metalens",
+  "git_sha": null,
+  "version": "2.0.0"
+ },
+ "preset": {
+  "id": "masem-direct",
+  "title": "MASEMiner — direct information"
+ },
+ "schema_id": "masem-direct@eb5f0287",
+ "n_papers": 10,
+ "left_out": null,
+ "units": [
+  {
+   "id": "entries",
+   "label": "Sample",
+   "level": "entry",
+   "default": false,
+   "n_rows": 17,
+   "file": "tables/entries.json",
+   "columns": [
+    {
+     "name": "_study",
+     "label": "Study",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 10
+    },
+    {
+     "name": "_title",
+     "label": "Paper title",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 10
+    },
+    {
+     "name": "_doi",
+     "label": "DOI",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 16,
+     "distinct": 9
+    },
+    {
+     "name": "_year",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "system",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 7
+    },
+    {
+     "name": "_journal",
+     "label": "Journal",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "_entry",
+     "label": "Entry",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 17
+    },
+    {
+     "name": "_status",
+     "label": "Verification status",
+     "type": "enum",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 1
+    },
+    {
+     "name": "sample_id",
+     "label": "Sample id",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 17
+    },
+    {
+     "name": "pubyear",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "entry",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 7
+    },
+    {
+     "name": "country",
+     "label": "Country",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 10
+    },
+    {
+     "name": "continent",
+     "label": "Continent",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 16,
+     "distinct": 4
+    },
+    {
+     "name": "lang",
+     "label": "Language",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 2,
+     "distinct": 2
+    },
+    {
+     "name": "pubtype",
+     "label": "Publication type",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 17,
+     "distinct": 1
+    },
+    {
+     "name": "female",
+     "label": "% female",
+     "type": "number",
+     "scope": "entry",
+     "roles": [
+      "measure"
+     ],
+     "n": 16,
+     "distinct": 8
+    },
+    {
+     "name": "age",
+     "label": "Mean age",
+     "type": "number",
+     "scope": "entry",
+     "roles": [
+      "measure"
+     ],
+     "n": 8,
+     "distinct": 8
+    },
+    {
+     "name": "clinical",
+     "label": "Clinical status",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 16,
+     "distinct": 1
+    },
+    {
+     "name": "notes",
+     "label": "Notes",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 17,
+     "distinct": 13
+    }
+   ]
+  },
+  {
+   "id": "records",
+   "label": "Effect size",
+   "level": "child",
+   "default": true,
+   "n_rows": 39,
+   "file": "tables/records.json",
+   "columns": [
+    {
+     "name": "_study",
+     "label": "Study",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 10
+    },
+    {
+     "name": "_title",
+     "label": "Paper title",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 10
+    },
+    {
+     "name": "_doi",
+     "label": "DOI",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "label",
+      "identifier",
+      "dimension"
+     ],
+     "n": 37,
+     "distinct": 9
+    },
+    {
+     "name": "_year",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "system",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 7
+    },
+    {
+     "name": "_journal",
+     "label": "Journal",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "_entry",
+     "label": "Entry",
+     "type": "string",
+     "scope": "system",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 17
+    },
+    {
+     "name": "_status",
+     "label": "Verification status",
+     "type": "enum",
+     "scope": "system",
+     "roles": [
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 1
+    },
+    {
+     "name": "sample_id",
+     "label": "Sample id",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "identifier",
+      "label",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 17
+    },
+    {
+     "name": "pubyear",
+     "label": "Publication year",
+     "type": "integer",
+     "scope": "entry",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 7
+    },
+    {
+     "name": "country",
+     "label": "Country",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 10
+    },
+    {
+     "name": "continent",
+     "label": "Continent",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 37,
+     "distinct": 4
+    },
+    {
+     "name": "lang",
+     "label": "Language",
+     "type": "string",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 5,
+     "distinct": 2
+    },
+    {
+     "name": "pubtype",
+     "label": "Publication type",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 39,
+     "distinct": 1
+    },
+    {
+     "name": "female",
+     "label": "% female",
+     "type": "number",
+     "scope": "entry",
+     "roles": [
+      "measure"
+     ],
+     "n": 38,
+     "distinct": 8
+    },
+    {
+     "name": "age",
+     "label": "Mean age",
+     "type": "number",
+     "scope": "entry",
+     "roles": [
+      "measure"
+     ],
+     "n": 20,
+     "distinct": 8
+    },
+    {
+     "name": "clinical",
+     "label": "Clinical status",
+     "type": "enum",
+     "scope": "entry",
+     "roles": [
+      "dimension"
+     ],
+     "n": 37,
+     "distinct": 1
+    },
+    {
+     "name": "notes",
+     "label": "Notes",
+     "type": "text",
+     "scope": "entry",
+     "roles": [],
+     "n": 39,
+     "distinct": 13
+    },
+    {
+     "name": "var1",
+     "label": "Variable 1",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 34,
+     "distinct": 2
+    },
+    {
+     "name": "var2",
+     "label": "Variable 2",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 34,
+     "distinct": 2
+    },
+    {
+     "name": "desc1",
+     "label": "Operationalisation 1",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 34,
+     "distinct": 17
+    },
+    {
+     "name": "desc2",
+     "label": "Operationalisation 2",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 34,
+     "distinct": 22
+    },
+    {
+     "name": "es",
+     "label": "Effect size",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "measure"
+     ],
+     "n": 34,
+     "distinct": 31
+    },
+    {
+     "name": "type",
+     "label": "Effect-size type",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 34,
+     "distinct": 2
+    },
+    {
+     "name": "n",
+     "label": "N",
+     "type": "integer",
+     "scope": "child",
+     "roles": [
+      "measure",
+      "dimension"
+     ],
+     "n": 28,
+     "distinct": 12
+    },
+    {
+     "name": "rel1",
+     "label": "Reliability 1",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "measure"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "rel2",
+     "label": "Reliability 2",
+     "type": "number",
+     "scope": "child",
+     "roles": [
+      "measure"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "rel1_type",
+     "label": "Reliability type 1",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "rel2_type",
+     "label": "Reliability type 2",
+     "type": "enum",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 0,
+     "distinct": 0
+    },
+    {
+     "name": "instr1",
+     "label": "Instrument 1",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 33,
+     "distinct": 13
+    },
+    {
+     "name": "instr2",
+     "label": "Instrument 2",
+     "type": "string",
+     "scope": "child",
+     "roles": [
+      "dimension"
+     ],
+     "n": 30,
+     "distinct": 12
+    },
+    {
+     "name": "es_ci_lo",
+     "label": "Effect size, lower 95% bound",
+     "type": "number",
+     "scope": "derived",
+     "roles": [
+      "bound"
+     ],
+     "n": 9,
+     "distinct": 9,
+     "derived": {
+      "id": "es_ci",
+      "formula": "r_ci_fisher",
+      "output": "lo",
+      "inputs": [
+       "es",
+       "n"
+      ],
+      "text": "95% CI of a correlation via Fisher's z: tanh(atanh(r) ± 1.96 / sqrt(n − 3))"
+     }
+    },
+    {
+     "name": "es_ci_hi",
+     "label": "Effect size, upper 95% bound",
+     "type": "number",
+     "scope": "derived",
+     "roles": [
+      "bound"
+     ],
+     "n": 9,
+     "distinct": 9,
+     "derived": {
+      "id": "es_ci",
+      "formula": "r_ci_fisher",
+      "output": "hi",
+      "inputs": [
+       "es",
+       "n"
+      ],
+      "text": "95% CI of a correlation via Fisher's z: tanh(atanh(r) ± 1.96 / sqrt(n − 3))"
+     }
+    }
+   ]
+  }
+ ],
+ "files": [
+  "README.md",
+  "evidence.json",
+  "release.json",
+  "tables/entries.json",
+  "tables/records.json",
+  "tile-prompt.md"
+ ]
+}
