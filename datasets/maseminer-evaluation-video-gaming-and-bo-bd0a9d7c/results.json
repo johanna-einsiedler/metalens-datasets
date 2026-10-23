@@ -1,0 +1,1861 @@
+{
+  "papers": [
+    {
+      "filename": "grydland2012.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1186/1471-2458-12-1053",
+          "year": 2012,
+          "title": "Correlates of weight status among Norwegian 11-year-olds: The HEIA study",
+          "authors": [
+            "May Grydeland",
+            "Ingunn H Bergh",
+            "Mona Bjelland",
+            "Nanna Lien",
+            "Lene F Andersen",
+            "Yngvar Ommundsen",
+            "Knut-Inge Klepp",
+            "Sigmund A Anderssen"
+          ]
+        },
+        "samples": [
+          {
+            "age": 11.2,
+            "lang": null,
+            "notes": "Only crude univariate odds ratios were extracted; adjusted odds ratios were excluded. Exact construct-specific reliability coefficients were unavailable. The general statement that self-reported behavioral outcomes mostly had test-retest r > 0.6 was not assigned to individual measures. Respondent language, continent, and clinical status were not explicitly reported.",
+            "female": 50.3,
+            "country": "Norway",
+            "pubtype": 1,
+            "pubyear": 2012,
+            "records": [
+              {
+                "n": 1103,
+                "es": 0.99,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Overweight/obese weight category based on objectively measured BMI and age- and gender-specific International Obesity Task Force cutoffs",
+                "desc2": "Accelerometer-measured moderate-to-vigorous physical activity in minutes per day",
+                "instr1": "Tanita TBF-300 scale, wall-mounted height tape, and International Obesity Task Force BMI cutoffs",
+                "instr2": "ActiGraph GT1M/CSA model 7164 accelerometer",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1103,
+                "es": 1.43,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight/obese weight category based on objectively measured BMI and age- and gender-specific International Obesity Task Force cutoffs",
+                "desc2": "Self-reported hours per day playing computer or electronic games",
+                "instr1": "Tanita TBF-300 scale, wall-mounted height tape, and International Obesity Task Force BMI cutoffs",
+                "instr2": "HEIA Internet-based questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": null,
+            "continent": null,
+            "sample_id": "HEIA study: Norwegian 11-year-old adolescents",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "The adolescents present at the day of the data collection with complete anthropometric measures and valid accelerometer data (n = 1103) are included in this paper.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Table 2 Factors associated with being overweight/obese a in a group of 11-year-old Norwegian adolescents (n = 1103)",
+            "page": 6,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "MVPA (min/day) 0.99 0.98, 0.995 0.003",
+            "page": 6,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "Table 2 Factors associated with being overweight/obese a in a group of 11-year-old Norwegian adolescents (n = 1103)",
+            "page": 6,
+            "source": null,
+            "field": "samples[0].records[1].n"
+          },
+          {
+            "snippet": "Computer game (hrs/day) 1.43 1.18, 1.74 <0.001",
+            "page": 6,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "Age (years) 11.2 (0.3)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].age"
+          },
+          {
+            "snippet": "Girls (% (n)) 50 (555)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].female"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:13:37.960661+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "siervo2014.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1007/s40519-014-0128-1",
+          "year": 2014,
+          "title": "Frequent video-game playing in young males is associated with central adiposity and high-sugar, low-fibre dietary consumption",
+          "authors": [
+            "Mario Siervo",
+            "Hannah Cameron",
+            "Jonathan C. K. Wells",
+            "Jose Lara"
+          ]
+        },
+        "samples": [
+          {
+            "age": null,
+            "lang": null,
+            "notes": "All effects are zero-order Spearman correlations for the whole sample. No analyzed-sample reliability estimates were reported. Respondent language was not reported. The paper reported a median age of 21 years and an age range of 18\u201327 years, but no mean age.",
+            "female": 0,
+            "country": "United Kingdom",
+            "pubtype": 1,
+            "pubyear": 2014,
+            "records": [
+              {
+                "n": 45,
+                "es": 0.3,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Body mass index (kg/m2), calculated from measured height and body weight",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "SECA-214 portable stadiometer and Tanita-305 body-fat analyser",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": 0.42,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Waist circumference measured at the midpoint between the iliac crest and bottom of the rib cage",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": null,
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": 0.47,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Fat mass in kilograms assessed by bioelectrical impedance analysis",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "Tanita-305 body-fat analyser",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": -0.02,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Total walking in MET-minutes per week",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": -0.28,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Total moderate physical activity in MET-minutes per week",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": -0.3,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Total vigorous physical activity in MET-minutes per week",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 45,
+                "es": -0.24,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Total physical activity in MET-minutes per week",
+                "desc2": "Total video-game playing in hours per week across PC, console, and exercise games",
+                "instr1": "International Physical Activity Questionnaire (IPAQ, long-version)",
+                "instr2": "Video-game questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Whole sample of male Newcastle University students",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "Participants were 45 male students aged at Newcastle Uni-\nversity (UK) between 18 and 27 years.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "A total of 45 young males (age range 18\u201327 years, BMI range 18.5\u201335.1 kg/m2) were recruited.",
+            "page": 1,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Table 3 Correlation between total video-game playing (hours/week) with body composition, blood pressure, dietary intake, lifestyle and behavioural factors",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "BMI (kg/m2)\n0.30*\nWC (cm)\n0.42**\nFat mass (kg)\n0.47**",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "Total walking\n-0.02\nTotal moderate PA\n-0.28\nTotal vigorous PA\n-0.30*\nTotal PA\n-0.24",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "Spearman\u2019s coef\ufb01cients of correlation (q) are reported.",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "Frequent gamers (n = 21) did not differ in mean age, education, ethnicity, medical conditions, and smoking from non-frequent gamers (n = 24).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:15:12.540656+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "touchette2008.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": null,
+          "year": 2008,
+          "title": "Associations Between Sleep Duration Patterns and Overweight/Obesity at Age 6",
+          "authors": [
+            "\u00c9velyne Touchette",
+            "Dominique Petit",
+            "Richard E. Tremblay",
+            "Michel Boivin",
+            "Bruno Falissard",
+            "Christophe Genolini",
+            "Jacques Y. Montplaisir"
+          ]
+        },
+        "samples": [
+          {
+            "age": 6,
+            "lang": "French and English",
+            "notes": "The unadjusted odds ratios were reported in Table 2a. The table identifies the overall sample as N=1138 but reports 28 missing observations for each lifestyle variable; no derived complete-case n was calculated. No analyzed-sample reliability estimates were reported. Percentage female was not directly reported and was not derived from the reported percentage of boys.",
+            "female": 53.2,
+            "country": "Canada",
+            "pubtype": 1,
+            "pubyear": 2008,
+            "records": [
+              {
+                "n": 1138,
+                "es": 1.17,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Overweight/obesity at age 6, defined from BMI using sex- and age-specific international standards",
+                "desc2": "Doing physical activities less than 1 time monthly versus at least 1 time weekly",
+                "instr1": "Body mass index (kg/m2)",
+                "instr2": "Interview",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1138,
+                "es": 0.84,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight/obesity at age 6, defined from BMI using sex- and age-specific international standards",
+                "desc2": "Playing video games at least 1 hour weekly versus less than 1 hour weekly",
+                "instr1": "Body mass index (kg/m2)",
+                "instr2": "Interview",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "North America",
+            "sample_id": "Quebec Longitudinal Study of Child Development children assessed at age 6",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "This research was conducted as part as the Quebec Longitudinal Study of Child Development (started at March 1998), initiated by the Quebec Institute of Statistics.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Table 2a\u2014Odds Ratio (OR) and 95% Confidence Intervals (CI) of Different Potential Confounding Factors and Overweight/Obesity in a Sample (N=1138) of Children 6 Years of Age",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Doing physical activities - < 1 time monthly     1.17     (0.76 - 1.80)     28     0.47",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "Playing video games - \u2265 1 h weekly     0.84     (0.48 - 1.48)     28     0.55",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "The relationship between BMI and longitudinal sleep duration patterns was tested on 1138 children",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].records[1].n"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:16:24.475448+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "mwaikambo2015.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1186/s12889-015-2598-0",
+          "year": 2015,
+          "title": "Why are primary school children overweight and obese? A cross sectional study undertaken in Kinondoni district, Dar-es-salaam",
+          "authors": [
+            "Sijenunu A. Mwaikambo",
+            "Germana H. Leyna",
+            "Japhet Killewo",
+            "Azma Simba",
+            "Thandi Puoane"
+          ]
+        },
+        "samples": [
+          {
+            "age": 10.9,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted odds ratios were excluded. No analyzed-sample reliability coefficients, respondent language, or overall percentage female were explicitly reported. The private-car/school-bus comparison was limited to children using those modes or public transport, but its analysis-specific total was not explicitly stated.",
+            "female": 54.8,
+            "country": "Tanzania",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [
+              {
+                "n": 1722,
+                "es": 0.3,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Overweight or obese based on IOTF BMI cut-off points",
+                "desc2": "Walking to and from school, yes versus no",
+                "instr1": "International Obesity Task Force BMI cut-off points",
+                "instr2": "Structured questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1722,
+                "es": 2.3,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight or obese based on IOTF BMI cut-off points",
+                "desc2": "Usually playing video games, yes versus no",
+                "instr1": "International Obesity Task Force BMI cut-off points",
+                "instr2": "Structured questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Africa",
+            "sample_id": "Primary school children in Kinondoni District, Dar es Salaam",
+            "confidence": {
+              "effect_sizes": {
+                "level": "medium",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "This was a Cross sectional study of children aged 7\u201314 years attending primary schools in Kinondoni District Council, Dar es Salaam.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "A total of 1722 children aged 7\u201314 yeas (10.9 \u00b1 1.74) participated in the study, a response rate of 96 %.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "A total of 1722 children aged 7\u201314 yeas (10.9 \u00b1 1.74) participated in the study, a response rate of 96 %.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[2].n"
+          },
+          {
+            "snippet": "Children who reported walking to and from school were less likely to be either overweight or obese than those who reported using other means of transport (COR = 0.3, 95 % CI = 0.2\u20130.4, p < 0. 0001).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "Children who reported using school bus or private cars were 4.2 times more likely to be overweight or obese than those who reported using public transport (COR = 4.2, 95 % CI = 1.9\u20138.9, p < 0.0001).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "reported playing video/computer games were more likely to be overweight or obese than children who did not often play video games (COR = 2.3, 95 % CI = 1.8\u20133.1, p < 0.001).",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[2].es"
+          },
+          {
+            "snippet": "A total of 1722 children aged 7\u201314 yeas (10.9 \u00b1 1.74) participated in the study, a response rate of 96 %.",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].age"
+          },
+          {
+            "snippet": "This study was conducted in Kinondoni municipality, which is among the three municipalities of Dar es Salaam city; the commercial capital of Tanzania",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].country"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:14:34.440695+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "martinovic2015.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1093/eurpub/ckv071",
+          "year": 2015,
+          "title": "Prevalence of and contributing factors for overweight and obesity among Montenegrin schoolchildren",
+          "authors": [
+            "Milica Martinovic",
+            "Goran Belojevic",
+            "Gary W. Evans",
+            "Dragan Lausevic",
+            "Bogdan Asanin",
+            "Mira Samardzic",
+            "Natasa Terzic",
+            "Snezana Pantovic",
+            "Marina Jaksic",
+            "Jelena Boljevic"
+          ]
+        },
+        "samples": [
+          {
+            "age": 10.2,
+            "lang": null,
+            "notes": "Only univariate logistic-regression odds ratios were extracted; adjusted odds ratios from the multiple logistic regression were excluded. No analyzed-sample reliability coefficients or respondent language were reported. Clinical status was coded nonclinical because participants were sampled from the general elementary-school population.",
+            "female": 49.3,
+            "country": "Montenegro",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [
+              {
+                "n": 4097,
+                "es": 0.98,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Objectively measured BMI classified as overweight or obese according to IOTF criteria",
+                "desc2": "Days per week with at least 1 hour of physical activity outside school",
+                "instr1": "SECA model SE 808 digital scale, GIMA code 27328 stadiometer, and IOTF criteria",
+                "instr2": "Active Where Parents Child Survey physical activity questions",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 4097,
+                "es": 1.11,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Objectively measured BMI classified as overweight or obese according to IOTF criteria",
+                "desc2": "Computer game playing per hour daily",
+                "instr1": "SECA model SE 808 digital scale, GIMA code 27328 stadiometer, and IOTF criteria",
+                "instr2": "Parental questionnaire using standardized activity questions",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Nationally representative sample of Montenegrin elementary school children, 2012\u20132013",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "Prevalence of and contributing factors for overweight and obesity among Montenegrin schoolchildren",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.title"
+          },
+          {
+            "snippet": "doi:10.1093/eurpub/ckv071",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.doi"
+          },
+          {
+            "snippet": "The Author 2015. Published by Oxford University Press on behalf of the European Public Health Association.",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.year"
+          },
+          {
+            "snippet": "Milica Martinovic1, Goran Belojevic2, Gary W. Evans3, Dragan Lausevic4, Bogdan Asanin5, Mira Samardzic6, Natasa Terzic7, Snezana Pantovic8, Marina Jaksic9, Jelena Boljevic9",
+            "page": 1,
+            "source": null,
+            "field": "paper_metadata.authors"
+          },
+          {
+            "snippet": "A two-staged cluster sampling design was used in the survey to obtain a nationally representative sample of about 4000 children.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "The final sample included 2076 boys (50.7%) and 2021 girls (49.3%), aged from 7 to 13 years (mean \u00b1 SD = 10.2 \u00b1 1.7 years).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].female"
+          },
+          {
+            "snippet": "The final sample included 2076 boys (50.7%) and 2021 girls (49.3%), aged from 7 to 13 years (mean \u00b1 SD = 10.2 \u00b1 1.7 years).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].age"
+          },
+          {
+            "snippet": "Table 3 Odds ratios for overweight and obesity in relation to children\u2019s and parental factors among Montenegrin children (N = 4097) (univariate logistic regression)",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Physical activity (days/week with at least 1 h of physical activity out of school) 0.98 0.94 1.02 0.297",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "Table 3 Odds ratios for overweight and obesity in relation to children\u2019s and parental factors among Montenegrin children (N = 4097) (univariate logistic regression)",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[1].n"
+          },
+          {
+            "snippet": "Computer game playing (per hour daily) 1.11 1.02 1.20 0.021",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:13:56.710863+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "thomee2015.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1186/s12889-015-2131-5",
+          "year": 2015,
+          "title": "Leisure time computer use and overweight development in young adults \u2013 a prospective study",
+          "authors": [
+            "Sara Thom\u00e9e",
+            "Lauren Lissner",
+            "Mats Hagberg",
+            "Anna Grimby-Ekman"
+          ]
+        },
+        "samples": [
+          {
+            "age": 22.1,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. Exact effect-specific sample sizes were not reported, only ranges across models, so n is null. No analyzed-sample reliability coefficients were reported.",
+            "female": 0,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [
+              {
+                "n": null,
+                "es": 1.7,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming >2 hours per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": null,
+                "es": 1.2,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming 1\u20132 hours per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": null,
+                "es": 1,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming <1 hour per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Men, baseline cross-sectional analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "high",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": 22,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. Exact effect-specific sample sizes were not reported, only ranges across models, so n is null. No analyzed-sample reliability coefficients were reported.",
+            "female": 100,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [
+              {
+                "n": null,
+                "es": 2.2,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming >2 hours per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": null,
+                "es": 2.6,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming 1\u20132 hours per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": null,
+                "es": 1.6,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight, defined as BMI \u226525 at baseline",
+                "desc2": "Leisure-time computer gaming <1 hour per day versus not at all at baseline",
+                "instr1": "BMI calculated from self-reported height and weight",
+                "instr2": "Cohort questionnaire item on average daily time spent computer gaming during the past 30 days",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Women, baseline cross-sectional analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "high",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. The exact mean age and exact effect-specific sample sizes for the baseline-normal-weight analytic subgroup were unavailable; sample size was reported only as a range across models. No analyzed-sample reliability coefficients were reported.",
+            "female": 0,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Men, 1-year prospective analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. The exact mean age and exact effect-specific sample sizes for the baseline-normal-weight analytic subgroup were unavailable; sample size was reported only as a range across models. No analyzed-sample reliability coefficients were reported.",
+            "female": 100,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Women, 1-year prospective analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. The exact mean age and exact effect-specific sample sizes for the baseline-normal-weight analytic subgroup were unavailable; sample size was reported only as a range across models. No analyzed-sample reliability coefficients were reported.",
+            "female": 0,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Men, 5-year prospective analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only crude odds ratios were extracted; adjusted Models I and II were excluded. The exact mean age and exact effect-specific sample sizes for the baseline-normal-weight analytic subgroup were unavailable; sample size was reported only as a range across models. No analyzed-sample reliability coefficients were reported.",
+            "female": 100,
+            "country": "Sweden",
+            "pubtype": 1,
+            "pubyear": 2015,
+            "records": [],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Women, 5-year prospective analysis",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "An additional four individuals were excluded due to implausible values in height, leaving 2662 men and 4073 women at baseline (Fig. 1).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Men\n>2 h\n38\n1.7\n1.30\u20132.17\n1\u20132 h\n30\n1.2\n0.93\u20131.56\n<1 h\n26\n1.0\n0.79\u20131.19\nNot at all\n27\n1.0",
+            "page": 8,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "The number of subjects varied in the models due to partially missing data. GAMING: men n = 2515\u20132647, women n = 3806\u20134052.",
+            "page": 8,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "An additional four individuals were excluded due to implausible values in height, leaving 2662 men and 4073 women at baseline (Fig. 1).",
+            "page": 2,
+            "source": null,
+            "field": "samples[1].sample_id"
+          },
+          {
+            "snippet": "Women\n>2 h\n32\n2.2\n1.42\u20133.37\n1\u20132 h\n37\n2.6\n1.92\u20133.65\n<1 h\n26\n1.6\n1.32\u20131.96\nNot at all\n18\n1.0",
+            "page": 8,
+            "source": null,
+            "field": "samples[1].records"
+          },
+          {
+            "snippet": "The number of subjects varied in the models due to partially missing data. GAMING: men n = 2515\u20132647, women n = 3806\u20134052.",
+            "page": 8,
+            "source": null,
+            "field": "samples[1].records[0].n"
+          },
+          {
+            "snippet": "After 3 reminders, the response rate was 73 %, and after exclusion of 21 persons with missing BMI data, n = 3928 (1403 men and 2525 women).",
+            "page": 2,
+            "source": null,
+            "field": "samples[2].sample_id"
+          },
+          {
+            "snippet": "1-YEAR\nCrude\nGAMING\nMen\n>2 h\n9\n1.2\n0.54\u20132.69\n1\u20132 h\n6\n0.8\n0.36\u20131.77\n<1 h\n9\n1.3\n0.78\u20132.21\nNot at all\n7\n1.0",
+            "page": 9,
+            "source": null,
+            "field": "samples[2].records"
+          },
+          {
+            "snippet": "1-YEAR GAMING: men n = 979\u20131013 women n = 1940\u20132023.",
+            "page": 9,
+            "source": null,
+            "field": "samples[2].records[0].n"
+          },
+          {
+            "snippet": "After 3 reminders, the response rate was 73 %, and after exclusion of 21 persons with missing BMI data, n = 3928 (1403 men and 2525 women).",
+            "page": 2,
+            "source": null,
+            "field": "samples[3].sample_id"
+          },
+          {
+            "snippet": "1-YEAR\nCrude\nWomen\n>2 h\n15\n3.4\n1.38\u20138.26\n1\u20132 h\n9\n2.0\n0.89\u20134.49\n<1 h\n7\n1.5\n0.91\u20132.38\nNot at all\n5\n1.0",
+            "page": 9,
+            "source": null,
+            "field": "samples[3].records"
+          },
+          {
+            "snippet": "1-YEAR GAMING: men n = 979\u20131013 women n = 1940\u20132023.",
+            "page": 9,
+            "source": null,
+            "field": "samples[3].records[0].n"
+          },
+          {
+            "snippet": "After excluding three individuals with implausible values for weight and 18 with missing data on BMI, 2593 (957 men and 1636 women) remained in the study (Fig. 1).",
+            "page": 2,
+            "source": null,
+            "field": "samples[4].sample_id"
+          },
+          {
+            "snippet": "5-YEAR\nCrude\nGAMING\nMen\n>2 h\n28\n1.5\n0.86\u20132.68\n1\u20132 h\n18\n0.9\n0.49\u20131.64\n<1 h\n19\n0.9\n0.60\u20131.43\nNot at all\n20\n1.0",
+            "page": 9,
+            "source": null,
+            "field": "samples[4].records"
+          },
+          {
+            "snippet": "5-YEAR GAMING: men n = 691\u2013703, women n = 1269\u20131315.",
+            "page": 9,
+            "source": null,
+            "field": "samples[4].records[0].n"
+          },
+          {
+            "snippet": "After excluding three individuals with implausible values for weight and 18 with missing data on BMI, 2593 (957 men and 1636 women) remained in the study (Fig. 1).",
+            "page": 2,
+            "source": null,
+            "field": "samples[5].sample_id"
+          },
+          {
+            "snippet": "5-YEAR\nCrude\nWomen\n>2 h\n31\n3.2\n1.41\u20137.10\n1\u20132 h\n32\n3.3\n1.83\u20135.78\n<1 h\n13\n1.1\n0.68\u20131.63\nNot at all\n12\n1.0",
+            "page": 9,
+            "source": null,
+            "field": "samples[5].records"
+          },
+          {
+            "snippet": "5-YEAR GAMING: men n = 691\u2013703, women n = 1269\u20131315.",
+            "page": 9,
+            "source": null,
+            "field": "samples[5].records[0].n"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:15:49.014961+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "mo-suwan2014.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1155/2014/364702",
+          "year": 2014,
+          "title": "Computer Game Use and Television Viewing Increased Risk for Overweight among Low Activity Girls: Fourth Thai National Health Examination Survey 2008-2009",
+          "authors": [
+            "Ladda Mo-suwan",
+            "Jiraluck Nontarak",
+            "Wichai Aekplakorn",
+            "Warapone Satheannoppakao"
+          ]
+        },
+        "samples": [
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only unadjusted odds ratios were extracted; adjusted odds ratios were excluded. Record sample sizes are the explicitly reported nonmissing counts for the corresponding activity variables. No analyzed-sample reliabilities, respondent language, mean age, or overall percentage female were reported.",
+            "female": null,
+            "country": "Thailand",
+            "pubtype": 1,
+            "pubyear": 2014,
+            "records": [],
+            "clinical": 0,
+            "continent": "Asia",
+            "sample_id": "All children aged 6 to 14 years",
+            "confidence": {
+              "effect_sizes": {
+                "level": "medium",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only unadjusted odds ratios were extracted; adjusted odds ratios were excluded. Record sample sizes are the explicitly reported nonmissing counts for boys for the corresponding activity variables. No analyzed-sample reliabilities, respondent language, or mean age were reported.",
+            "female": 0,
+            "country": "Thailand",
+            "pubtype": 1,
+            "pubyear": 2014,
+            "records": [
+              {
+                "n": 2934,
+                "es": 0.78,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "Having 60 minutes of moderate-intensity physical activity more than 3 days/week versus 3 days/week or less",
+                "instr1": "International Obesity Task Force age- and gender-specific BMI cut-points",
+                "instr2": null,
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 2855,
+                "es": 1.5,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "Computer game use more than 1 hour/day versus 1 hour/day or less during the past month",
+                "instr1": "International Obesity Task Force age- and gender-specific BMI cut-points",
+                "instr2": null,
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Asia",
+            "sample_id": "Boys aged 6 to 14 years",
+            "confidence": {
+              "effect_sizes": {
+                "level": "medium",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          },
+          {
+            "age": null,
+            "lang": null,
+            "notes": "Only unadjusted odds ratios were extracted; adjusted odds ratios were excluded. Record sample sizes are the explicitly reported nonmissing counts for girls for the corresponding activity variables. No analyzed-sample reliabilities, respondent language, or mean age were reported.",
+            "female": 100,
+            "country": "Thailand",
+            "pubtype": 1,
+            "pubyear": 2014,
+            "records": [
+              {
+                "n": 2991,
+                "es": 0.6,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "Having 60 minutes of moderate-intensity physical activity more than 3 days/week versus 3 days/week or less",
+                "instr1": "International Obesity Task Force age- and gender-specific BMI cut-points",
+                "instr2": null,
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 2922,
+                "es": 1.5,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Overweight defined using age- and gender-specific BMI cut-points of the International Obesity Task Force",
+                "desc2": "Computer game use more than 1 hour/day versus 1 hour/day or less during the past month",
+                "instr1": "International Obesity Task Force age- and gender-specific BMI cut-points",
+                "instr2": null,
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Asia",
+            "sample_id": "Girls aged 6 to 14 years",
+            "confidence": {
+              "effect_sizes": {
+                "level": "medium",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "This report presents an analysis of the data from the school-aged population: 5,999 children aged 6 to 14 years.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Having 60 minutes of moderate-intensity physical activity (%, 95% CI)\n\ud835\udc41= 5,925",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Having 60 minutes of\nmoderate-intensity physical\nactivity\n3 d/wk or less\n1\n1\n1\n1\n1\n1\nMore than 3 d/wk\n0.71 (0.64\u20130.80) 0.75 (0.66\u20130.84) 0.78 (0.64\u20130.95) 0.85 (0.69\u20131.03) 0.60 (0.50\u20130.72) 0.62\u2026",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].es",
+            "truncated": true
+          },
+          {
+            "snippet": "Computer game use (%, 95% CI)\n\ud835\udc41= 5,777",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[1].n"
+          },
+          {
+            "snippet": "Computer game use\n1 h/d or less\n1\n1\n1\n1\n1\n1\nMore than 1 h/d\n1.53 (1.13\u20132.06)\n1.40 (1.02\u20131.93)\n1.50 (1.11\u20132.03)\n1.27 (0.92\u20131.76)\n1.50 (0.91\u20132.45)\n1.54 (0.95\u20132.49)",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "Boys\n\ud835\udc5b= 2,972",
+            "page": 3,
+            "source": null,
+            "field": "samples[1].sample_id"
+          },
+          {
+            "snippet": "Having 60 minutes of moderate-intensity physical activity (%, 95% CI)\n\ud835\udc5b= 2,934",
+            "page": 3,
+            "source": null,
+            "field": "samples[1].records[0].n"
+          },
+          {
+            "snippet": "\u202660 minutes of\nmoderate-intensity physical\nactivity\n3 d/wk or less\n1\n1\n1\n1\n1\n1\nMore than 3 d/wk\n0.71 (0.64\u20130.80) 0.75 (0.66\u20130.84) 0.78 (0.64\u20130.95) 0.85 (0.69\u20131.03) 0.60 (0.50\u20130.72) 0.62 (0.51\u20130.76)",
+            "page": 3,
+            "source": null,
+            "field": "samples[1].records[0].es",
+            "truncated": true
+          },
+          {
+            "snippet": "Computer game use (%, 95% CI)\n\ud835\udc5b= 2,855",
+            "page": 3,
+            "source": null,
+            "field": "samples[1].records[1].n"
+          },
+          {
+            "snippet": "\u2026OR\n(95% CI)\nAdjusted OR\u2217\n(95% CI)\nComputer game use\n1 h/d or less\n1\n1\n1\n1\n1\n1\nMore than 1 h/d\n1.53 (1.13\u20132.06)\n1.40 (1.02\u20131.93)\n1.50 (1.11\u20132.03)\n1.27 (0.92\u20131.76)\n1.50 (0.91\u20132.45)\n1.54 (0.95\u20132.49)",
+            "page": 3,
+            "source": null,
+            "field": "samples[1].records[1].es",
+            "truncated": true
+          },
+          {
+            "snippet": "Girls\n\ud835\udc5b= 3,026",
+            "page": 3,
+            "source": null,
+            "field": "samples[2].sample_id"
+          },
+          {
+            "snippet": "Having 60 minutes of moderate-intensity physical activity (%, 95% CI)\n\ud835\udc5b= 2,991",
+            "page": 3,
+            "source": null,
+            "field": "samples[2].records[0].n"
+          },
+          {
+            "snippet": "\u202660 minutes of\nmoderate-intensity physical\nactivity\n3 d/wk or less\n1\n1\n1\n1\n1\n1\nMore than 3 d/wk\n0.71 (0.64\u20130.80) 0.75 (0.66\u20130.84) 0.78 (0.64\u20130.95) 0.85 (0.69\u20131.03) 0.60 (0.50\u20130.72) 0.62 (0.51\u20130.76)",
+            "page": 3,
+            "source": null,
+            "field": "samples[2].records[0].es",
+            "truncated": true
+          },
+          {
+            "snippet": "Computer game use (%, 95% CI)\n\ud835\udc5b= 2,922",
+            "page": 3,
+            "source": null,
+            "field": "samples[2].records[1].n"
+          },
+          {
+            "snippet": "\u2026OR\n(95% CI)\nAdjusted OR\u2217\n(95% CI)\nComputer game use\n1 h/d or less\n1\n1\n1\n1\n1\n1\nMore than 1 h/d\n1.53 (1.13\u20132.06)\n1.40 (1.02\u20131.93)\n1.50 (1.11\u20132.03)\n1.27 (0.92\u20131.76)\n1.50 (0.91\u20132.45)\n1.54 (0.95\u20132.49)",
+            "page": 3,
+            "source": null,
+            "field": "samples[2].records[1].es",
+            "truncated": true
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:14:12.498139+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "pitrou2010.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1038/oby.2009.278",
+          "year": 2010,
+          "title": "Child Overweight, Associated Psychopathology, and Social Functioning: A French School-based Survey in 6- to 11-year-old Children",
+          "authors": [
+            "Isabelle Pitrou",
+            "Taraneh Shojaei",
+            "Ashley Wazana",
+            "Fabien Gilbert",
+            "Viviane Kovess-Masf\u00e9ty"
+          ]
+        },
+        "samples": [
+          {
+            "age": 8.2,
+            "lang": null,
+            "notes": "Crude odds ratios were extracted; adjusted odds ratios were excluded. The reported N is weighted. Low and high continuous lifestyle categories were defined using the 25th and 75th percentiles, with the middle category serving as the omitted comparison category. No analyzed-sample reliability coefficients were reported for the eligible measures. Respondent language was not explicitly stated.",
+            "female": 50.7,
+            "country": "France",
+            "pubtype": 1,
+            "pubyear": 2010,
+            "records": [
+              {
+                "n": 1030,
+                "es": 0.69,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight, including obesity, defined using IOTF age- and gender-specific BMI cutoffs calculated from parent-reported weight and height",
+                "desc2": "Participation in an organized sport team or club",
+                "instr1": "Parent questionnaire and International Obesity Task Force BMI cutoffs",
+                "instr2": "Parent questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1030,
+                "es": 1.24,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight, including obesity, defined using IOTF age- and gender-specific BMI cutoffs calculated from parent-reported weight and height",
+                "desc2": "Low leisure-time physical activity relative to the middle category, based on previous-week hours outside school",
+                "instr1": "Parent questionnaire and International Obesity Task Force BMI cutoffs",
+                "instr2": "Parent questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1030,
+                "es": 0.71,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Child overweight, including obesity, defined using IOTF age- and gender-specific BMI cutoffs calculated from parent-reported weight and height",
+                "desc2": "High leisure-time physical activity relative to the middle category, based on previous-week hours outside school",
+                "instr1": "Parent questionnaire and International Obesity Task Force BMI cutoffs",
+                "instr2": "Parent questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1030,
+                "es": 1.18,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Child overweight, including obesity, defined using IOTF age- and gender-specific BMI cutoffs calculated from parent-reported weight and height",
+                "desc2": "Low video game use relative to the middle category, based on previous-week hours",
+                "instr1": "Parent questionnaire and International Obesity Task Force BMI cutoffs",
+                "instr2": "Parent questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 1030,
+                "es": 1.09,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Child overweight, including obesity, defined using IOTF age- and gender-specific BMI cutoffs calculated from parent-reported weight and height",
+                "desc2": "High video game use relative to the middle category, based on previous-week hours",
+                "instr1": "Parent questionnaire and International Obesity Task Force BMI cutoffs",
+                "instr2": "Parent questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "PACA regional sample of French primary school children aged 6\u201311 years",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "A cross-sectional survey was conducted in 2004\u20132005 in the South of France, Provence-Alpes C\u00f4te-d\u2019Azur region (PACA).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "With data for weight and/or height missing for 244 children and 65 unusable DI, the final sample size was 1,030 children.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Table 3\u2002 Correlates of child overweight in a French regional sample of children aged 6\u201311 years old (N weighted = 1,030)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records"
+          },
+          {
+            "snippet": "Sport team/club\n0.69 (0.48\u20131.01)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "LTPA\n\u2003 \u2003 Low\n1.24 (0.82\u20131.87)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "High\n0.71 (0.46\u20131.12)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[2].es"
+          },
+          {
+            "snippet": "Playing video games\n\u2003 \u2003 Low\n1.18 (0.78\u20131.78)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[3].es"
+          },
+          {
+            "snippet": "High\n1.09 (0.70\u20131.70)",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[4].es"
+          },
+          {
+            "snippet": "Child weight and height were reported by parents and were used to calculate BMI (as weight/height2, in kg/m2).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].records[0].instr1"
+          },
+          {
+            "snippet": "Potential confounders and mediators were obtained from the parent questionnaires and included (i) lifestyle behaviors, i.e., duration of LTPA (physical activity outside school), watching TV, and\u2026",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].records[0].instr2",
+            "truncated": true
+          },
+          {
+            "snippet": "Age (years), mean (s.d.)\n8.2 (1.5)\n8.2 (1.5)\n8.2 (1.5)",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].age"
+          },
+          {
+            "snippet": "Girls\n522 (50.4)",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].female"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:14:53.455375+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "wack2009.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1089/cpb.2008.0151",
+          "year": 2009,
+          "title": "Relationships between Electronic Game Play, Obesity, and Psychosocial Functioning in Young Men",
+          "authors": [
+            "Elizabeth Wack",
+            "Stacey Tantleff-Dunn"
+          ]
+        },
+        "samples": [
+          {
+            "age": 20.48,
+            "lang": null,
+            "notes": "No analyzed-sample reliability estimates were reported for BMI or frequency of electronic game play. Respondent language was not reported.",
+            "female": 0,
+            "country": "United States",
+            "pubtype": 1,
+            "pubyear": 2009,
+            "records": [
+              {
+                "n": 219,
+                "es": -0.05,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Body mass index calculated from self-reported height and weight",
+                "desc2": "Weekly frequency of electronic game play extrapolated from a 3-day retrospective daily diary",
+                "instr1": "Body mass index (BMI)",
+                "instr2": "Timeline Follow-Back technique adapted for electronic game play",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "North America",
+            "sample_id": "Full sample of college-aged males",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "high",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "Two hundred nineteen college-aged males from a metropolitan city in the southeastern United States participated in the survey; 172 of them were identified as current game players.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Two hundred nineteen college-aged males from a metropolitan city in the southeastern United States participated in the survey; 172 of them were identified as current game players.",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "The correlation between BMI and frequency of play was not significant (r = \u22120.05, p > 0.05).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "Participants\u2019 ages ranged from 18 to 32 years, with a mean age of 20.48 (SD = 2.6).",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].age"
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:16:40.385432+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    },
+    {
+      "filename": "stettler2004.pdf",
+      "model": null,
+      "result": {
+        "paper_metadata": {
+          "doi": "10.1038/oby.2004.109",
+          "year": 2004,
+          "title": "Electronic Games and Environmental Factors Associated with Childhood Obesity in Switzerland",
+          "authors": [
+            "Nicolas Stettler",
+            "Theo M. Signer",
+            "Paolo M. Suter"
+          ]
+        },
+        "samples": [
+          {
+            "age": null,
+            "lang": "Swiss German (most respondents)",
+            "notes": "Only explicitly reported zero-order associations were extracted. Adjusted odds ratios were excluded. The instruments for the environmental variables were explicitly stated not to have been formally tested for reproducibility, reliability, or validity, so all reliability fields are null. Median age was 8.0 years, but no mean age was reported; therefore, age is null. Swiss German was described as the mother tongue of most, rather than all, participants.",
+            "female": 47,
+            "country": "Switzerland",
+            "pubtype": 1,
+            "pubyear": 2004,
+            "records": [
+              {
+                "n": 872,
+                "es": 0.78,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "pa",
+                "desc1": "Obesity defined as both overweight according to the IOTF BMI definition and overfat based on the sum of triceps and subscapular skinfolds at or above the 85th percentile",
+                "desc2": "Usual physical activity estimated by the child's teacher on a visual analog scale from 0 (lowest) to 10 (highest)",
+                "instr1": "Seca medical scale, wall-mounted stadiometer, Holtain Caliper, and IOTF overweight definition",
+                "instr2": "Teacher-rated physical activity visual analog scale",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 872,
+                "es": 1.65,
+                "rel1": null,
+                "rel2": null,
+                "type": "or",
+                "var1": "bm",
+                "var2": "vg",
+                "desc1": "Obesity defined as both overweight according to the IOTF BMI definition and overfat based on the sum of triceps and subscapular skinfolds at or above the 85th percentile",
+                "desc2": "Self-reported amount of time playing electronic games in hours per day, assessed by structured interview",
+                "instr1": "Seca medical scale, wall-mounted stadiometer, Holtain Caliper, and IOTF overweight definition",
+                "instr2": "Structured interviewer-administered questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              },
+              {
+                "n": 872,
+                "es": -0.04,
+                "rel1": null,
+                "rel2": null,
+                "type": "r",
+                "var1": "pa",
+                "var2": "vg",
+                "desc1": "Usual physical activity estimated by the child's teacher on a visual analog scale from 0 (lowest) to 10 (highest)",
+                "desc2": "Self-reported amount of time playing electronic games in hours per day, assessed by structured interview",
+                "instr1": "Teacher-rated physical activity visual analog scale",
+                "instr2": "Structured interviewer-administered questionnaire",
+                "rel1_type": null,
+                "rel2_type": null
+              }
+            ],
+            "clinical": 0,
+            "continent": "Europe",
+            "sample_id": "Full study sample of children in grades one to three",
+            "confidence": {
+              "effect_sizes": {
+                "level": "high",
+                "notes": null
+              },
+              "reliabilities": {
+                "level": "low",
+                "notes": null
+              },
+              "metadata": {
+                "level": "medium",
+                "notes": null
+              }
+            }
+          }
+        ],
+        "evidence": [
+          {
+            "snippet": "Therefore, the study sample was comprised of 872 subjects (94.6%).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].sample_id"
+          },
+          {
+            "snippet": "Electronic games (hr/d) 872 1 0 to 3",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[1].n"
+          },
+          {
+            "snippet": "Physical activity scale (0 to 10) 872 6.9 1.4 to 10.0",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].records[0].n"
+          },
+          {
+            "snippet": "Electronic games (hr/d) 1.65 1.34 to 2.04 <0.001",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[1].es"
+          },
+          {
+            "snippet": "Physical activity scale (per unit) 0.78 0.72 to 0.85 <0.001",
+            "page": 5,
+            "source": null,
+            "field": "samples[0].records[0].es"
+          },
+          {
+            "snippet": "\u2026and electronic game use (0.07, p = 0.045) and a significant negative correlation between physical activity and television use (\u22120.17, p < 0.001) but not electronic game use (\u22120.04, p = 0.3).",
+            "page": 3,
+            "source": null,
+            "field": "samples[0].records[2].es",
+            "truncated": true
+          },
+          {
+            "snippet": "For this cross-sectional study, a convenience sample of 10 schools was chosen from four communities of the Greater Zurich area in the German-speaking Northeastern Switzerland",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].country"
+          },
+          {
+            "snippet": "Sex (% female) 872 47.0 43.7 to 50.3",
+            "page": 4,
+            "source": null,
+            "field": "samples[0].female"
+          },
+          {
+            "snippet": "These methods of assessment for environmental variables were chosen because no instrument to measure such variables in children has been validated in Swiss German, the mother tongue of most of the\u2026",
+            "page": 2,
+            "source": null,
+            "field": "samples[0].lang",
+            "truncated": true
+          }
+        ]
+      },
+      "provenance": {
+        "resolved_model": "gpt-5.6-sol",
+        "prompt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "params": null,
+        "extracted_at": "2026-10-23T14:15:27.196422+00:00",
+        "schema_id": "masem-direct@eb5f0287"
+      }
+    }
+  ]
+}
