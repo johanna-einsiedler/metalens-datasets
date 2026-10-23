@@ -1,0 +1,21 @@
+{
+  "number": 1,
+  "path": "releases/v1",
+  "created_at": "2026-10-23T15:08:10+00:00",
+  "content_sha": "8ab2abc5c93298835db649a3179a8d3cde42692d6193cfafe3cd37f1588c1dda",
+  "credibility": {
+    "tier": "human_verified",
+    "label": "Human-verified \u00b7 47% agree",
+    "audited": 17,
+    "n_records": 17
+  },
+  "doi": null,
+  "files": [
+    "README.md",
+    "evidence.json",
+    "release.json",
+    "tables/entries.json",
+    "tables/records.json",
+    "tile-prompt.md"
+  ]
+}
