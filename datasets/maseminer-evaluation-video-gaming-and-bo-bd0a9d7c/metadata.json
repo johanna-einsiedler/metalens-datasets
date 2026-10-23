@@ -1,0 +1,643 @@
+{
+  "title": "MASEMiner evaluation \u00b7 Video gaming and body mass (Marker et al., 2022)",
+  "description": "Ten primary studies of the meta-analysis by Marker, Gnambs & Appel (2022) on sedentary video gaming and body mass, extracted with the MASEMiner direct-information preset (gpt-5.6-sol) and then corrected cell by cell to the reference database of the meta-analysis. Each correction is a recorded human edit, so the published values equal the reference coding and the audit trail shows the model's omissions, over-extractions and wrong values. Held-out validation case of Schroeders, Gnambs & Einsiedler (2026).",
+  "schema_id": "masem-direct@eb5f0287",
+  "slug": "maseminer-evaluation-video-gaming-and-bo-bd0a9d7c",
+  "cite_as": null,
+  "citation": "[author] (2026). MASEMiner evaluation \u00b7 Video gaming and body mass (Marker et al., 2022) (version 1) [Data set]. Metalens. https://github.com/johanna-einsiedler/metalens-datasets/tree/main/datasets/maseminer-evaluation-video-gaming-and-bo-bd0a9d7c",
+  "attribution": "named",
+  "keywords": [],
+  "readme": null,
+  "version": 1,
+  "visibility": "public",
+  "recipe": {
+    "model": null,
+    "prompt": null,
+    "schema_id": "masem-direct@eb5f0287"
+  },
+  "stats": {
+    "n_papers": 10,
+    "n_records": 17,
+    "n_verified": 17,
+    "n_screened": 0,
+    "n_screened_confirmed": 0,
+    "verified_pct": 100.0,
+    "n_schemas": 1,
+    "total_tokens": 0,
+    "first_extracted": "2026-10-23T14:13:37.960661+00:00",
+    "last_extracted": "2026-10-23T14:16:40.385432+00:00",
+    "last_change": "2026-10-23T14:16:49.543045+00:00"
+  },
+  "credibility": {
+    "dataset_id": "bd0a9d7c-7603-46ea-b9ab-93b67ae7b4a2",
+    "tier": "human_verified",
+    "n_records": 17,
+    "audited": 17,
+    "audited_pct": 100.0,
+    "agreement": 0.4706,
+    "agreement_ci": [
+      0.2616,
+      0.6904
+    ],
+    "label": "Human-verified \u00b7 47% agree",
+    "agreed": 8
+  },
+  "preset": {
+    "schema_id": "masem-direct@eb5f0287",
+    "preset_id": "masem-direct",
+    "label": "MASEMiner v2 (eb5f0287)",
+    "format": 2,
+    "spec": {
+      "id": "masem-direct",
+      "meta": {
+        "mode": "extraction",
+        "title": "MASEMiner",
+        "hidden": false,
+        "tagline": "Extract effect sizes or factor loadings for Meta-Analytic SEM \u2014 choose direct or indirect information on the next step.",
+        "description": "Direct-information variant: pairwise effect sizes (with reliability + instrument metadata) per sample, plus coded sample metadata. Use it when papers report the effect sizes themselves \u2014 correlation matrices, prose-reported correlations, other bivariate statistics. The sibling indirect-information variant extracts factor loadings and inter-factor correlations instead."
+      },
+      "paper": {
+        "fields": []
+      },
+      "format": 2,
+      "prompt": {
+        "text": "# TASK\n\nExtract eligible effect sizes and metadata from a PDF reporting an empirical study.\n\nReturn EXACTLY ONE valid JSON object following the required schema.\n\n# DOMAIN CONFIGURATION\n\n## EFFECT SIZES\n\nCanonical effect size labels:\n${effect_sizes}\n\nExtract ONLY these canonical effect sizes.\n\n## VARIABLES\n\nCanonical variable labels:\n${variables}\n\nExtract ONLY these canonical variables.\n\nIGNORE all other variables.\n\nMap all eligible measures to ONE canonical variable category.\n\nUse ONLY canonical variable labels in:\n- \"var1\"\n- \"var2\"\n\nStudy-specific operationalizations belong in:\n- \"desc1\"\n- \"desc2\"\n\n# EXTRACTION RULES\n\nExtract ONLY:\n- eligible variables,\n- eligible effect sizes,\n- zero-order associations,\n- explicitly reported statistics.\n\nEligible statistics may appear in:\n- tables,\n- text,\n- figures,\n- supplements embedded in the PDF.\n\nCorrelation matrices should be interpreted using standard row-column table structure.\n\nA reported matrix cell constitutes an explicitly reported effect size when:\n- both variables are identifiable from the matrix labels,\n- and the numeric value appears in the table.\n\nExtract correlations from:\n- upper triangles,\n- lower triangles,\n- multitrait-multimethod matrices,\nwhen explicitly displayed.\n\nDo NOT infer missing matrix cells from symmetry.\n\nExtract only directly reported statistics.\nDo NOT:\n- infer,\n- estimate,\n- derive,\n- impute,\n- reconstruct,\n- combine,\n- transform statistics into alternative effect size metrics.\n\nIgnore:\n- adjusted effects,\n- regression coefficients,\n- SEM paths,\n- mediation effects,\n- multilevel estimates,\n- partial correlations,\n- model-based estimates.\n\nTreat analytically distinct groups as separate samples when:\n- independent cohorts,\n- subgroup analyses,\n- separate waves,\n- separate samples,\nare reported independently.\n\nDo not create separate samples for:\n- robustness checks,\n- sensitivity analyses,\n- repeated mentions of the same participants.\n\n# FIELD EXTRACTION RULES\n\nFor each effect size extract:\n- sample size,\n- reliability,\n- instrument name,\nwhen explicitly reported.\n\nUse null when unavailable.\n\n## Reliability hierarchy\n\nUse reliabilities reported for the analyzed sample only.\n\nPreferred hierarchy:\n1. alpha\n2. omega\n3. icc\n4. kappa\n5. other\n\nIf multiple reliabilities are reported:\n- select the highest-priority type,\n- report others in notes.\n\n## Record alignment rules\n\n- Reorder variables alphabetically only in the final JSON output.\n- All fields ending in \"1\" correspond to \"var1\".\n- All fields ending in \"2\" correspond to \"var2\".\n\n## Numeric constraints\n\nNumeric fields must contain JSON numbers only.\n\nDo NOT use:\n- strings,\n- percentages,\n- ranges,\n- textual qualifiers.\n\nUse null when unavailable.\n\n# SAMPLE METADATA\n\nExtract when explicitly available:\n- publication year,\n- country,\n- continent,\n- language of respondents,\n- publication type,\n- percentage female,\n- mean age,\n- clinical status.\n\nUse null when unavailable.\n\n## Publication type coding\n\n- 1 = journal article\n- 2 = book\n- 3 = thesis/dissertation\n- 4 = proceedings/presentation\n- 5 = other\n\n## Clinical coding\n\n- 0 = nonclinical sample\n- 1 = clinical sample\n- 2 = mixed clinical/nonclinical sample\n\n# EVIDENCE RULES\n\nEach extracted sample/group must include evidence for:\n- sample identification,\n- effect size source,\n- sample size.\n\nEach evidence entry must contain EXACTLY:\n- \"snippet\"\n- \"page\"\n- \"field\"\n\nThe \"field\" value MUST be a JSON path into the emitted structure, ALWAYS prefixed\nwith the sample index `samples[i]`, so each evidence entry maps back to its sample\n(and, when it supports a specific pair, the `records[j]` index). Use these forms:\n- samples[0].sample_id\n- samples[0].records            (the effect-size table/source for that sample)\n- samples[0].records[2].es      (a specific effect-size value)\n- samples[0].records[0].rel1    (a specific reliability)\n- samples[0].n\n- samples[0].female\n- samples[0].country\nNever omit the `samples[i]` prefix \u2014 an unindexed field (e.g. just \"records\") cannot\nbe linked to the value it supports.\n\nEvidence snippets must:\n- quote verbatim PDF text,\n- support the referenced field,\n- correspond to the same sample/group,\n- avoid paraphrasing or reconstruction.\n\n# SELF-ASSESS EXTRACTION CONFIDENCE\n\nFor EACH extracted sample/group, return an ``extraction_confidence`` object with one rating per high-level extraction target.\n\nRequired keys (all MUST be present):\n\n- ``effect_sizes``: confidence in the per-pair effect-size values (the ``records`` array) for this sample \u2014 including correct var1/var2 mapping and correct numeric values.\n- ``reliabilities``: confidence in the reliability fields within records (rel1, rel2, rel1_type, rel2_type) for this sample.\n- ``metadata``: confidence in the sample metadata block (pubyear, country, continent, lang, pubtype, female, age, clinical) for this sample.\n\nEach rating MUST be one of EXACTLY these three strings (lower-case):\n\n- ``\"high\"``: the relevant numeric values / metadata are clearly stated in the paper, the table layout was unambiguous, no major OCR or interpretation issues, and the values were extracted directly without inference.\n- ``\"medium\"``: values were extractable but the source had at least one of: ambiguous variable labels requiring careful mapping to canonical short names, partial OCR artifacts, suppressed correlation values, sparse metadata, or a non-trivial reconciliation between matrix labels and prose names.\n- ``\"low\"``: substantial ambiguity remained \u2014 e.g. heavily damaged OCR, conflicting matrices, missing or unclear variable identities, large fractions of unreported cells, or significant guesswork required.\n\nCalibration:\n\n- If a category was not extractable at all (no reliability reported, no metadata reported) \u2014 still emit a rating (``\"low\"``) AND explain in ``notes``.\n- The confidence rating reflects how reliably the values match the paper, NOT how complete or theoretically pleasing the dataset is.\n- Be conservative: prefer ``\"medium\"`` over ``\"high\"`` when in doubt; prefer ``\"low\"`` over ``\"medium\"`` when in doubt.\n\n# PAPER METADATA\n\nIn addition to the per-sample blocks, extract paper-level identifying metadata from the PDF front matter / header / footer. These fields identify the source paper itself and are used to generate citations for downstream datasets.\n\n- title:    the full paper title verbatim. Required \u2014 fall back to the best-effort title if the front matter is mangled, but never emit an empty string.\n- doi:      the DOI string (e.g. \"10.1037/abc.0000123\") if present anywhere in the front matter, header/footer, references, or copyright block. Use null if no DOI is reported.\n- year:     publication year as a JSON integer (e.g. 2021). Use null if you cannot determine the year.\n- authors:  the author list as an array of strings, one per author, in the order printed (e.g. [\"Smith J\", \"Jones K\"]). Use null only if no authors are listed.\n- journal:  the journal or venue name as printed. Use null if it is not shown.\n\n# OUTPUT SCHEMA\n\n{\n  \"paper_metadata\": {\n    \"title\":   \"string\",\n    \"doi\":     null,\n    \"year\":    null,\n    \"authors\": null,\n    \"journal\": null\n  },\n\n  \"samples\": [\n    {\n      \"sample_id\": \"string\",\n\n      \"records\": [\n        {\n          \"var1\": null,\n          \"var2\": null,\n          \"desc1\": null,\n          \"desc2\": null,\n          \"es\": null,\n          \"type\": null,\n          \"n\": null,\n          \"rel1\": null,\n          \"rel2\": null,\n          \"rel1_type\": null,\n          \"rel2_type\": null,\n          \"instr1\": null,\n          \"instr2\": null\n        }\n      ],\n\n      \"pubyear\": null,\n      \"country\": null,\n      \"continent\": null,\n      \"lang\": null,\n      \"pubtype\": null,\n      \"female\": null,\n      \"age\": null,\n      \"clinical\": null,\n\n      \"extraction_confidence\": {\n        \"effect_sizes\":  \"medium\",\n        \"reliabilities\": \"medium\",\n        \"metadata\":      \"medium\"\n      },\n\n      \"notes\": \"\"\n    }\n  ],\n\n  \"evidence\": [\n    {\n      \"snippet\": \"\",\n      \"page\": null,\n      \"field\": \"\"\n    }\n  ]\n\n}\n\n# VALIDATION RULES\n\nBefore returning output, validate:\n- all effect sizes are within valid numeric ranges,\n- all evidence fields reference existing JSON paths,\n- every sample contains at least one effect size,\n- all required fields are present,\n- every sample has an extraction_confidence object with all three required keys,\n- paper_metadata.title is populated,\n- output is valid JSON parseable by json.loads.\n\nReturn:\n- EXACTLY ONE top-level JSON object,\n- JSON only,\n- no markdown,\n- no explanations,\n- no comments,\n- no code fences.\n",
+        "params": {
+          "variables": {
+            "help": "canonical variable codes with a definition; everything else is ignored",
+            "type": "table",
+            "empty": "(no variables defined \u2014 extract every reported pairwise effect size)",
+            "label": "Variables",
+            "columns": [
+              "name",
+              "definition",
+              "synonyms"
+            ],
+            "default": []
+          },
+          "effect_sizes": {
+            "help": "canonical effect-size codes to extract (one per line: code: label)",
+            "type": "table",
+            "empty": "(no canonical effect sizes defined \u2014 extract any reported pairwise effect size)",
+            "label": "Effect sizes",
+            "columns": [
+              "code",
+              "label"
+            ],
+            "default": [
+              {
+                "code": "r",
+                "label": "Correlation"
+              },
+              {
+                "code": "or",
+                "label": "Odds ratios"
+              }
+            ]
+          }
+        },
+        "generate": []
+      },
+      "display": {
+        "tabs": [
+          {
+            "id": "effectsizes",
+            "label": "Effect sizes",
+            "fields": [
+              "records"
+            ]
+          },
+          {
+            "id": "descriptives",
+            "label": "Descriptives",
+            "fields": [
+              "sample_id",
+              "pubyear",
+              "country",
+              "continent",
+              "lang",
+              "pubtype",
+              "female",
+              "age",
+              "clinical",
+              "notes"
+            ]
+          }
+        ],
+        "entries": "cards",
+        "grid_rows": "records",
+        "triage": "low_confidence_first",
+        "paper_panel": "open",
+        "citation_flash": false,
+        "locate": {
+          "records": {
+            "anchor_fields": [
+              "desc1",
+              "desc2"
+            ]
+          }
+        },
+        "analysis": {
+          "default_unit": "records",
+          "derived": [
+            {
+              "name": "es_ci",
+              "label": "Effect size",
+              "formula": "r_ci_fisher",
+              "unit": "records",
+              "inputs": {
+                "r": "es",
+                "n": "n"
+              },
+              "when": {
+                "column": "type",
+                "in": [
+                  "r"
+                ]
+              }
+            }
+          ],
+          "units": {
+            "by": "type",
+            "columns": [
+              "es"
+            ]
+          }
+        }
+      },
+      "entries": {
+        "key": "samples",
+        "help": "an analytically distinct group (independent cohort, subgroup, wave); not robustness checks or repeated mentions of the same participants",
+        "label": "Sample",
+        "title": "Sample {sample_id}",
+        "fields": [
+          {
+            "help": "the paper's own label for the sample, e.g. 'Study 1 \u2013 adolescents'",
+            "name": "sample_id",
+            "type": "string",
+            "label": "Sample id",
+            "evidence": "row",
+            "required": true
+          },
+          {
+            "name": "pubyear",
+            "type": "integer",
+            "label": "Publication year",
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "help": "country of the sample",
+            "name": "country",
+            "type": "string",
+            "label": "Country",
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "name": "continent",
+            "type": "string",
+            "label": "Continent",
+            "evidence": "row",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "help": "language of respondents",
+            "name": "lang",
+            "type": "string",
+            "label": "Language",
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "name": "pubtype",
+            "type": "enum",
+            "label": "Publication type",
+            "options": [
+              {
+                "label": "journal article",
+                "value": 1
+              },
+              {
+                "label": "book",
+                "value": 2
+              },
+              {
+                "label": "thesis/dissertation",
+                "value": 3
+              },
+              {
+                "label": "proceedings/presentation",
+                "value": 4
+              },
+              {
+                "label": "other",
+                "value": 5
+              }
+            ],
+            "evidence": "row",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "name": "female",
+            "type": "number",
+            "label": "% female",
+            "range": [
+              0,
+              100
+            ],
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "help": "in years",
+            "name": "age",
+            "type": "number",
+            "label": "Mean age",
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "name": "clinical",
+            "type": "enum",
+            "label": "Clinical status",
+            "options": [
+              {
+                "label": "nonclinical sample",
+                "value": 0
+              },
+              {
+                "label": "clinical sample",
+                "value": 1
+              },
+              {
+                "label": "mixed clinical/nonclinical sample",
+                "value": 2
+              }
+            ],
+            "evidence": "value",
+            "required": false,
+            "confidence": "metadata"
+          },
+          {
+            "help": "anything a coder must know: other reported reliabilities, exclusions, ambiguities",
+            "name": "notes",
+            "type": "text",
+            "label": "Notes",
+            "evidence": "none",
+            "required": false
+          }
+        ],
+        "children": [
+          {
+            "key": "records",
+            "help": "one explicitly reported zero-order association between two canonical variables",
+            "label": "Effect size",
+            "title": "{var1} \u2013 {var2}",
+            "fields": [
+              {
+                "help": "canonical code of the first variable (alphabetical order)",
+                "name": "var1",
+                "type": "enum",
+                "label": "Variable 1",
+                "options": "${variables}",
+                "evidence": "row",
+                "required": true,
+                "confidence": "effect_sizes"
+              },
+              {
+                "help": "canonical code of the second variable",
+                "name": "var2",
+                "type": "enum",
+                "label": "Variable 2",
+                "options": "${variables}",
+                "evidence": "row",
+                "required": true,
+                "confidence": "effect_sizes"
+              },
+              {
+                "help": "how the paper measured var1",
+                "name": "desc1",
+                "type": "string",
+                "label": "Operationalisation 1",
+                "evidence": "row",
+                "required": false
+              },
+              {
+                "help": "how the paper measured var2",
+                "name": "desc2",
+                "type": "string",
+                "label": "Operationalisation 2",
+                "evidence": "row",
+                "required": false
+              },
+              {
+                "help": "the reported statistic, exactly as printed",
+                "name": "es",
+                "type": "number",
+                "label": "Effect size",
+                "range": [
+                  -1,
+                  1
+                ],
+                "evidence": "value",
+                "required": true,
+                "confidence": "effect_sizes"
+              },
+              {
+                "name": "type",
+                "type": "enum",
+                "label": "Effect-size type",
+                "options": "${effect_sizes}",
+                "evidence": "row",
+                "required": true,
+                "confidence": "effect_sizes"
+              },
+              {
+                "help": "sample size for this statistic",
+                "name": "n",
+                "type": "integer",
+                "label": "N",
+                "evidence": "value",
+                "required": false,
+                "confidence": "effect_sizes"
+              },
+              {
+                "help": "reliability of var1 in this sample",
+                "name": "rel1",
+                "type": "number",
+                "label": "Reliability 1",
+                "range": [
+                  0,
+                  1
+                ],
+                "evidence": "value",
+                "required": false,
+                "confidence": "reliabilities"
+              },
+              {
+                "help": "reliability of var2 in this sample",
+                "name": "rel2",
+                "type": "number",
+                "label": "Reliability 2",
+                "range": [
+                  0,
+                  1
+                ],
+                "evidence": "value",
+                "required": false,
+                "confidence": "reliabilities"
+              },
+              {
+                "name": "rel1_type",
+                "type": "enum",
+                "label": "Reliability type 1",
+                "options": [
+                  "alpha",
+                  "omega",
+                  "icc",
+                  "kappa",
+                  "other"
+                ],
+                "evidence": "row",
+                "required": false,
+                "confidence": "reliabilities"
+              },
+              {
+                "name": "rel2_type",
+                "type": "enum",
+                "label": "Reliability type 2",
+                "options": [
+                  "alpha",
+                  "omega",
+                  "icc",
+                  "kappa",
+                  "other"
+                ],
+                "evidence": "row",
+                "required": false,
+                "confidence": "reliabilities"
+              },
+              {
+                "help": "instrument measuring var1",
+                "name": "instr1",
+                "type": "string",
+                "label": "Instrument 1",
+                "evidence": "row",
+                "required": false
+              },
+              {
+                "help": "instrument measuring var2",
+                "name": "instr2",
+                "type": "string",
+                "label": "Instrument 2",
+                "evidence": "row",
+                "required": false
+              }
+            ],
+            "layout": "table",
+            "evidence": "row"
+          }
+        ],
+        "evidence": "row",
+        "id_field": "sample_id",
+        "cardinality": "many"
+      },
+      "version": 2,
+      "confidence": {
+        "notes": true,
+        "groups": [
+          {
+            "id": "effect_sizes",
+            "help": "correct var1/var2 mapping and correct numeric values",
+            "label": "Effect sizes",
+            "scope": "entry"
+          },
+          {
+            "id": "reliabilities",
+            "help": "rel1/rel2 and their types",
+            "label": "Reliabilities",
+            "scope": "entry"
+          },
+          {
+            "id": "metadata",
+            "help": "the sample metadata block",
+            "label": "Sample metadata",
+            "scope": "entry"
+          }
+        ],
+        "levels": [
+          "high",
+          "medium",
+          "low"
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "paper_id": "10194952-8b03-4a49-920b-dab1864bb874",
+      "title": "Electronic Games and Environmental Factors Associated with Childhood Obesity in Switzerland",
+      "authors": [
+        "Nicolas Stettler",
+        "Theo M. Signer",
+        "Paolo M. Suter"
+      ],
+      "year": 2004,
+      "journal": null,
+      "doi": "10.1038/oby.2004.109",
+      "n_records": 1
+    },
+    {
+      "paper_id": "1c2c3ade-1553-4c57-9f7c-ed3ea778641f",
+      "title": "Associations Between Sleep Duration Patterns and Overweight/Obesity at Age 6",
+      "authors": [
+        "\u00c9velyne Touchette",
+        "Dominique Petit",
+        "Richard E. Tremblay",
+        "Michel Boivin",
+        "Bruno Falissard",
+        "Christophe Genolini",
+        "Jacques Y. Montplaisir"
+      ],
+      "year": 2008,
+      "journal": null,
+      "doi": null,
+      "n_records": 1
+    },
+    {
+      "paper_id": "416f9bb9-b65d-41c6-9785-1e15c919cd67",
+      "title": "Relationships between Electronic Game Play, Obesity, and Psychosocial Functioning in Young Men",
+      "authors": [
+        "Elizabeth Wack",
+        "Stacey Tantleff-Dunn"
+      ],
+      "year": 2009,
+      "journal": null,
+      "doi": "10.1089/cpb.2008.0151",
+      "n_records": 1
+    },
+    {
+      "paper_id": "bd6e0a25-3efb-4c22-bfc9-6954c7db1b90",
+      "title": "Child Overweight, Associated Psychopathology, and Social Functioning: A French School-based Survey in 6- to 11-year-old Children",
+      "authors": [
+        "Isabelle Pitrou",
+        "Taraneh Shojaei",
+        "Ashley Wazana",
+        "Fabien Gilbert",
+        "Viviane Kovess-Masf\u00e9ty"
+      ],
+      "year": 2010,
+      "journal": null,
+      "doi": "10.1038/oby.2009.278",
+      "n_records": 1
+    },
+    {
+      "paper_id": "9c45099e-0200-4865-b90e-ddda06ebe5df",
+      "title": "Correlates of weight status among Norwegian 11-year-olds: The HEIA study",
+      "authors": [
+        "May Grydeland",
+        "Ingunn H Bergh",
+        "Mona Bjelland",
+        "Nanna Lien",
+        "Lene F Andersen",
+        "Yngvar Ommundsen",
+        "Knut-Inge Klepp",
+        "Sigmund A Anderssen"
+      ],
+      "year": 2012,
+      "journal": null,
+      "doi": "10.1186/1471-2458-12-1053",
+      "n_records": 1
+    },
+    {
+      "paper_id": "def34617-9961-4a29-9c26-3fe19db43ac4",
+      "title": "Computer Game Use and Television Viewing Increased Risk for Overweight among Low Activity Girls: Fourth Thai National Health Examination Survey 2008-2009",
+      "authors": [
+        "Ladda Mo-suwan",
+        "Jiraluck Nontarak",
+        "Wichai Aekplakorn",
+        "Warapone Satheannoppakao"
+      ],
+      "year": 2014,
+      "journal": null,
+      "doi": "10.1155/2014/364702",
+      "n_records": 3
+    },
+    {
+      "paper_id": "7e414492-40a7-4b5e-847d-eb40f0652a57",
+      "title": "Frequent video-game playing in young males is associated with central adiposity and high-sugar, low-fibre dietary consumption",
+      "authors": [
+        "Mario Siervo",
+        "Hannah Cameron",
+        "Jonathan C. K. Wells",
+        "Jose Lara"
+      ],
+      "year": 2014,
+      "journal": null,
+      "doi": "10.1007/s40519-014-0128-1",
+      "n_records": 1
+    },
+    {
+      "paper_id": "62c16d72-3225-4090-acbd-7932ea06c73b",
+      "title": "Leisure time computer use and overweight development in young adults \u2013 a prospective study",
+      "authors": [
+        "Sara Thom\u00e9e",
+        "Lauren Lissner",
+        "Mats Hagberg",
+        "Anna Grimby-Ekman"
+      ],
+      "year": 2015,
+      "journal": null,
+      "doi": "10.1186/s12889-015-2131-5",
+      "n_records": 6
+    },
+    {
+      "paper_id": "5478df10-7a2b-432a-b3a5-dd34b75ba048",
+      "title": "Prevalence of and contributing factors for overweight and obesity among Montenegrin schoolchildren",
+      "authors": [
+        "Milica Martinovic",
+        "Goran Belojevic",
+        "Gary W. Evans",
+        "Dragan Lausevic",
+        "Bogdan Asanin",
+        "Mira Samardzic",
+        "Natasa Terzic",
+        "Snezana Pantovic",
+        "Marina Jaksic",
+        "Jelena Boljevic"
+      ],
+      "year": 2015,
+      "journal": null,
+      "doi": "10.1093/eurpub/ckv071",
+      "n_records": 1
+    },
+    {
+      "paper_id": "be8343f5-2cb7-47da-816d-1f3b5017443b",
+      "title": "Why are primary school children overweight and obese? A cross sectional study undertaken in Kinondoni district, Dar-es-salaam",
+      "authors": [
+        "Sijenunu A. Mwaikambo",
+        "Germana H. Leyna",
+        "Japhet Killewo",
+        "Azma Simba",
+        "Thandi Puoane"
+      ],
+      "year": 2015,
+      "journal": null,
+      "doi": "10.1186/s12889-015-2598-0",
+      "n_records": 1
+    }
+  ],
+  "engine": {
+    "name": "metalens",
+    "version": "2.0.0",
+    "git_sha": null
+  }
+}
